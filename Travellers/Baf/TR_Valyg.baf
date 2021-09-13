@@ -1,0 +1,15 @@
+IF
+OR(3)
+AttackedBy([GOODCUTOFF],DEFAULT)
+Global("TR_ValyBG1","Global",4)
+Global("TR_ValyBG1","Global",5)
+Global("TR_Meeting","bg2900",0)
+THEN
+RESPONSE #100
+SetGlobal("TR_Meeting","bg2900",1)
+DisplayString(Myself,@100)
+Wait(2)
+UseItem("potn10",Myself)
+Wait(4)
+EscapeArea()
+END

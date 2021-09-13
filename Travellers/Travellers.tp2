@@ -1,0 +1,40 @@
+BACKUP ~Travellers/backup~
+AUTHOR ~Roxanne - https://baldursextendedworld.com/Tamoko/ or roxanne@baldursextendedworld.com~
+
+VERSION ~v0.1~
+AUTO_TRA ~Travellers/Lang/%s~
+
+LANGUAGE ~English~ ~english~ ~Travellers/Lang/English/Travellers.tra~
+LANGUAGE ~Russian~ ~russian~ ~Travellers/Lang/Russian/Travellers.tra~
+
+BEGIN ~Travellers in Faerun~
+REQUIRE_PREDICATE GAME_IS ~eet~ @002
+
+COPY_EXISTING ~Valyg8.cre~ ~override/TR_Valyg.cre~
+WRITE_ASCII 0x248 ~TR_Valyg~ #8
+WRITE_ASCII 0x280 ~TR_Valyg~ #8
+WRITE_ASCII 0x2cc ~TR_Valyg~ #8
+ADD_CRE_ITEM ~potn10~ #0 #0 #0 ~IDENTIFIED~ ~inv12~
+
+COPY_EXISTING ~cowenf02.cre~ ~override/TR_Cowl1.cre~
+WRITE_ASCII 0x280 ~TR_Cowl1~ #8
+WRITE_ASCII 0x2cc ~TR_Cowl1~ #8
+WRITE_ASCII 0x268 ~Mage20A~ #8
+
+COPY_EXISTING ~cowenf02.cre~ ~override/TR_Cowl2.cre~
+WRITE_ASCII 0x258 ~mage8~ #8
+WRITE_ASCII 0x280 ~TR_Cowl2~ #8
+WRITE_ASCII 0x2cc ~TR_Cowl2~ #8
+
+COPY_EXISTING ~samia.cre~ ~override~
+WRITE_ASCII 0x34 ~samia~ #8
+
+COPY ~Travellers/misc~ ~override~
+
+COMPILE ~Travellers/baf~
+COMPILE ~Travellers/dialogues~
+
+EXTEND_TOP ~bg2900.bcs~ ~Travellers/scripts/BG2900Valy.baf~
+EXTEND_TOP ~bg4100.bcs~ ~Travellers/scripts/BG4100Sami.baf~
+
+

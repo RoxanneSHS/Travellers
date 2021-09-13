@@ -1,0 +1,9 @@
+IF
+PartyHasItem("MISC48")
+Global("trdoomsayer","bg4100",0)
+Dead("Doomsayer")
+THEN
+RESPONSE #100
+SetGlobal("trdoomsayer","bg4100",1)
+CreateCreature("Samia",[2994.1735],NNW)
+END

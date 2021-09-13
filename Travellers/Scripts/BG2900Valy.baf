@@ -1,0 +1,21 @@
+IF
+Global("TR_ValyBG1","Global",0)
+!Global("Chapter","GLOBAL",3)
+THEN
+RESPONSE #100
+SetGlobal("TR_ValyBG1","Global",1)
+CreateCreature("TR_Cowl1",[2936.3313],W)
+CreateCreature("TR_Cowl2",[3028.3373],SW)
+END
+
+IF
+Global("TR_ValyBG1","Global",2)
+Dead("TR_Cowl1")
+Dead("TR_Cowl2")
+THEN
+RESPONSE #100
+SetGlobal("TR_ValyBG1","Global",3)
+CreateCreature("TR_Valyg",[3345.3166],S)
+Wait(2)
+ActionOverride("TR_Valyg",MoveToObject(Player1))
+END
