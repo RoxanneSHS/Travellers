@@ -29,6 +29,10 @@ WRITE_ASCII 0x2cc ~TR_Cowl2~ #8
 COPY_EXISTING ~samia.cre~ ~override~
 WRITE_ASCII 0x34 ~samia~ #8
 
+COPY_EXISTING ~scsarles.cre~ ~override~
+WRITE_ASCII 0x34 ~scsarles~ #8
+WRITE_ASCII 0x260 ~TR_Sarl~ #8
+
 COPY ~Travellers/misc~ ~override~
 
 COMPILE ~Travellers/baf~
@@ -37,5 +41,6 @@ COMPILE ~Travellers/dialogues~
 EXTEND_TOP ~bg2900.bcs~ ~Travellers/scripts/BG2900Valy.baf~
 EXTEND_TOP ~bg4100.bcs~ ~Travellers/scripts/BG4100Sami.baf~
 EXTEND_TOP ~Samia.bcs~ ~Travellers/scripts/SamiInv.baf~
+EXTEND_TOP ~bg5400.bcs~ ~Travellers/scripts/BG5400Sarl.baf~
 
 

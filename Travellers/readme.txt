@@ -6,8 +6,9 @@ The mod tries to make EET even more of ONE story.
 - you can go back with items you find later in the game to finish quests in BG1 or SoD
 - you get quests for which you need to return to the BG1/SoD areas from later parts
 
-Two episodes are there for trial already
+Three episodes are there for trial already
 
 SPOILER
 - meet Valygar hunted by cowls in Larswood or Peldvale (you can help him or betray him
 - meet Samia near the excavation site when you find the idol (if you sell it to her you can find it later in Firkraag's maze and finish the BG1 quest)
+- Sir Sarles and Prism (extra variation if Safana is in party)

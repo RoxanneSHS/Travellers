@@ -1,0 +1,17 @@
+IF
+Global("TR_SarlPri","BG5400",1)
+AreaCheck("bg5400")
+Range(Player1,15)
+THEN
+RESPONSE #100
+Dialog(Player1)
+END
+
+IF
+Global("TR_SarlPri","BG5400",1)
+AreaCheck("bg5400")
+GlobalGT("Chapter","Global",12)
+THEN
+RESPONSE #100
+DestroySelf()
+END

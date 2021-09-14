@@ -1,0 +1,12 @@
+IF
+GlobalLT("Chapter","Global",11)
+Global("TR_SarlPri","BG5400",0)
+Dead("Prism")
+Dead("Greywolf")
+THEN
+RESPONSE #100
+SetGlobal("TR_SarlPri","BG5400",1)
+CreateCreature("scsarles",[2091.1954],W)
+Wait(2)
+ActionOverride("sarles",MoveToObject(Player1))
+END

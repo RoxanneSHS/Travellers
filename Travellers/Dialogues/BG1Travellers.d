@@ -130,3 +130,72 @@ END
 CHAIN
 IF~~THEN Samia Idol12
 @224 DO~EscapeAreaDestroy(45)~EXIT
+
+
+//Sir Sarles
+CHAIN
+IF WEIGHT #-9~Global("TR_SarlPri","BG5400",1)~ THEN SCSarles prism1
+@300
+DO~SetGlobal("TR_SarlPri","BG5400",2)~
+END
+++@301 + prism2
+++@302 + prism2
+++@303 + prism2
+
+CHAIN
+IF~~ THEN SCSarles prism2
+@304
+END
+++@305 + prism3
+++@306 + prism4
+
+CHAIN
+IF~~ THEN SCSarles prism3
+@307
+=@308
+END
++~CheckStatLT(Player1,14,CHR)~+@309 +Prism5
++~CheckStatLT(Player1,14,CHR)~+@310 +Prism5
++~CheckStatGT(Player1,13,CHR)~+@309 + Prism6
++~CheckStatGT(Player1,13,CHR)~+@310 + Prism6
+IF~InParty("Safana")!StateCheck("Safana",CD_STATE_NOTVALID)~THEN EXTERN SafanJ PrismSaf
+
+CHAIN
+IF~~ THEN SCSarles prism4
+@307
+= #28661 DO~EscapeAreaDestroy(45)~EXIT
+
+APPEND SafanJ
+IF~~THEN BEGIN PrismSaf
+SAY @310
+IF~~THEN EXTERN SCSarles Prism7
+END
+END
+
+CHAIN
+IF~~ THEN SCSarles Prism7
+@311
+DO~GiveItemCreate("misc43","Safana",2,0,0)~
+==SafanJ @312
+==SCSarles @313 DO~EscapeAreaDestroy(45)~EXIT
+
+CHAIN
+IF~~ THEN SCSarles Prism5
+@314
+= #28661 DO~EscapeAreaDestroy(45)~EXIT
+
+CHAIN
+IF~~ THEN SCSarles Prism6
+@315
+DO~GiveItemCreate("misc43",Player1,2,0,0)~
+END
+++@316 + prism8
+++@317 + prism9
+
+CHAIN
+IF~~ THEN SCSarles prism8
+@313 DO~EscapeAreaDestroy(45)~EXIT
+
+CHAIN
+IF~~ THEN SCSarles prism9
+#28661 DO~EscapeAreaDestroy(45)~EXIT

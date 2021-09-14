@@ -46,5 +46,24 @@
 @220 =~I know of a better use for it, one that money can't buy. Sorry, but it's not for sale.~
 @221 =~A bad day for the academic world. It seems for the next expedition I need to prepare better for such obstacles like interfering adventurers. In any case, I may stay around here for a few days longer just in case you change your mind.~
 @222 =~You're back. Did you change your mind about my offer?~
-@223 =~You wait in vain, I don't have the thing anymore.~
-@224 =~A bad day for the academic world. It seems for the next expedition I need to prepare better for such obstacles like interfering adventurers.~
+@223 =~You wait in vain, I don't have the thing any more.~
+@224 =~A bad day for the academic world. It seems for the next expedition I need to prepare better for such obstacles like interfering adventurers. Wasn't there this Lord Firkraag who had an offer to make...~
+
+@300 =~You, peasants, stop and make yourself serviceable to the greatness of art itself.~
+@301 =~Another artist? There must be something in the water here.~
+@302 =~So you are an artist as well? Hardly one to match Prism.~
+@303 =~I have enough of crazy artists for one day, DO YOU UNDERSTAND!~
+@304 =~Ah, your reaction implies that you know about Prism already. That may make conversation with your kin slightly easier, even if just slightly...so where is he?~
+@305 =~Sorry, but before I deliver any information I must know who you are and why you seek for Prism.~
+@306 =~You come too late. He's dead, killed by a bounty hunter named Greywolf.~
+@307 =~How unpleasant. I had come to supply him with some valuable ingredient to make his work perfect...~
+@308 =~I am sure the name Sir Sarles is even known to one like you. Before you ask further silly questions, yes, that is me, the famous Sir Sarles.~
+@309 =~Not famous enough, I'm afraid. I'm Prism's protector, so if you have anything to give to him, I will deliver it to him. What do you have?~
+@310 =~THAT Sir Sarles (never heard of the fool)? Great, but since I'm Prism's protector I will deliver it to him. What do you have?~
+@311 =~You would do that, milady. Well, it spares me the trouble to risk my precious life in these barbaric lands around here. I trust that you deliver these two gems to my colleague. Remind him that he should dedicate his work to Sir Sarles.~
+@312 =~Sure, darling Sir Charles.~
+@313 =~Sarles, Sir Sarles, the one and only Sir Sarles.~
+@314 =~Give anything valuable to you, peasant? Why not throw it at the nearest gibberling instead, fool. It appears to me that this conversation is utterly pointless.~
+@315 =~You would do that, good <PRO_MANWOMAN>. Well, it spares me the trouble to risk my precious life in these barbaric lands around here. I trust that you deliver these two gems to my colleague. Remind him that he should dedicate his work to Sir Sarles.~
+@316 =~Sure, Sir Charles.~
+@317 =~Sure, Sir Sarles.~
