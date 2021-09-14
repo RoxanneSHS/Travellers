@@ -1,9 +1,17 @@
 IF
 PartyHasItem("MISC48")
-Global("trdoomsayer","bg4100",0)
+Global("trdoomsayer","Global",0)
 Dead("Doomsayer")
 THEN
 RESPONSE #100
-SetGlobal("trdoomsayer","bg4100",1)
+SetGlobal("trdoomsayer","Global",1)
 CreateCreature("Samia",[2994.1735],NNW)
+END
+
+IF
+GlobalGT("Chapter","Global",5)
+InMyArea("Samia")
+THEN
+RESPONSE #100
+ActionOverride("Samia",DestroySelf())
 END

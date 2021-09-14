@@ -1,0 +1,8 @@
+IF
+Global("trdoomsayer","Global",3)
+AreaCheck("ar1202")
+THEN
+RESPONSE #100
+SetGlobal("trdoomsayer","Global",4)
+GiveItemCreate("misc48",Myself,0,0,0)
+END

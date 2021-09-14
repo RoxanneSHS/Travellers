@@ -36,5 +36,6 @@ COMPILE ~Travellers/dialogues~
 
 EXTEND_TOP ~bg2900.bcs~ ~Travellers/scripts/BG2900Valy.baf~
 EXTEND_TOP ~bg4100.bcs~ ~Travellers/scripts/BG4100Sami.baf~
+EXTEND_TOP ~Samia.bcs~ ~Travellers/scripts/SamiInv.baf~
 
 

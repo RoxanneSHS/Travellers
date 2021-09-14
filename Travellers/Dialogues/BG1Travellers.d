@@ -55,9 +55,9 @@ END
 //Samia
 
 CHAIN
-IF WEIGHT #-41~AreaCheck("bg4100") Global("trdoomsayer","bg4100",1)~THEN Samia Idol01
+IF WEIGHT #-41~AreaCheck("bg4100") Global("trdoomsayer","Global",1)~THEN Samia Idol01
 @200
-DO~SetGlobal("trdoomsayer","bg4100",2)~
+DO~SetGlobal("trdoomsayer","Global",2)~
 END
 ++@201 + Idol02
 ++@202 + Idol02
@@ -96,8 +96,8 @@ IF~~THEN Samia Idol06
 @214
 =@215
 END
-++@216 DO~GiveGoldForce(2000) TakePartyItem("misc48")EscapeAreaDestroy(45)~EXIT
-++@217 + Idol07
+++@216 DO~SetGlobal("trdoomsayer","Global",3)GiveGoldForce(2000) TakePartyItem("misc48")EscapeAreaDestroy(45)~EXIT
+++@217 DO~SetGlobal("trdoomsayer","Global",3)~ + Idol07
 ++@218 + Idol08
 ++@220 + Idol09
 
@@ -109,7 +109,7 @@ CHAIN
 IF~~THEN Samia Idol08
 @219
 END
-++@216 DO~GiveGoldForce(2500)TakePartyItem("misc48")EscapeAreaDestroy(45)~EXIT
+++@216 DO~SetGlobal("trdoomsayer","Global",3)GiveGoldForce(2500)TakePartyItem("misc48")EscapeAreaDestroy(45)~EXIT
 ++@220 + Idol09
 
 CHAIN
@@ -117,11 +117,11 @@ IF~~THEN Samia Idol09
 @221 EXIT
 
 CHAIN
-IF WEIGHT #-41~AreaCheck("bg4100") Global("trdoomsayer","bg4100",2)~THEN Samia Idol11
+IF WEIGHT #-41~AreaCheck("bg4100") Global("trdoomsayer","Global",2)~THEN Samia Idol11
 @222
 =@215
 END
-+~PartyHasItem("MISC48")~+@216 DO~GiveGoldForce(2000) TakePartyItem("misc48") EscapeAreaDestroy(45)~EXIT
++~PartyHasItem("MISC48")~+@216 DO~SetGlobal("trdoomsayer","Global",3)GiveGoldForce(2000) TakePartyItem("misc48") EscapeAreaDestroy(45)~EXIT
 +~PartyHasItem("MISC48")~+@217 + Idol07
 +~PartyHasItem("MISC48")~+@218 + Idol08
 +~PartyHasItem("MISC48")~+@220 + Idol09
