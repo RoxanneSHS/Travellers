@@ -1,7 +1,7 @@
 BACKUP ~Travellers/backup~
 AUTHOR ~Roxanne - https://baldursextendedworld.com/Tamoko/ or roxanne@baldursextendedworld.com~
 
-VERSION ~v0.1~
+VERSION ~v0.2~
 AUTO_TRA ~Travellers/Lang/%s~
 
 LANGUAGE ~English~ ~english~ ~Travellers/Lang/English/Travellers.tra~
@@ -32,6 +32,9 @@ WRITE_ASCII 0x34 ~samia~ #8
 COPY_EXISTING ~scsarles.cre~ ~override~
 WRITE_ASCII 0x34 ~scsarles~ #8
 WRITE_ASCII 0x260 ~TR_Sarl~ #8
+
+COPY_EXISTING ~galile.cre~ ~override~
+WRITE_ASCII 0x34 ~galile~ #8
 
 COPY ~Travellers/misc~ ~override~
 
