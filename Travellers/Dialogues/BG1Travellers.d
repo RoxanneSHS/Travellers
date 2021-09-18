@@ -1,6 +1,10 @@
 BEGIN TR_Cowl1
 BEGIN TR_Cowl2
 BEGIN TR_Valyg
+BEGIN TR_Sonja
+BEGIN TR_Vamp
+BEGIN TR_CHIL1
+BEGIN TR_CHIL2
 
 //Valygar
 
@@ -216,3 +220,190 @@ SAY@2568
 IF~~THEN REPLY@2569GOTO 4
 END
 END
+
+//The barmaid and the vampire
+CHAIN
+IF~Global("TR_SonVamp","Global",1)~ THEN TR_Sonja Ulgo1
+@401
+DO~SetGlobal("TR_SonVamp","Global",2)~
+END
+++@402 + Ulgo2
+++@403 + Ulgo2
+++@404 + Ulgo2
+
+CHAIN
+IF~~THEN TR_Sonja Ulgo2
+@405
+=@406
+END
+++@407 + Ulgo3
+++@408 + Ulgo3
+
+CHAIN
+IF~~THEN TR_Sonja Ulgo3
+@409
+=@410
+END
+++@411 + Ulgo4
+
+CHAIN
+IF~~THEN TR_Sonja Ulgo4
+@412
+END
+++@413 + Ulgo5
+++@414 + Ulgo5
+
+CHAIN
+IF~~THEN TR_Sonja Ulgo5
+@415
+=@416
+END
+++@417 + Ulgo6
+++@418 + Ulgo7
+
+CHAIN
+IF~~THEN TR_Sonja Ulgo6
+@419
+END
+IF~~THEN + Ulgo7
+
+CHAIN
+IF~~THEN TR_Sonja Ulgo7
+@420
+END
+++@421 + Ulgo8
+++@424 + Ulgo9
+
+CHAIN
+IF~~THEN TR_Sonja Ulgo8
+@422
+=@423 EXIT
+
+CHAIN
+IF~~THEN TR_Sonja Ulgo9
+@423 EXIT
+
+CHAIN
+IF~AreaCheck("BG1001")~THEN TR_Vamp Ulgo11
+@425 DO~RealSetGlobalTimer("TR_KenRet","BG1001",30) SetGlobal("TR_Ken","BG1001",4)~ EXIT
+
+CHAIN
+IF~Global("TR_SonVamp","Global",2)~ THEN TR_Sonja Ulgo21
+@426
+END
+++@427 + Ulgo22
+++@428 + Ulgo22
++~!PartyHasItem("TR_Pend")~+@429 + Ulgo22
++~PartyHasItem("TR_Pend")~+@430 DO~SetGlobal("TR_SonVamp","Global",3) TakePartyItem("TR_Pend")~ + Ulgo23
+
+CHAIN
+IF~~THEN TR_Sonja Ulgo22
+@432 EXIT
+
+CHAIN
+IF~~THEN TR_Sonja Ulgo23
+@431 DO~MoveToPoint([353.746]) Wait(2) DestroySelf()~EXIT
+
+EXTEND_TOP Thalan 35 #3
+IF~Global("TR_SonVamp","Global",2) Global("TR_AskThalan","BG3202",0)~THEN REPLY @433 DO~SetGlobal("TR_AskThalan","BG3202",1)~ GOTO Vamp1
+END
+
+EXTEND_TOP Thalan 1 #3
+IF~Global("TR_SonVamp","Global",2) Global("TR_AskThalan","BG3202",0)~THEN REPLY @433 DO~SetGlobal("TR_AskThalan","BG3202",1)~ GOTO Vamp1
+END
+
+CHAIN
+IF~~THEN Thalan Vamp1
+@434 DO~AddJournalEntry(@436,QUEST)~EXIT
+
+EXTEND_TOP KELDDA 0 #1
+IF~Global("TR_SonVamp","Global",2) Global("TR_AskKeld","BG3402",0)~THEN REPLY @433 DO~SetGlobal("TR_Askkeld","BG3402",1)~ GOTO Vamp2
+END
+
+CHAIN
+IF~~THEN Keldda Vamp2
+@440
+END
+++@441 DO~SetGlobal("TR_KnowGond","Global",1)~ + Vamp3
+++@442 DO~SetGlobal("TR_KnowGond","Global",1)~ + Vamp3
+++@443 DO~SetGlobal("TR_KnowGond","Global",1)~ + Vamp3
+
+CHAIN
+IF~~THEN Keldda Vamp3
+@444 DO~AddJournalEntry(@437,QUEST)~EXIT
+
+EXTEND_TOP PGOND 0 #1
+IF~Global("TR_KnowGond","Global",1) ~THEN REPLY @433 GOTO Gond2
+END
+
+CHAIN
+IF~~THEN PGOND Gond2
+@440
+=@439
+END
+++@445 + Gond3
+++@446 + Gond3
+++@447 + Gond3
+++@448 + Gond5
+
+CHAIN
+IF~~THEN PGOND Gond3
+@449
+=@450
+=@451
+=@452
+END
+++@453 DO ~TakePartyGold(500)~+ Gond4
+++@454 DO~SetGlobal("TR_KnowDivi","Global",1)~ + Gond5
+++@448 + Gond5
+
+CHAIN
+IF~~THEN PGOND Gond5
+@455 EXIT
+
+CHAIN
+IF~~THEN PGOND Gond4
+@456
+DO~SetGlobal("TR_KnowGond","Global",2)~
+=@457 DO~AddJournalEntry(@438,QUEST)~EXIT
+
+EXTEND_TOP DIVINE 1 #1
+IF~Global("TR_KnowGond","Global",1) Global("TR_KnowDivi","Global",1) ~THEN REPLY @458 DO~AddJournalEntry(@438,QUEST)~ GOTO Divi2
+IF~Global("TR_KnowGond","Global",1) Global("TRAskGond","BG0726",0)~THEN REPLY @433 DO~SetGlobal("TRAskGond","BG0726",1)~ GOTO Divi3
+END
+
+CHAIN
+IF~~THEN  DIVINE Divi2
+@459 DO~SetGlobal("TR_KnowGond","Global",2)~EXIT
+
+CHAIN
+IF~~THEN  DIVINE Divi3
+@460 EXIT
+
+CHAIN
+IF~Global("TR_KnowGond","Global",3)~ THEN TR_CHIL1 Bandits1
+@470
+DO~SetGlobal("TR_KnowGond","Global",4)~
+END
+++@471 + Bandits2
+++@472 + Bandits4
+++#200211  + Bandits3
+
+CHAIN
+IF~~THEN TR_CHIL1 Bandits2
+#200208 DO~Shout(1) Enemy() Attack(NearestEnemyOf(Myself))~ EXIT
+
+CHAIN
+IF~~THEN TR_CHIL1 Bandits3
+#200207 DO~Shout(1) Enemy() Attack(NearestEnemyOf(Myself))~ EXIT
+
+CHAIN
+IF~~THEN TR_CHIL1 Bandits4
+@477 DO~GiveItem("TR_Pend2",Player1)TakePartyGold(200)~EXIT
+
+CHAIN
+IF~Global("TR_KnowGond","Global",4)~ THEN TR_CHIL2  Bandits5
+@473
+==TR_CHIL1 @474
+==TR_CHIL2 @475
+==TR_CHIL1 @476 DO~Shout(1) Enemy() Attack(NearestEnemyOf(Myself))~ EXIT

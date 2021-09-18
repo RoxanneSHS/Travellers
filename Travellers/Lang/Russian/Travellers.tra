@@ -1,4 +1,9 @@
 @002 =~This mod is for EET only~
+@006 =~Pendant of Positive Plane Energy~
+@008 =~This powerful enchanted silver pendant in the shape of an ankh protects a specific person from undead monsters with Negative Energy Plane connections (such as vampires). The enchantment is tuned for one wearer only and does only protect that single person.~
+@009 =~Bardock~
+@010 =~Kurg~
+
 @100 =~You'll not get this ranger easily, fools!~
 @101 =~You there, wait a minute.~
 @102 =~Yes, you must have seen him, where did he go?~
@@ -68,9 +73,96 @@
 @316 =~Sure, Sir Charles.~
 @317 =~Sure, Sir Sarles.~
 
+@400 =~Sonja~
+@401 =~Are you afraid of vampires? Ha, you look to me like someone who might not fear them.~
+@402 =~I never met one yet.~
+@403 =~You don't look like one?~
+@404 =~This is by far the weirdest introduction I've ever heard.~
+@405 =~My excuse, I'm not myself really these days...when you came in I just thought - that's the right person to ask, a <PRO_MANWOMAN> looking fearless and well equipped.~
+@406 =~I'm Sonja, by the way, and I promise to serve your drinks even if you reject my plea, but, please, first hear me out.~
+@407 =~I'm already listening.~
+@408 =~I might listen more closely if I were not that thirsty still.~
+@409 =~Here, <PRO_LADYLORD>, this fresh ale might make my story easier to swallow.~
+@410 =~It's about my boyfriend Ken, or former boyfriend, I don't know how to say...~
+@411 =~And he's a vampire?~
+@412 =~NO! YES! No, I mean...he wasn't. Then he went for that errand to that castle - when he returned he was.~
+@413 =~Beware, do not let him near you.~
+@414 =~Where is he, we'll put an end to him and a stake through his heart.~
+@415 =~If it just were that easy...you see - he is still somehow...himself.~
+@416 =~What I mean, he is no danger to me, he comes every night - night only to avoid daylight - and he is polite and gentle and...still loves me. And he wants me to become like him and stay with him for eternity.~
+@417 =~The chance for eternal life or half-life is something many may find desireable.~
+@418 =~Use garlic to keep him away, that's something I read in the library of Candlekeep.~
+@419 =~Some do and become liches and vampires. I...I just want a normal life, that's all. I don't love the vampire Ken.~
+@420 =~I tried with garlic, my whole chamber is full of it. I tried holy water, all my small income could afford.~
+@421 =~It may help if I would face that vampire myself to convince him to leave you alone. Where is your chamber?~
+@422 =~Down the corridor, the last room to the left.~
+@423 =~Oh, please I'd be so grateful for anything you can do to help me.~
+@424 =~I may keep my eyes open in my travels, maybe some mage or temple has something more powerful than garlic.~
+@425 =~Mortal, I have no business with you. Leave!~
+@426 =~Anything new about my problem, <PRO_LADYLORD>?~
+@427 =~We have seen your former Ken but cannot deal with him directly.~
+@428 =~This time I just came to order some drink.~
+@429 =~I have not yet found anything that helps against vampires.~
+@430 =~We were able to purchase this pendant of positive plane energy, if worn by you, is supposed to keep any vampire away as far as your sight goes.~
+@431 =~Oh, my friend, how can I ever thank you...I must try this on Ken immediately...~
+@432 =~Oh, please keep your eyes open on your travels, maybe some mage or temple has something more powerful than garlic.~
+@433 =~We are looking for an enchanted item that may keep a vampire away from a young woman. Neither garlic nor holy water have an effect.~
+@434 =~They never do, as far as my knowledge goes. Anyway, here you need divine powers rather than arcane magic. I propose you consult with the temple on the other side of Beregost instead.~
+@435 =~The Barmaid and the Vampire
+
+The barmaid Sonja at Ulgoth's Beard is haunted by her former boyfriend who had been turned into a vampire. Neither the usual household methods nor simple force seem to help. Our hope is to find some powerful magical item for her protection on our travels. We promised to investigate with the mages and temples we encounter as we move on.~
+@436 =~The Barmaid and the Vampire
+
+The mage Thalantyr advised us that divine magic is needed to help Sonja. We need to focus our search on temples rather than arcane sources.~
+
+@437 =~The Barmaid and the Vampire
+
+Keldath Ormlyr at the Lathander temple in Beregost had been helpful in our search for a protective item for Sonja. We now know that we need a Pendant of Positive Plane Energy that she needs to wear at night. A temple of Gond or a diviner in the centre of the city of Baldur's Gate could maybe provide us with such an item.~ 
+@438 =~The Barmaid and the Vampire
+
+The priest of Gond at Baldur's Gate has instructed us with all details we need to gain the Pendant of Positive Plane Energy for Sonja. Aside from a 1000GP fee, we need a diamond and the sword pendant of some Hobgoblin leader. He informed us about a band of Chill at the former Tazok camp in the Wood of Sharp Teeth.
+
+Once we have all the items, the temple will be able to upgrade the pendant to keep the vampire away from our barmaid friend.~
+@439= ~We could however enchant a sword pendant with the help of a diamond if you are able to provide those items and are willing to pay the necessary fee to the temple.~
+@440= ~I see. What you search is a Pendant of Positive Plane Energy. It is not something I have or can produce with my means.~
+@441= ~That is just too bad. At least we know it exists and what it is that we have to look for.~
+@442= ~Do you know by chance who may have such a thing?~
+@443= ~Thanks for nothing then, I'll be on my way.~
+@444= ~If I were you, I'd try my luck in Baldur's Gate. The temple of Gond, the god of inventions, may be a good place. There's also some renown diviner in the town centre who may be able to locate such an item.~
+@445 =~What exactly would be needed for the procedure?~
+@446 =~I can probably get a diamond but where do I get a sword pendant?~
+@447 =~How much is that fee you mentioned?~
+@448 =~Oh no, I am out of this never ending fetch quest.~
+@449 =~First, there is a fee of 1000GP, if you are unwilling to pay this, we need not continue our discourse.~
+@450 =~Second, we need a diamond for the binding of the enchantment to the pendant.~
+@451 =~Third, a sword pendant, an emblem often carried by Hobgoblin leaders.~
+@452 =~We may assist you to divine the location of such a pendant in the vicinity - for a small extra fee of 500GP.~
+@453 =~Sigh, Gond's services are not cheap. Here are 500GP to locate the pendant.~
+@454 =~I may find that diviner at the city fair has better prizes. I'll return once I have the items.~
+@455 =~You'll find us here whenever you need Gond's service. Terms and conditions will not change anytime soon.~
+@456 =~Gond's services are not cheap because they are reliable and not the hocus pocus that other temples sell to you.~
+@457 =~You'll find a band of Chill hobgoblins in the Wood of Sharp Teeth at a former bandit camp you may know already. Come back when you have all the items and the remaining gold.~
+@458 =~Do you know the location of a hobgoblin leader in these regions?~
+@459 =~You'll find a band of Chill hobgoblins in the Wood of Sharp Teeth at a former bandit camp you may know already.~
+@460 =~I see. What you search is a Pendant of Positive Plane Energy. This is something the priests of Gond at the Hall of Wonders may be able to provide.~
+@461 =~The Barmaid and the Vampire
+
+We now possess a sword pendant which is needed by Gond's priest to bind a divine spell to it that provides Sonja with protection against the vampire that was her former boyfriend. We need a diamond and 1000GP and then return to the temple at the Hall of Wonders in Baldur's Gate.~
+@462 =~The Barmaid and the Vampire
+
+We now possess a Pendant of Positive Plane Energy. The barmaid Sonja at Ulgoth's Beard will be more than happy to receive it and be save from the vampire which plagues her.~
+@470= ~I am Bardock, member of Chill. Come to join Tazok and attack all <PRO_RACE> carrying iron. We do that, we like cause it's fun. Even if Tazok not here.~
+@471= ~I have killed Tazok and his men like I will kill you now.~
+@472= ~I know something better than killing, Bardock. That pendant you have, I give you 200GP for it. Let us trade.~
+@473= ~Boss, we Chill bandits, right?~
+@474= ~Of course!~
+@475= ~We not let <PRO_RACE> go with pendant and other gold and nice things?~
+@476= ~Of course not!~
+@477= ~Ha, 200GP for this trinket? You fool but now fool who owns pendant.~
+
 @2564 = ~And what have your observations revealed to you?~
 @2565 = ~Study on, I shall not distract your gaze.~
-@2566 = ~Two bright new stars were born on the firmament just recently. One of them in Mystra's belt, the other is even more strange as it now adds to an insignificant unnamed constellation a new meaning - it is the old elvish symbol for *hope*. ~
+@2566 = ~Two bright new stars were born on the firmament just recently. One of them in Mystra's belt, the other is even more strange as it now adds a new meaning to an insignificant unnamed constellation - it is the old elvish symbol for *hope*. ~
 @2567 = ~What meaning has the appearance of a new star for us? ~
 @2568 = ~They were both born in the region of the night sky where the gods are represented. Strange indeed.~
 @2569 = ~There are probably no new gods born these days. Anything else of more interest?~

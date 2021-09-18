@@ -9,7 +9,7 @@ CreateCreature("Samia",[2994.1735],NNW)
 END
 
 IF
-GlobalGT("Chapter","Global",5)
+GlobalGT("Chapter","Global",8)
 InMyArea("Samia")
 THEN
 RESPONSE #100

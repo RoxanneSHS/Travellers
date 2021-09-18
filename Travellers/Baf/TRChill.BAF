@@ -1,0 +1,35 @@
+IF
+	Heard("TR_Chill1",1) 
+	Allegiance(Myself,NEUTRAL)
+THEN
+	RESPONSE #100
+		Shout(1)
+		Enemy()
+END
+
+IF
+	Heard([ANYONE],1)
+	Allegiance(Myself,NEUTRAL)
+THEN
+	RESPONSE #100
+		Enemy()
+END
+
+IF
+	Heard("TR_Chil2",1)
+	Allegiance(Myself,NEUTRAL)
+THEN
+	RESPONSE #100
+		Shout(1)
+		Enemy()
+END
+
+IF
+Name("TR_Chil2",Myself)
+Global("TR_KnowGond","Global",4)
+Allegiance(Myself,NEUTRAL)
+THEN
+	RESPONSE #100
+	Dialog([ANYONE])
+END
+

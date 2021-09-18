@@ -36,14 +36,50 @@ WRITE_ASCII 0x260 ~TR_Sarl~ #8
 COPY_EXISTING ~galile.cre~ ~override~
 WRITE_ASCII 0x34 ~galile~ #8
 
+COPY_EXISTING ~wench1.cre~ ~override/TR_Sonja.cre~
+SAY NAME1 @400
+SAY NAME2 @400
+WRITE_ASCII 0x34 ~Tr_Sonja~ #8
+WRITE_ASCII 0x248 ~TR_Sonja~ #8
+WRITE_ASCII 0x280 ~TR_Sonja~ #8
+WRITE_ASCII 0x2cc ~TR_Sonja~ #8
+
+COPY_EXISTING ~vvmale5.cre~ ~override/TR_Vamp.cre~
+WRITE_ASCII 0x34 ~Tr_Vamp~ #8
+WRITE_ASCII 0x248 ~Tr_Vamp~ #8
+WRITE_ASCII 0x280 ~Tr_Vamp~ #8
+WRITE_ASCII 0x2cc ~TR_Vamp~ #8
+
 COPY ~Travellers/misc~ ~override~
 
 COMPILE ~Travellers/baf~
 COMPILE ~Travellers/dialogues~
 
+COPY_EXISTING ~TR_Pend.itm~ ~override~
+SAY NAME1 @006
+SAY NAME2 @006
+SAY DESC @008
+SAY 0x9e @400
+
+COPY_EXISTING ~Misc9n.itm~ ~override/TR_Pend2.itm~
+
+COPY_EXISTING ~TR_Chill1.CRE~ ~override~
+SAY NAME1 @009
+SAY NAME2 @009
+
+COPY_EXISTING ~TR_Chill1.CRE~ ~override/TR_Chill2.CRE~
+SAY NAME1 @010
+SAY NAME2 @010
+WRITE_ASCII 0x34 ~TRKurg~ #8
+WRITE_ASCII 0x280 ~TR_Chil2~ #9
+WRITE_ASCII 0x2cc ~TR_Chil2~ #8
+REMOVE_CRE_ITEM ~TR_Pend2~
+
 EXTEND_TOP ~bg2900.bcs~ ~Travellers/scripts/BG2900Valy.baf~
 EXTEND_TOP ~bg4100.bcs~ ~Travellers/scripts/BG4100Sami.baf~
 EXTEND_TOP ~Samia.bcs~ ~Travellers/scripts/SamiInv.baf~
 EXTEND_TOP ~bg5400.bcs~ ~Travellers/scripts/BG5400Sarl.baf~
+EXTEND_TOP ~bg1001.bcs~ ~Travellers/scripts/BG1001Sonja.baf~
+EXTEND_TOP ~bg1900.bcs~ ~Travellers/scripts/BG1900Chill.baf~
 
-
+ADD_JOURNAL @435 @436 @437 USING ~Travellers/Lang/%LANGUAGE%/Travellers.tra~
