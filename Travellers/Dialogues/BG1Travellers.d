@@ -334,6 +334,7 @@ IF~~THEN Keldda Vamp3
 
 EXTEND_TOP PGOND 0 #1
 IF~Global("TR_KnowGond","Global",1) ~THEN REPLY @433 GOTO Gond2
+IF~Global("TR_KnowGond","Global",4)PartyHasItem("TR_Pend2")PartyHasItem("Misc42")PartyGoldGT(999)~THEN REPLY @464 GOTO Pend2
 END
 
 CHAIN
@@ -407,3 +408,8 @@ IF~Global("TR_KnowGond","Global",4)~ THEN TR_CHIL2  Bandits5
 ==TR_CHIL1 @474
 ==TR_CHIL2 @475
 ==TR_CHIL1 @476 DO~Shout(1) Enemy() Attack(NearestEnemyOf(Myself))~ EXIT
+
+CHAIN
+IF~~THEN PGOND Pend2
+@465
+=@466 DO~SetGlobal("TR_KnowGond","Global",5) ClearAllActions() Wait(1)StartCutSceneMode() StartCutScene("TR_cut1") ~EXIT

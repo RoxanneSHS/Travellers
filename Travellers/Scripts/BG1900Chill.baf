@@ -3,8 +3,8 @@ Global("TR_KnowGond","Global",2)
 THEN
 RESPONSE #100
 SetGlobal("TR_KnowGond","Global",3)
-CreateCreature("TR_Chill1",[4317.1007],SSW)
-CreateCreature("TR_Chill2",[4358.1051],N)
+CreateCreature("TR_Chil1",[4317.1007],SSW)
+CreateCreature("TR_Chil2",[4358.1051],N)
 CreateCreature("BHOBGOB",[4428.1000],W)
 CreateCreature("BHOBGOB",[4122.880],SSE)
 CreateCreature("BHOBGOB",[4608.1000],W)
@@ -21,5 +21,16 @@ RESPONSE #100
 SetGlobal("TRJournal","BG1900",1)
 AddJournalEntry(@461,QUEST)
 END
+
+IF
+GlobalLT("TR_KnowGond","Global",4)
+PartyHasItem("TR_Pend2")
+Dead("TR_Chill1")
+THEN
+RESPONSE #100
+SetGlobal("TR_KnowGond","Global",4)
+END
+
+
 
 

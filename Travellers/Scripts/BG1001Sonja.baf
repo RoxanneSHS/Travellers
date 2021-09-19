@@ -80,3 +80,18 @@ RESPONSE #100
 SetGlobal("TR_QuestJour","BG1001",1)
 AddJournalEntry(@435,QUEST)
 END
+
+IF
+Global("TR_SonVamp","Global",3)
+Global("TR_QuestJour","BG1001",1)
+THEN
+RESPONSE #100
+SetGlobal("TR_QuestJour","BG1001",2)
+AddJournalEntry(@463,QUEST_DONE)
+EraseJournalEntry(@435) 
+EraseJournalEntry(@436)
+EraseJournalEntry(@437)
+EraseJournalEntry(@438)
+EraseJournalEntry(@461)
+EraseJournalEntry(@462)
+END

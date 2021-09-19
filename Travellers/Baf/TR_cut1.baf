@@ -1,0 +1,18 @@
+IF
+True()
+THEN
+RESPONSE #100
+CutSceneId("PGond")
+SetGlobal("TR_KnowGond","Global",6)
+TakePartyItem("TR_Pend2")
+TakePartyItemNum("misc42",1)
+TakePartyGold(1000)
+Wait(1)
+CreateVisualEffectObject("BDphydes","pgond")
+Wait(1)
+CreateVisualEffectObject("BDteleki","pgond")
+Wait(1)
+GiveItemCreate("TR_Pend",Player1,0,0,0)
+AddJournalEntry(@462,QUEST)
+EndCutSceneMode()
+END
