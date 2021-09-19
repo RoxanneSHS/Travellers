@@ -28,8 +28,10 @@ IF
 Name("TR_Chil2",Myself)
 Global("TR_KnowGond","Global",4)
 Allegiance(Myself,NEUTRAL)
+PartyHasItem("TR_Pend2")
+Delay(5)
 THEN
-	RESPONSE #100
-	Dialog([ANYONE])
+RESPONSE #100
+Dialog([ANYONE])
 END
 
