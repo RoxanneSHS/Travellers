@@ -1,0 +1,15 @@
+IF
+Global("TR_SonVamp","Global",5)
+Global("TR_Ambush","BG1000",0)
+THEN
+RESPONSE #100
+SetGlobal("TR_Ambush","BG1000",1)
+DayNight(MIDNIGHT)
+CreateCreature("NevM4",[2040.915],NE)
+CreateCreature("Ivamp01",[2029.880],NE)
+CreateCreature("Sarvam02",[1987.903],NE)
+CreateCreature("VamFlm01",[2175.538],SE)
+CreateCreature("Ivamp01",[2210.511],SE)
+CreateCreature("VamFlf01",[2470.496],S)
+CreateCreature("Ivamp01",[2511.476],S)
+END

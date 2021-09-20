@@ -4,6 +4,13 @@
 @009 =~Bardock~
 @010 =~Kurg~
 @011 =~Sword Pendant~
+@012 =~Note to Sonja~
+@013 =~Dear Sonja, my friend,
+
+You may never see this note, at least I hope you won't. You may miss your amulet that was in its place or maybe you won't. Anyway, I took it because I am in deep trouble. The moneylender will have me beaten up or worse if I don't pay him tonight. Pawning your stuff is my last chance to get the coins I need so urgently. The bartender told me about a pawnbroker, so once I have some honest money I will get your amulet back and put it back and destroy this note and you will never know. Hopefully.
+
+Galken~
+@014 =~Donhard~
 
 @100 =~You'll not get this ranger easily, fools!~
 @101 =~You there, wait a minute.~
@@ -168,6 +175,77 @@ Somehow - there is this feeling that this story is not over yet...~
 @475= ~We not let <PRO_RACE> go with pendant and other gold and nice things?~
 @476= ~Of course not!~
 @477= ~Ha, 200GP for this trinket? You fool but now fool who owns pendant.~
+
+@1000 =~The Gods have sent you! I remember you, my saviours from Ulgoth's Beard.~
+@1001 =~It looks like you walk in here right at the time when I need help like yours again.~
+@1002 =~I remember you. And I recall that you never said thank you back then.~
+@1003 =~You departed pretty fast. We never learned how the pendant worked.~
+@1004 =~This was long ago, I hardly recall that adventure at all.~
+@1005 =~Oh, not you again. I am cured and will not listen to any further word from you.~
+@1006 =~Are you willing to hear me out this time? Yes...~
+@1007 =~Yes, I have to apologize for my unthankful conduct back then. See, I was so excited when you brought me the pendant and I had to try it immediately and it worked and I fell asleep after so many restless nights and then you had left and I never saw you again to reward you...~
+@1008 =~But then, adventurers are rewarded by the adventures they experience, aren't they?~
+@1009 =~That is one way to see it.~
+@1010 =~Adventurers have to eat and drink and have other expenses.~
+@1011 =~Whatever, you had your thrills, didn't you? And...you - didn't finally solve my problem. Ken's back.~
+@1012 =~The vampire? Doesn't that amulet work anymore?~
+@1013 =~But you left Ulgoth's Beard and are now here.~
+@1014 =~So, Ken's back.~
+@1015 =~Soon after the events you were involved in, that foolish Dragonspear crusade ruined business. I was about to lose my job at the inn and the area as a whole was too unsafe. But luck had it that I met a merchant from Athkatla, Hanson. (Giggles) Hanson the handsome...~
+@1016 =~Long story short, we fell in love and here I am now and our marriage is just weeks away.~
+@1017 =~So all would be well except for your former vampire lover?~
+@1018 =~Ken's not so pleased about it all, I think. But how can he still haunt you?~
+@1019 =~Hanson's pretty successful in his trade. He knows what a girl likes, and he always brought me gifts, one of them a very beautiful necklace. He was very annoyed when he saw me with that ugly pendant instead of his gift on various occasions.~
+@1020 =~I felt save after all the time that Ken never showed up again and when Hanson finally offered me the voyage to Athkathla, I thought that I no longer needed that pendant because Ken would never find me again.~
+@1021 =~This was an error as it seems. So where is the pendant now?~
+@1022 =~Now we have the same situation as before - either eliminate Ken or get back the pendant.~
+@1023 =~And you think I'm the one to solve this problem for you once more?~
+@1024 =~In Ulgoth's Beard.~
+@1025 =~I still don't want Ken hurt, just to be gone, that's all.~
+@1026 =~It's impossible for me but just a bit of travelling for you.~
+@1027 =~When I left the Ulgoth's Beard inn, I locked the pendant in the bedside cabinet of my old room knowing it would be vacant for quite some time. All that needs to be done is for someone to pick it up - maybe break the lock as well because I threw the key away on the trip.~
+@1028 =~You will understand why I can't do this myself but it's just an easy job for someone like you. I mentioned that Hanson is rich, didn't I? You will not regret your help, please, <CHARNAME>.~
+@1029 =~I promise nothing. Maybe my travels lead me to the north and I'll find the time...~
+@1030 =~This town is full of fools that can do it just as well. You don't need me.~
+@1031 =~How can I say no to a future lady of Athkatla.~ 
+@1032 =~The Barmaid and the Vampire - now in Amn
+
+Today we met the barmaid Sonja from Ulgoth's Beard again. She now lives in Amn and is about to marry a rich merchant there. But the vampire Ken - her former lover - has returned. The careless girl left her pendant back at the Ulgoth inn when she left for Athkatla. Now she needs an experienced adventurer to get it for her. I am not sure if I will do the job, after all she had not been very grateful last time.~
+@1033 =~The Barmaid and the Vampire - now in Amn
+
+After more difficulties than I had expected I am back in Ulgoth's Beard. Sonja's amulet however is not here, obviously Galken, a frequent tavern visitor has taken it in need of money. A note he left for Sonja mentions a pawnbroker that the innkeeper has recommended to him. Hopefully the innkeeper still remembers the man.
+
+On the other hand, I could just tell Sonja about Ken's end and break her heart instead of chasing her - now useless - Pendant of Positive Plane Energy.~
+
+@1034 =~You know Galken, the young man who was here often if not always, right?~
+@1035 =~I have not seen him for a time...now that I think of it, I haven't seen him since he asked me about pawning some jewellery. I don't do such things, not me. It's only trouble.~
+@1036 =~You told him about someone who would do it. Who is that man?~
+@1037 =~He calls himself Donhard and runs his business in the fishermen's village on Chionthar south of Wyrm's Crossing. This way customers from the city and villages around can easily visit him while the Flaming Fist are not often looking after the fishermen.~
+@1038 =~The Barmaid and the Vampire - now in Amn
+
+After more difficulties than I had expected I am back in Ulgoth's Beard. Sonja's amulet however is not here, obviously Galken, a frequent tavern visitor has taken it in need of money. A note he left for Sonja mentions a pawnbroker that the innkeeper has recommended to him. I found out that the man could be found in the fishermen's village south of Wyrm's Crossing.
+
+On the other hand, I could just tell Sonja about Ken's end and break her heart instead of chasing her - now useless - Pendant of Positive Plane Energy.~
+@1039 =~We know that you lend on pawn. You are the man we seek.~
+@1040 =~That will depend on how much you need and what the corresponding pawn will be.~
+@1041 =~It's the other way round, I want the pawned item back.~
+@1042 =~I need no money. I want the pendant you wear around your neck back.~
+@1043 =~Why didn't you say that right away, just give me the pawn ticket and the sum noted on it.~
+@1044 =~I'm afraid I lost it somehow. But it's the pendant you wear and I'll just give you double the sum.~
+@1045 =~I'm here on behalf of the friend who gave you the blue pendant. He forgot to give me the ticket. I won't make the trip a second time, so I'm sure we come to some solution here, right?~
+@1046 =~You understand that I can't run my business like that. You need the ticket or you can't get your item back. No exceptions. If I allowed exceptions then I'd be ruined in a week.~
+@1047 =~(Pst, <CHARNAME>, don't worry. I'm sure I can just steal it from him in a minute.)~
+@1048 =~The Barmaid and the Vampire - now in Amn
+
+I have traced the man who carries Sonja's pendant but he is only willing to hand over the item if I can present the pawn ticket for it. I have no clue where that paper could be, so my options are to either steal the trinket or to kill the man.
+
+On the other hand, I could just tell Sonja about Ken's end and break her heart instead of chasing her - now useless - Pendant of Positive Plane Energy.~
+@1049 =~The owner will not come back. The only way for you to ever get any money for it is to sell it to me. I give you 150GP, a fair price.~
+@1050 =~The Barmaid and the Vampire - now in Amn
+
+Now that I have regained the meanwhile useless Pendant of Positive Plane Energy I can return it to Sonja so that she can happily marry Hanson and feel free of Ken, the vampire while wearing the pendant instead of nice jewellery. On the other hand, I could just tell Sonja about Ken's end and break her heart but maybe she'll forget him soon and the couple can live on without the shadow of the past.
+
+The trip back to Amn will provide enough time to come to a decision.~
 
 @2564 = ~And what have your observations revealed to you?~
 @2565 = ~Study on, I shall not distract your gaze.~

@@ -95,3 +95,33 @@ EraseJournalEntry(@438)
 EraseJournalEntry(@461)
 EraseJournalEntry(@462)
 END
+
+IF
+Global("TR_SonVamp","Global",5)
+Global("TR_Ken","BG1001",5)
+THEN
+RESPONSE #100
+SetGlobal("TR_Ken","BG1001",6)
+Activate("TR_Vamp")
+Wait(1)
+ActionOverride("TR_Vamp",Enemy())
+END
+
+IF
+Global("TR_SonVamp","Global",5)
+Global("TR_LeftBehind","BG1001",0)
+THEN
+RESPONSE #100
+SetGlobal("TR_LeftBehind","BG1001",1)
+ActionOverride("Container 1",CreateItem("TR_Pend3",0,0,0))
+ActionOverride("Galken",DestroySelf())
+END
+
+IF
+Global("TR_LeftBehind","BG1001",1)
+PartyHasItem("TR_Pend3")
+THEN
+RESPONSE #100
+SetGlobal("TR_LeftBehind","BG1001",2)
+AddJournalEntry(@1033,QUEST)
+END

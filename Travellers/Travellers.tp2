@@ -1,5 +1,5 @@
 BACKUP ~Travellers/backup~
-AUTHOR ~Roxanne - https://baldursextendedworld.com/Tamoko/ or roxanne@baldursextendedworld.com~
+AUTHOR ~Roxanne roxanne@baldursextendedworld.com~
 
 VERSION ~v0.3~
 AUTO_TRA ~Travellers/Lang/%s~
@@ -40,6 +40,9 @@ WRITE_ASCII 0x260 ~TR_Sarl~ #8
 COPY_EXISTING ~galile.cre~ ~override~
 WRITE_ASCII 0x34 ~galile~ #8
 
+COPY_EXISTING ~borda.cre~ ~override~
+WRITE_ASCII 0x34 ~borda~ #8
+
 COPY_EXISTING ~wench1.cre~ ~override/TR_Sonja.cre~
 SAY NAME1 @400
 SAY NAME2 @400
@@ -69,6 +72,11 @@ COPY_EXISTING ~Misc9n.itm~ ~override/TR_Pend2.itm~
 SAY NAME1 @011
 SAY NAME2 @011
 
+COPY_EXISTING ~bdmisc21.itm~ ~override/TR_Pend3.itm~
+SAY NAME1 @012
+SAY NAME2 @012
+SAY 0x54 @013
+
 COPY_EXISTING ~TR_Chil1.CRE~ ~override~
 SAY NAME1 @009
 SAY NAME2 @009
@@ -88,5 +96,8 @@ EXTEND_TOP ~Samia.bcs~ ~Travellers/scripts/SamiInv.baf~
 EXTEND_TOP ~bg5400.bcs~ ~Travellers/scripts/BG5400Sarl.baf~
 EXTEND_TOP ~bg1001.bcs~ ~Travellers/scripts/BG1001Sonja.baf~
 EXTEND_TOP ~bg1900.bcs~ ~Travellers/scripts/BG1900Chill.baf~
+EXTEND_TOP ~ar0515.bcs~ ~Travellers/scripts/Ar0515Sonja.baf~
+EXTEND_TOP ~BG1000.bcs~ ~Travellers/scripts/BG1000InBG2.baf~
+EXTEND_TOP ~BG1400.bcs~ ~Travellers/scripts/BG1400Borda.baf~
 
-ADD_JOURNAL @435 @436 @437 @438 @461 @462 @463 USING ~Travellers/Lang/%LANGUAGE%/Travellers.tra~
+ADD_JOURNAL @435 @436 @437 @438 @461 @462 @463 @1032 @1033 @1038 @1048 USING ~Travellers/Lang/%LANGUAGE%/Travellers.tra~

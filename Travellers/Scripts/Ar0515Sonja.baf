@@ -1,0 +1,7 @@
+IF
+Global("TR_SonVamp","Global",3)
+THEN
+RESPONSE #100
+SetGlobal("TR_SonVamp","Global",4)
+CreateCreature("TR_Sonja",[622.243],SE)
+END

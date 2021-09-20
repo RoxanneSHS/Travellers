@@ -1,0 +1,25 @@
+IF
+Global("TR_SonVamp","Global",5)
+Global("Bordamove","BG1400",0)
+THEN
+RESPONSE #100
+SetGlobal("Bordamove","BG1400",1)
+CreateCreature("Borda",[832.2483],SSW)
+Wait(1)
+ActionOverride("Borda",SetName(@014))
+Wait(2)
+ActionOverride("Borda",GiveItemCreate("TR_Pend",Myself,0,0,0))
+END
+
+IF
+Global("Bordamove","BG1400",1)
+PartyHasItem("TR_Pend")
+THEN
+RESPONSE #100
+SetGlobal("Bordamove","BG1400",2)
+EraseJournalEntry(@1032) 
+EraseJournalEntry(@1033)
+EraseJournalEntry(@1038)
+EraseJournalEntry(@1048)
+AddJournalEntry(@1050)
+END
