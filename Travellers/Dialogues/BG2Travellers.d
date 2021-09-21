@@ -1,3 +1,5 @@
+BEGIN TR_HANSO
+
 CHAIN
 IF~Global("TR_SonVamp","Global",4)Global("TRAmnOnce","Global",0)~THEN TR_Sonja Amn1
 @1000
@@ -124,3 +126,48 @@ IF~~THEN Borda Borda4
 ==JanJ IF~InParty("Jan") !InParty("Safana") !StateCheck("Jan",CD_STATE_NOTVALID) ~THEN @1047
 ==NaliaJ IF~!InParty("Jan") !InParty("Safana") InParty("Nalia") !StateCheck("Nalia",CD_STATE_NOTVALID) ~THEN @1047
 ==HexxatJ IF~InParty("Hexxat") !InParty("Jan") !InParty("Safana") !InParty("Nalia") !StateCheck("Hexxat",CD_STATE_NOTVALID) ~THEN @1047 EXIT
+
+CHAIN
+IF~Global("TR_SonVamp","Global",5)~THEN TR_Sonja Solve
+@1053
+END
+++@1054  + Solve2
++ ~Dead("TR_Vamp")~+@1055  DO~SetGlobal("TR_SonVamp","Global",6)~+  Solve3
++ ~Dead("TR_Vamp")~+@1056  DO~SetGlobal("TR_SonVamp","Global",6)~+ Solve3
++ ~PartyHasItem("TR_Pend")~+@1057 DO~SetGlobal("TR_SonVamp","Global",7)~+ Solve4
+
+CHAIN
+IF~~THEN TR_Sonja Solve2
+@1058 EXIT
+
+CHAIN
+IF~~THEN TR_Sonja Solve3
+@1059  DO~EscapeAreaDestroy(15)~EXIT
+
+CHAIN
+IF~~THEN TR_Sonja Solve4
+@1060 DO~TakePartyItem("TR_Pend") Wait(1)EscapeAreaDestroy(15)~EXIT
+
+CHAIN
+IF~Global("TR_SonVamp","Global",7)~THEN TR_Hanso Thanks
+@1061
+DO~SetGlobal("TR_SonVamp","Global",8)~
+END
+++@1062  + Thanks2
+++@1063  + Thanks2
+++@1064  + Thanks2
+
+CHAIN
+IF~~THEN TR_Hanso Thanks2
+@1065
+DO~GivePartyGold(3000)~
+=@1066
+END
+++@1067 DO~EscapeAreaDestroy(45)~EXIT
+++@1068 DO~ EscapeAreaDestroy(45)~EXIT
+++@1069 + Thanks3
+
+CHAIN
+IF~~THEN TR_Hanso Thanks3
+@1070
+=@1071 DO~ EscapeAreaDestroy(45)~EXIT

@@ -1,0 +1,9 @@
+IF
+Global("TR_SonVamp","Global",7)
+Global("TRHanscome","Ar1000",0)
+THEN
+RESPONSE #100
+SetGlobal("TRHanscome","Ar1000",1)
+CreateCreature("TR_Hanso",[2710.255],NNW)
+Continue()
+END

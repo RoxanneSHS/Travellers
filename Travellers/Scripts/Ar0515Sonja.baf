@@ -5,3 +5,31 @@ RESPONSE #100
 SetGlobal("TR_SonVamp","Global",4)
 CreateCreature("TR_Sonja",[622.243],SE)
 END
+
+IF
+Global("TR_SonVamp","Global",6)
+Global("TRJournal","ar0515",0)
+THEN
+RESPONSE #100
+SetGlobal("TRJournal","ar0515",1)
+AddJournalEntry(@1051,QUEST_DONE)
+EraseJournalEntry(@1048)
+EraseJournalEntry(@1033)
+EraseJournalEntry(@1038)
+EraseJournalEntry(@1032)
+EraseJournalEntry(@1050)
+END
+
+IF
+Global("TR_SonVamp","Global",7)
+Global("TRJournal","ar0515",0)
+THEN
+RESPONSE #100
+SetGlobal("TRJournal","ar0515",1)
+AddJournalEntry(@1052,QUEST_DONE)
+EraseJournalEntry(@1048)
+EraseJournalEntry(@1033)
+EraseJournalEntry(@1038)
+EraseJournalEntry(@1032)
+EraseJournalEntry(@1050)
+END

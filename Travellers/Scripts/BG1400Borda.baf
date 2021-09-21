@@ -17,9 +17,9 @@ PartyHasItem("TR_Pend")
 THEN
 RESPONSE #100
 SetGlobal("Bordamove","BG1400",2)
+AddJournalEntry(@1050,QUEST)
 EraseJournalEntry(@1032) 
 EraseJournalEntry(@1033)
 EraseJournalEntry(@1038)
 EraseJournalEntry(@1048)
-AddJournalEntry(@1050)
 END
