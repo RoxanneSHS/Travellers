@@ -122,10 +122,12 @@ END
 CHAIN
 IF~~THEN Borda Borda4
 @1046 DO~AddJournalEntry(@1048,QUEST)~
-==SafanJ IF~InParty("Safana") !StateCheck("Safana",CD_STATE_NOTVALID) ~THEN @1047
-==JanJ IF~InParty("Jan") !InParty("Safana") !StateCheck("Jan",CD_STATE_NOTVALID) ~THEN @1047
-==NaliaJ IF~!InParty("Jan") !InParty("Safana") InParty("Nalia") !StateCheck("Nalia",CD_STATE_NOTVALID) ~THEN @1047
-==HexxatJ IF~InParty("Hexxat") !InParty("Jan") !InParty("Safana") !InParty("Nalia") !StateCheck("Hexxat",CD_STATE_NOTVALID) ~THEN @1047 EXIT
+==IF_FILE_EXISTS D#SILVER IF~InParty("D#SILVER")!StateCheck("D#SILVER",CD_STATE_NOTVALID) ~THEN @1047
+==IF_FILE_EXISTS SimeJ IF~InParty("PPSime")!InParty("D#SILVER")!StateCheck("PPSime",CD_STATE_NOTVALID) ~THEN @1047
+==SafanJ IF~InParty("Safana") !InParty("PPSime")!InParty("D#SILVER") !StateCheck("Safana",CD_STATE_NOTVALID) ~THEN @1047
+==JanJ IF~InParty("Jan") !InParty("Safana")!InParty("PPSime")!InParty("D#SILVER") !StateCheck("Jan",CD_STATE_NOTVALID) ~THEN @1047
+==NaliaJ IF~!InParty("Jan") !InParty("Safana")!InParty("PPSime")!InParty("D#SILVER") InParty("Nalia") !StateCheck("Nalia",CD_STATE_NOTVALID) ~THEN @1047
+==HexxatJ IF~InParty("Hexxat") !InParty("Jan")!InParty("PPSime")!InParty("D#SILVER") !InParty("Safana") !InParty("Nalia") !StateCheck("Hexxat",CD_STATE_NOTVALID) ~THEN @1047 EXIT
 
 CHAIN
 IF~Global("TR_SonVamp","Global",5)~THEN TR_Sonja Solve
