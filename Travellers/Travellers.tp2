@@ -1,7 +1,7 @@
 BACKUP ~Travellers/backup~
 AUTHOR ~Roxanne roxanne@baldursextendedworld.com~
 
-VERSION ~v0.5~
+VERSION ~v0.6~
 AUTO_TRA ~Travellers/Lang/%s~
 
 LANGUAGE ~English~ ~english~ ~Travellers/Lang/English/Travellers.tra~
@@ -121,6 +121,7 @@ ADD_JOURNAL @435 @436 @437 @438 @461 @462 @463 @724 @726 @727 @729 @760 @762 @10
 
 BEGIN ~Arkanis Gath's Investigation~
 REQUIRE_COMPONENT ~Travellers.tp2~ 0 @003
+
 EXTEND_TOP ~ar0400.bcs~ ~Travellers/scripts/ar0400Arkanis.baf~
 EXTEND_TOP ~ar0300.bcs~ ~Travellers/scripts/ar0300Arkanis.baf~
 EXTEND_TOP ~stdeath.bcs~ ~Travellers/scripts/Dockguard.baf~
@@ -138,3 +139,18 @@ SAY 0x50 @016
 
 STRING_SET
 21210 @759
+
+BEGIN ~The Peddler~
+REQUIRE_COMPONENT ~Travellers.tp2~ 0 @003
+
+EXTEND_TOP ~bg3900.bcs~ ~Travellers/scripts/BG3900Pedl.baf~
+EXTEND_TOP ~baldur.bcs~ ~Travellers/scripts/PedleSpawn.baf~
+EXTEND_TOP ~baldur25.bcs~ ~Travellers/scripts/PedleSpawn.baf~
+EXTEND_TOP ~bdbaldur.bcs~ ~Travellers/scripts/PedleSpawn.baf~
+
+COPY_EXISTING ~TR_Pedle.CRE~ ~override~
+SAY NAME1 @1100
+SAY NAME2 @1100
+
+COPY_EXISTING ~TR_Pedle.sto~ ~override~
+SAY 0xc @1100

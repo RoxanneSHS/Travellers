@@ -6,7 +6,7 @@ The mod tries to make EET even more of ONE story.
 - you can go back with items you find later in the game to finish quests in BG1 or SoD
 - you get quests for which you need to return to the BG1/SoD areas from later parts
 
-Five episodes are there for trial already
+A number of episodes are there for trial already
 
 SPOILER
 - meet Valygar hunted by cowls in Larswood or Peldvale (you can help him or betray him
@@ -17,3 +17,8 @@ SPOILER
 Component Arkanis Gath's Investigation
 This is an optional quest, left to user's inclusion because it impacts the main story (without changing it though). Renal and his guild are alarmed by the time the player reaches Amn. Before you can meet Renal you have to proof yourself to Arkanis Gath. The quest involves a trip back to BG1/SoD areas. After you finished the task, the doors to the guild in the docks are open and all related content is available as normal (or expanded by other mods).
 Note - travelling back to BG1/SoD may be used as an exploit to pick up items you may have put into some container in any of the already visited area... 
+
+Component The Peddler
+Rags 'n' bones, weapons 'n' jul'ry!
+The Peddler buys 'n' sells 'em all
+This adds a wandering merchant who appears randomly in outdoor areas (no cities) and sells and buys everything, including stolen goods. He appears in all game parts, which means that you may sell him your valuable items and get them back in later parts. While some may see this as a cheat there is also a risk as you can never know when or where he appears, so you cannot rely really on it. Also, mind that he may sell stuff to everybody and may not keep your things forever. But, yes, it is an exploit and as such an optional component.

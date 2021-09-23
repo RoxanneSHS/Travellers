@@ -1,0 +1,8 @@
+IF
+Global("TR_Peddler","Global",0)
+THEN
+RESPONSE #100
+SetGlobal("TR_Peddler","Global",1)
+CreateCreature("TR_Pedle",[3462.1649],SSE)
+Continue()
+END

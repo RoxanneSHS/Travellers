@@ -1,0 +1,15 @@
+IF
+Global("TR_Peddler","Global",2)
+GlobalLT("Chapter","Global",21)
+GlobalTimerExpired("Peddlerspawn","Global")
+AreaType(OUTDOOR)
+!AreaType(CITY)
+CombatCounter(0)
+THEN
+RESPONSE #100
+SetGlobalTimer("Peddlerspawn","Global",TEN_DAYS)
+CreateCreatureObjectOffScreen("TR_Pedle",Player1,0,0,0)
+Wait(1)
+DisplayStringWait("TR_Pedle",@1101)
+Continue()
+END

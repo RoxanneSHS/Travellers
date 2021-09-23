@@ -1,0 +1,20 @@
+IF
+Global("TR_Peddler","Global",2)
+Global("Peddlerstay","Locals",0)
+THEN
+RESPONSE #100
+SetGlobal("Peddlerstay","Locals",1)
+RealSetGlobalTimer("Peddlertime","Locals",FOUR_MINUTES)
+SetGlobalTimer("Peddlerspawn","Global",TEN_DAYS)
+END
+
+IF
+Global("Peddlerstay","Locals",1)
+RealGlobalTimerExpired("Peddlertime","Locals")
+THEN
+RESPONSE #100
+SetGlobal("Peddlerstay","Locals",2)
+EscapeAreaDestroy(15)
+END
+
+
