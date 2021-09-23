@@ -1,0 +1,22 @@
+IF
+Global("TR_ArkanJob","Global",1)
+Global("TRArkanspawn","ar0300",0)
+THEN
+RESPONSE #100
+SetGlobal("TRArkanspawn","ar0300",1)
+CreateCreature("TR_Arkan",[1298.1077],N)
+Continue()
+END
+
+IF
+Global("TR_ArkanJob","Global",11)
+THEN
+RESPONSE #100
+SetGlobal("TR_ArkanJob","Global",12)
+AddJournalEntry(@762,QUEST_DONE)
+EraseJournalEntry(@724)
+EraseJournalEntry(@726)
+EraseJournalEntry(@727)
+EraseJournalEntry(@729)
+EraseJournalEntry(@760)
+END

@@ -1,0 +1,9 @@
+IF
+Global("TR_ArkanJob","Global",0)
+GlobalGT("BrusShow3","GLOBAL",0)
+Global("ShadowWork","GLOBAL",1)
+THEN
+RESPONSE #100
+SetGlobal("ShadowWork","GLOBAL",62)
+SetGlobal("TR_ArkanJob","Global",1)
+END

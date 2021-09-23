@@ -1,0 +1,7 @@
+IF
+Global("AttackedThieves","GLOBAL",1)
+Global("StGuardAttack","AR0300",0)
+THEN
+RESPONSE #100
+SetGlobal("StGuardAttack","AR0300",1)
+END

@@ -1,0 +1,21 @@
+IF
+Global("TR_ArkanJob","Global",5)
+Global("TRevidence","bd7230",0) 
+THEN
+RESPONSE #100
+SetGlobal("TRevidence","bd7230",1)
+ActionOverride("Chest_06",CreateItem("TR_APap",0,0,0))
+Wait(1)
+CreateCreature("shthass1",[3655.1185],SE)
+Wait(1)
+ActionOverride("shthass1",ChangeAIScript("TR_Ama",OVERRIDE))
+END
+
+IF
+Global("TR_ArkanJob","Global",6)
+PartyHasItem("TR_APap")
+THEN
+RESPONSE #100
+SetGlobal("TR_ArkanJob","Global",7)
+AddJournalEntry(@729,QUEST)
+END

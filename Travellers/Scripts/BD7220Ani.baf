@@ -1,0 +1,42 @@
+IF
+Global("TR_ArkanJob","Global",3)
+Global("TRAnish","BD7220",0)
+THEN
+RESPONSE #100
+SetGlobal("TRAnish","BD7220",1)
+CreateCreature("bpambt1",[1015.382],W)
+CreateCreature("bpambt2",[1080.407],W)
+CreateCreature("bpambt2",[1085.503],W)
+CreateCreature("bpambt1",[1418.463],W)
+CreateCreature("bpambt1",[1497.452],S)
+CreateCreature("bdbugb01",[1416.478],S)
+CreateCreature("bdbugb20",[1316.316],N)
+CreateCreature("bdbugb10",[1536.537],N)
+CreateCreature("bdbugb12",[1281.528],N)
+CreateCreature("bdbugb01",[971.792],N)
+END
+
+IF
+Global("TRAnish","BD7220",1)
+THEN
+RESPONSE #100
+SetGlobal("TRAnish","BD7220",2)
+CreateCreature("Thief7",[1289.1664],SW)
+CreateCreature("shthass1",[1233.1635],NE)
+Wait(1)
+ActionOverride("shthass1",ChangeAIScript("TR_Ama",OVERRIDE))
+END
+
+IF
+Global("TRAnish","BD7220",2)
+THEN
+RESPONSE #100
+SetGlobal("TRAnish","BD7220",3)
+CreateCreature("bdbugb12",[915.3352],N)
+CreateCreature("bdbugb10",[863.1347],N)
+CreateCreature("bdbugb20",[839.1387],NE)
+CreateCreature("bdbugb12",[1354.994],SW)
+CreateCreature("bdbugb10",[1286.932],SW)
+CreateCreature("bdbugb20",[1221.884],S)
+END
+

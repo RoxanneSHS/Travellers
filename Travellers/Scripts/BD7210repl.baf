@@ -1,0 +1,14 @@
+IF
+Global("TR_ArkanJob","Global",3)
+Global("TRMitsutask","BD7210",0)
+THEN
+RESPONSE #100
+SetGlobal("TRMitsutask","BD7210",1)
+CreateCreature("bdwyvr02",[782.1025],s)
+CreateCreature("bdwyvr03",[977.841],SW)
+CreateCreature("bdwyvr02",[1566.1111],W)
+CreateCreature("bdwyvr02",[1360.846],SSE)
+CreateCreature("bdwyvr02",[1106.707],SW)
+END
+
+

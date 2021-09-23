@@ -1,4 +1,5 @@
 @002 =~This mod is for EET only~
+@003 =~Main component required.~
 @006 =~Pendant of Positive Plane Energy~
 @008 =~This powerful enchanted silver pendant in the shape of an ankh protects a specific person from undead monsters with Negative Energy Plane connections (such as vampires). The enchantment is tuned for one wearer only and does only protect that single person.~
 @009 =~Bardock~
@@ -12,6 +13,10 @@ You may never see this note, at least I hope you won't. You may miss your amulet
 Galken~
 @014 =~Donhard~
 @015 =~Hanson~
+@016 =~In Mask's name, Anishai,
+The meeting has been arranged in four days from your reception of this paper from my messenger. It will be held at Cyric's temple as discussed previously. My Night Knives will assure our security. Bring this invitation with you as authentification for my guards.
+
+A.~
 
 @100 =~You'll not get this ranger easily, fools!~
 @101 =~You there, wait a minute.~
@@ -176,6 +181,32 @@ Somehow - there is this feeling that this story is not over yet...~
 @475= ~We not let <PRO_RACE> go with pendant and other gold and nice things?~
 @476= ~Of course not!~
 @477= ~Ha, 200GP for this trinket? You fool but now fool who owns pendant.~
+
+@724= ~Arkanis Gath's Investigation
+
+There is an unexpected obstacle in my search for Imoen. The guild that has offered me assistance is very nervous due to the current tension in town between rivalling groups. They need proof that I am not involved in any treason against a local leader Renal Bloodscalp.
+I have little information yet but my task is to meet one of their spies, a halfling named Mitsu. The meeting place is not unknown to me, the Cyric temple in the area of Dragonspear Castle that I know from my previous adventures.~
+@725= ~They all do, Mae'Var. For the moment.~
+@726= ~Arkanis Gath's Investigation
+
+I met Mitsu in the Forest of Wyrms near the entrance to the Cyric temple. She warned me of Night Knives, a thief guild from Esmeltaran, who operate in the area and mentioned a representative from the Athkatla guild who may be here as well. I need to explore further to find any evidence that Arkanis Gath may find useful.~
+@727= ~Arkanis Gath's Investigation
+
+I have observed a meeting between a member of Mae'Var's guild and a woman who might have belonged to the Night Knives. I also got a short glimpse of an old acqauintance, the thayan red wizard Edwin, although it did not become clear why he had been there. They all escaped when my presence was discovered.
+
+Other than that, there is no evidence yet to present to Mitsu or Arkanis Gath. Maybe moving further into the old temple will provide me with more tangible evidence.~
+@728= ~Those are quite obstinate, time to leave. I'll have my revenge...~
+@729= ~Arkanis Gath's Investigation
+
+I have found an invitation letter to Mae Var's accomplice for a meeting with a member of the Night Knives, the very meeting I had interrupted earlier. This may be the best evidence I can find to present to Arkanis Gath. I should return to Mitsu and then we should return to Amn.~
+@759 =~To be short, Gaelan recommended you, and then your little trip to the north on behalf of my good Arkanis Gath has qualified you. I am in need of mercenaries to perform a particular task, and you are just the one to do it.~
+@760= ~Arkanis Gath's Investigation
+
+Our mission at the Cyric temple is completed and we need to bring back the evidence and report back to Arkanis Gath at the Athkatla docks. The future will tell which benefit we may get from supporting Renal and his guild.~
+
+@762 =~Arkanis Gath's Investigation
+
+I have delivered the results of our research in the north to Arkanis Gath. The doors to the guild in the docks are now open. I will see which benefits I can get from this in my search for Imoen and Irenicus.~
 
 @1000 =~The Gods have sent you! I remember you, my saviours from Ulgoth's Beard.~
 @1001 =~It looks like you walk in here right at the time when I need help like yours again.~

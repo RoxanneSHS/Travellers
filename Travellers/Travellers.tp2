@@ -1,7 +1,7 @@
 BACKUP ~Travellers/backup~
 AUTHOR ~Roxanne roxanne@baldursextendedworld.com~
 
-VERSION ~v0.4~
+VERSION ~v0.5~
 AUTO_TRA ~Travellers/Lang/%s~
 
 LANGUAGE ~English~ ~english~ ~Travellers/Lang/English/Travellers.tra~
@@ -43,6 +43,15 @@ WRITE_ASCII 0x34 ~galile~ #8
 COPY_EXISTING ~borda.cre~ ~override~
 WRITE_ASCII 0x34 ~borda~ #8
 
+COPY_EXISTING ~arnman04.cre~ ~override~
+WRITE_ASCII 0x34 ~mitsu~ #8
+
+COPY_EXISTING ~thief7.cre~ ~override~
+WRITE_ASCII 0x34 ~thief7~ #8
+
+COPY_EXISTING ~shthass1.cre~ ~override~
+WRITE_ASCII 0x34 ~shthass1~ #8
+
 COPY_EXISTING ~wench1.cre~ ~override/TR_Sonja.cre~
 SAY NAME1 @400
 SAY NAME2 @400
@@ -61,6 +70,9 @@ COPY ~Travellers/misc~ ~override~
 
 COMPILE ~Travellers/baf~
 COMPILE ~Travellers/dialogues~
+
+STRING_SET
+239808 @725
 
 COPY_EXISTING ~TR_Pend.itm~ ~override~
 SAY NAME1 @006
@@ -105,4 +117,24 @@ EXTEND_TOP ~BG1000.bcs~ ~Travellers/scripts/BG1000InBG2.baf~
 EXTEND_TOP ~BG1400.bcs~ ~Travellers/scripts/BG1400Borda.baf~
 EXTEND_TOP ~ar1000.bcs~ ~Travellers/scripts/ar1000Hans.baf~
 
-ADD_JOURNAL @435 @436 @437 @438 @461 @462 @463 @1032 @1033 @1038 @1048 @1050 @1051 @1052 USING ~Travellers/Lang/%LANGUAGE%/Travellers.tra~
+ADD_JOURNAL @435 @436 @437 @438 @461 @462 @463 @724 @726 @727 @729 @760 @762 @1032 @1033 @1038 @1048 @1050 @1051 @1052 USING ~Travellers/Lang/%LANGUAGE%/Travellers.tra~
+
+BEGIN ~Arkanis Gath's Investigation~
+REQUIRE_COMPONENT ~Travellers.tp2~ 0 @003
+EXTEND_TOP ~ar0400.bcs~ ~Travellers/scripts/ar0400Arkanis.baf~
+EXTEND_TOP ~ar0300.bcs~ ~Travellers/scripts/ar0300Arkanis.baf~
+EXTEND_TOP ~stdeath.bcs~ ~Travellers/scripts/Dockguard.baf~
+EXTEND_TOP ~BD7200.bcs~ ~Travellers/scripts/BD7200Mitsu.baf~
+EXTEND_TOP ~BD7210.bcs~ ~Travellers/scripts/BD7210repl.baf~
+EXTEND_TOP ~BD7220.bcs~ ~Travellers/scripts/BD7220Ani.baf~
+EXTEND_TOP ~BD7230.bcs~ ~Travellers/scripts/BD7230Ama.baf~
+
+COPY_EXISTING ~Edwin9.CRE~ ~override/Tredwin.cre~
+WRITE_ASCII 0x2cc ~TRedwin~ #8
+WRITE_ASCII 0x248 ~Initdlg2~ #8
+
+COPY_EXISTING ~Misc78.itm~ ~override/TR_APap.itm~
+SAY 0x50 @016
+
+STRING_SET
+21210 @759

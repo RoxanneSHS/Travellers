@@ -1,0 +1,10 @@
+IF
+Global("TR_ArkanJob","Global",2)
+Global("TRMitsumove","BD7200",0)
+THEN
+RESPONSE #100
+SetGlobal("TRMitsumove","BD7200",1)
+CreateCreature("Arnman04",[2162.1071],W)
+END
+
+

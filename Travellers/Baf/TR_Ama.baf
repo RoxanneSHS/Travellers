@@ -1,0 +1,44 @@
+IF
+Global("TR_ArkanJob","Global",3)
+Detect([PC])
+Range(LastSeenBy(Myself),20)
+THEN
+RESPONSE #100
+ClearAllActions()
+Wait(1)
+StartCutSceneMode()
+Wait(1)
+MoveViewPoint([1289.1664],BD_SWIFT)
+Wait(3)
+ActionOverride("Thief7",StartDialogNoSet("shthass1"))
+END
+
+IF
+Global("TR_ArkanJob","Global",4)
+THEN
+RESPONSE #100
+ActionOverride("Thief7",EscapeAreaDestroy(15))
+Wait(1)
+CreateCreature("Tredwin",[1285.1660],E)
+Wait(1)
+EndCutSceneMode()
+Wait(1)
+EscapeAreaDestroy(15)
+END
+
+IF
+Global("TR_ArkanJob","Global",5)
+AreaCheck("bd7230")  
+Detect([PC])
+Range(LastSeenBy(Myself),15)
+THEN
+RESPONSE #100
+SetGlobal("TR_ArkanJob","Global",6)
+DisplayStringWait(Myself,@728)
+Wait(2)
+ReallyForceSpellRES("Spin118",Myself)
+Wait(2)
+EscapeArea()
+END
+
+
