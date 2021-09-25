@@ -1,0 +1,20 @@
+IF
+Range([PC],10)
+See([PC])
+AreaCheck("bg2609")
+Global("TRCandl","Locals",0)
+THEN
+RESPONSE #100
+SetGlobal("TRCandl","Locals",1)
+DisplayStringHead(Myself,@501)
+SmallWait(5)
+MoveToPoint([940.633])
+END
+
+IF
+AreaCheck("bg2609")
+GlobalGT("Chapter","Global",10)
+THEN
+RESPONSE #100
+DestroySelf()
+END

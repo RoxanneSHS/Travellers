@@ -1,0 +1,34 @@
+IF
+!CombatCounter(0)
+Global("TR_Cyric","MYAREA",0)
+Range([PC],40)
+THEN
+RESPONSE #100
+SetGlobal("TR_Cyric","MYAREA",-1)
+END
+
+IF
+Global("TR_Cyric","MYAREA",-1)
+!Range([PC],40)
+THEN
+RESPONSE #100
+SetGlobal("TR_Cyric","MYAREA",0)
+END
+
+IF
+CombatCounter(0)
+Global("TR_Cyric","MYAREA",0)
+Range([PC],30)
+THEN
+RESPONSE #100
+SetGlobal("TR_Cyric","MYAREA",2)
+CreateCreatureObject("TR_CyrP",Myself,0,0,0)
+CreateCreatureObjectOffset("TR_BhaC2","TR_CyrP",[20.20])
+Wait(2)
+Kill("TR_BhaC2")
+CreateCreatureObjectOffset("TR_BhaC","TR_CyrP",[-40.10])
+ClearAllActions()
+StartCutSceneMode()
+StartCutScene("TR_Rab2")
+END
+

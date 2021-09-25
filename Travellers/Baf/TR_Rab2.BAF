@@ -1,0 +1,24 @@
+IF
+True()
+THEN
+RESPONSE #100
+CutSceneId("TR_CyrP")
+FaceObject("TR_BhaC2")
+MoveViewObject(Myself,BD_NORMAL)
+ActionOverride("TR_BhaC",FaceObject("TR_CyrP"))
+FaceObject("TR_BhaC")
+SmallWait(5)
+DisplayStringHead("TR_BhaC",@502)
+SmallWait(5)
+DisplayStringHead(Myself,@503)
+SmallWait(5)
+SwingOnce()
+Kill("TR_BhaC")
+SmallWait(5)
+DisplayStringHead(Myself,@504)
+Wait(2)
+FaceObject(Player1)
+SmallWait(5)
+StartDialogNoSet(Player1)
+END
+

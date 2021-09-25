@@ -106,6 +106,12 @@ COPY_EXISTING ~TR_Hanso.CRE~ ~override~
 SAY NAME1 @015
 SAY NAME2 @015
 
+COPY_EXISTING ~TR_BhaC.CRE~ ~override/TR_BhaC2.CRE~
+WRITE_ASCII 0x280 ~TR_BhaC2~ #9
+
+COPY_EXISTING ~BDCCIre.CRE~ ~override~
+WRITE_ASCII 0x248 ~BDCCIre~ #8
+
 EXTEND_TOP ~bg2900.bcs~ ~Travellers/scripts/BG2900Valy.baf~
 EXTEND_TOP ~bg4100.bcs~ ~Travellers/scripts/BG4100Sami.baf~
 EXTEND_TOP ~Samia.bcs~ ~Travellers/scripts/SamiInv.baf~
@@ -116,6 +122,7 @@ EXTEND_TOP ~ar0515.bcs~ ~Travellers/scripts/Ar0515Sonja.baf~
 EXTEND_TOP ~BG1000.bcs~ ~Travellers/scripts/BG1000InBG2.baf~
 EXTEND_TOP ~BG1400.bcs~ ~Travellers/scripts/BG1400Borda.baf~
 EXTEND_TOP ~ar1000.bcs~ ~Travellers/scripts/ar1000Hans.baf~
+EXTEND_TOP ~bg2609.bcs~ ~Travellers/scripts/bg2609hood.baf~
 
 ADD_JOURNAL @435 @436 @437 @438 @461 @462 @463 @724 @726 @727 @729 @760 @762 @1032 @1033 @1038 @1048 @1050 @1051 @1052 USING ~Travellers/Lang/%LANGUAGE%/Travellers.tra~
 

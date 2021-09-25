@@ -5,6 +5,7 @@ BEGIN TR_Sonja
 BEGIN TR_Vamp
 BEGIN TR_CHIL1
 BEGIN TR_CHIL2
+BEGIN TR_CyrP
 
 //Valygar
 
@@ -413,3 +414,23 @@ CHAIN
 IF~~THEN PGOND Pend2
 @465
 =@466 DO~SetGlobal("TR_KnowGond","Global",5) ClearAllActions() Wait(1)StartCutSceneMode() StartCutScene("TR_cut1") ~EXIT
+
+//Bhaal vs Cyric
+CHAIN
+IF~Global("TR_Cyric","MYAREA",2)~THEN TR_CyrP Peldv1
+@505
+DO~SetGlobal("TR_Cyric","MYAREA",3)~
+END
+++@506 + Peldv2
+++@507 + Peldv2
+++@508 + Peldv2
+++@509 + Peldv2
+
+CHAIN
+IF~~THEN TR_CyrP  Peldv2
+@510 DO~Enemy() EndCutSceneMode() Attack(Player1)~EXIT
+
+//Hooded Man in Candlekeep
+CHAIN
+IF WEIGHT #-5~Global("TRCandl","Locals",1)AreaCheck("bg2609")~THEN BDCCIre Candl
+@500 DO~EscapeAreaDestroy(15)~EXIT

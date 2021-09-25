@@ -1,4 +1,13 @@
 IF
+Global("TR_bhaal","bg2900",0)
+THEN
+RESPONSE #100
+SetGlobal("TR_bhaal","bg2900",1)
+CreateCreature("TR_Rab1",[1019.3156],S)
+Continue()
+END
+
+IF
 Global("TR_ValyBG1","Global",0)
 !Global("Chapter","GLOBAL",3)
 THEN
@@ -19,3 +28,4 @@ CreateCreature("TR_Valyg",[3345.3166],S)
 Wait(2)
 ActionOverride("TR_Valyg",MoveToObject(Player1))
 END
+

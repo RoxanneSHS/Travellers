@@ -1,0 +1,8 @@
+IF
+Global("TR_bhaal","bg2609",0)
+THEN
+RESPONSE #100
+SetGlobal("TR_bhaal","bg2609",1)
+CreateCreature("bdccire",[1366.807],NNE)
+Continue()
+END
