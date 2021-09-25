@@ -29,3 +29,12 @@ Wait(2)
 ActionOverride("TR_Valyg",MoveToObject(Player1))
 END
 
+IF
+Global("TR_Meeting","bg2900",1)
+Delay(20)
+InMyArea("TR_Valyg")
+THEN
+RESPONSE #100
+Deactivate("TR_Valyg")
+END
+
