@@ -11,5 +11,5 @@ DisplayString(Myself,@100)
 Wait(2)
 UseItem("potn10",Myself)
 Wait(4)
-EscapeArea()
+EscapeAreaDestroy(20)
 END
