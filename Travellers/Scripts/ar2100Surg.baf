@@ -1,0 +1,8 @@
+IF
+Global("SurgeonStory","GLOBAL",3)
+THEN
+RESPONSE #100
+SetGlobal("SurgeonStory","GLOBAL",4)
+CreateCreature("Surgeo",[2223.1255],N)
+Continue()
+END
