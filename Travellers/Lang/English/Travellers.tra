@@ -220,6 +220,25 @@ Our mission at the Cyric temple is completed and we need to bring back the evide
 
 I have delivered the results of our research in the north to Arkanis Gath. The doors to the guild in the docks are now open. I will see which benefits I can get from this in my search for Imoen and Irenicus.~
 
+@900 =~Ah, I think I found the right <PRO_MANWOMAN>, Gorion' Ward, am I right, my friend?~
+@901 =~Maybe you'd introduce yourself before I can say you're a friend?~
+@902 =~What would you know about Gorion, mage?~
+@903 =~Leave me be, mage, I have reason to trust nobody here today.~
+@904 =~Well, I was well acquainted with Gorion when both of us were younger. We...share a common adventure - and that is the reason I am here today. My name is Conster, maybe your foster father mentioned me on occasions?~
+@905 =~I can't recall Gorion having mentioned that name ever.~
+@906 =~Gorion did never talk about his younger days or adventures.~
+@907 =~Maybe he had his reasons. We were young and some deeds may not have been as heroic as we had thought at the time. But let me not digress, I came to talk about the present rather than the past.~
+@908 =~Your current situation here in Baldur's Gate is really unfortunate - if not outright endangered. My Lord Firkraag may be of help for you. If you help him, that is.~
+@909 =~What kind of help will that be?~
+@910 =~I am quite busy to resolve the situation and can't have another diversion.~
+@911 =~His offer will take you out of this whole current mess and give you a new chance in Amn...ex...excuse me...~
+@912 =~Ah, <CHARNAME>, good to see you making such progress.~
+@913 =~Now he left before he could tell me more about Gorion. You evade that topic every time we meet.~
+@914 =~That mage was in a hurry to leave the moment he saw you. Do you know him?~
+@915 =~By the Nine Hells, you scared away an old friend of Gorion who might have helped me!~
+@916 =~That mage? I may have arrived just in time to prevent whatever he had in mind. Anyway...~
+@917 =~You have little time to waste on him and his business now. Your name needs to be restored and Sarevok must be stopped. No time for more idle talk, <CHARNAME>.~
+
 @1000 =~The Gods have sent you! I remember you, my saviours from Ulgoth's Beard.~
 @1001 =~It looks like you walk in here right at the time when I need help like yours again.~
 @1002 =~I remember you. And I recall that you never said thank you back then.~

@@ -1,0 +1,10 @@
+IF
+Global("Chapter","GLOBAL",7)
+Global("Tr_ConstBG1","bg0112",0)
+Delay(10)
+THEN
+RESPONSE #100
+SetGlobal("Tr_ConstBG1","bg0112",1)
+CreateCreatureObjectOffset("TR_Cons",Player1,[-5.-5])
+Continue()
+END

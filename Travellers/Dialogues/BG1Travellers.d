@@ -434,3 +434,43 @@ IF~~THEN TR_CyrP  Peldv2
 CHAIN
 IF WEIGHT #-5~Global("TRCandl","Locals",1)AreaCheck("bg2609")~THEN BDCCIre Candl
 @500 DO~EscapeAreaDestroy(15)~EXIT
+
+//Conster's Offer
+CHAIN
+IF~Global("Tr_ConstBG1","bg0112",1)~THEN Firmag01 FirOff1
+@900
+DO~SetGlobal("Tr_ConstBG1","bg0112",2)~
+END
+++@901 + FirOff2
+++@902 + FirOff2
+++@903 + FirOff2
+
+CHAIN
+IF~~THEN Firmag01 FirOff2
+@904
+END
+++@905 + FirOff3
+++@906 + FirOff3
+
+CHAIN
+IF~~THEN Firmag01 FirOff3
+@907
+DO~CreateCreatureObjectOffset("Amelm01","TR_cons",[20.20])~
+=@908
+END
+++@909 + FirOff4
+++@910 + FirOff4
+
+CHAIN
+IF~~THEN Firmag01 FirOff4
+@911 DO~Deactivate("TR_Cons")~
+==Amelm01 @912 DO~SetNumTimesTalkedTo(1)~
+END
+++@913 EXTERN Amelm01 FirOff5
+++@914 EXTERN Amelm01 FirOff5
+++@915 EXTERN Amelm01 FirOff5
+
+CHAIN
+IF~~THEN Amelm01 FirOff5
+@916
+=@917 DO~EscapeArea()~EXIT
