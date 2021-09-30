@@ -1,0 +1,16 @@
+IF
+True()
+THEN
+RESPONSE #100
+CutSceneId(Player1)
+SetGlobal("TR_ambushplan","Global",3)
+ClearAllActions()
+FadeToColor([30.0],0)
+Wait(2)
+ActionOverride("bdireni",DestroySelf())
+ActionOverride("maevar",DestroySelf())
+Wait(2)
+RestorePartyLocations()
+Wait(5)
+StartCutScene("bdcut60")
+END

@@ -1,7 +1,7 @@
 BACKUP ~Travellers/backup~
 AUTHOR ~Roxanne roxanne@baldursextendedworld.com~
 
-VERSION ~v0.62~
+VERSION ~v0.64~
 AUTO_TRA ~Travellers/Lang/%s~
 
 LANGUAGE ~English~ ~english~ ~Travellers/Lang/English/Travellers.tra~
@@ -42,6 +42,9 @@ WRITE_ASCII 0x34 ~galile~ #8
 
 COPY_EXISTING ~borda.cre~ ~override~
 WRITE_ASCII 0x34 ~borda~ #8
+
+COPY_EXISTING ~maevar.cre~ ~override~
+WRITE_ASCII 0x34 ~maevar~ #8
 
 COPY_EXISTING ~arnman04.cre~ ~override~
 WRITE_ASCII 0x34 ~mitsu~ #8

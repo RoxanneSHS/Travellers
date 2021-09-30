@@ -220,7 +220,7 @@ Our mission at the Cyric temple is completed and we need to bring back the evide
 
 I have delivered the results of our research in the north to Arkanis Gath. The doors to the guild in the docks are now open. I will see which benefits I can get from this in my search for Imoen and Irenicus.~
 
-@900 =~Ah, I think I found the right <PRO_MANWOMAN>, Gorion' Ward, am I right, my friend?~
+@900 =~Ah, I think I found the right <PRO_MANWOMAN>, Gorion's Ward, am I right, my friend?~
 @901 =~Maybe you'd introduce yourself before I can say you're a friend?~
 @902 =~What would you know about Gorion, mage?~
 @903 =~Leave me be, mage, I have reason to trust nobody here today.~
@@ -238,6 +238,10 @@ I have delivered the results of our research in the north to Arkanis Gath. The d
 @915 =~By the Nine Hells, you scared away an old friend of Gorion who might have helped me!~
 @916 =~That mage? I may have arrived just in time to prevent whatever he had in mind. Anyway...~
 @917 =~You have little time to waste on him and his business now. Your name needs to be restored and Sarevok must be stopped. No time for more idle talk, <CHARNAME>.~
+@920 =~...impossible to snatch the Hero of Baldur's Gate from under the nose of the Flaming Fist. It is impossible to get near to <PRO_HIMHER> unnoticed. Regardless of the substantial sum you're offering. I can't risk my men without weakening my position in Athkatla.~
+@921 =~This will change very soon, Mae'Var, <PRO_HESHE> will be happy to get out of Baldur's Gate alive when my plan has succeeded. All you will need to do is to pick <PRO_HIMHER> up and arrange the transport to Amn.~
+@922 =~How will I know when and where to strike?~
+@923 =~Place your spies at the prison of the Flaming Fist. Nobody fades better into the background than a thief in a jail, I'd say.~
 
 @1000 =~The Gods have sent you! I remember you, my saviours from Ulgoth's Beard.~
 @1001 =~It looks like you walk in here right at the time when I need help like yours again.~

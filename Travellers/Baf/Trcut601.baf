@@ -1,0 +1,21 @@
+IF
+True()
+THEN
+RESPONSE #100
+CutSceneId(Player1)
+SetGlobal("TR_ambushplan","Global",1)
+ClearAllActions()
+FadeToColor([30.0],0)
+Wait(2)
+StorePartyLocations()
+LeaveAreaLUA("bg0153","",[852.657],N)
+Wait(1)
+FadeFromColor([20.0],0)
+CreateCreature("maevar",[916.416],W)
+CreateCreature("bdireni",[841.400],E)
+Wait(2)
+MoveViewPoint([916.416],BD_NORMAL)
+Wait(2)
+ActionOverride("maevar",StartDialogNoSet("bdireni"))
+END
+
