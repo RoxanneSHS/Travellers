@@ -1,0 +1,12 @@
+IF
+Global("TR_ambushplan","Global",4)
+AreaCheck("bd0105")
+See([PC])
+Range([PC],10)
+THEN
+RESPONSE #100
+SetGlobal("TR_ambushplan","Global",5)
+DisplayStringHead(Myself,@924)
+Wait(2)
+EscapeArea()
+END

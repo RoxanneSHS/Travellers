@@ -1,0 +1,8 @@
+IF
+Global("TR_ambushplan","Global",3)
+THEN
+RESPONSE #100
+SetGlobal("TR_ambushplan","Global",4)
+CreateCreature("thief8",[489.307],SE)
+Continue()
+END
