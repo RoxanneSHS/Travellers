@@ -1,0 +1,9 @@
+IF
+Global("TR_HobLetGo","Global",3)
+THEN
+RESPONSE #100
+SetGlobal("TR_HobLetGo","Global",4)
+CreateCreature("hobgo5",[2073.1961],SSW)
+TriggerActivation("Chapter 6 trap",FALSE)
+Continue()
+END

@@ -17,6 +17,7 @@ Galken~
 The meeting has been arranged in four days from your reception of this paper from my messenger. It will be held at Cyric's temple as discussed previously. My Night Knives will assure our security. Bring this invitation with you as authentication for my guards.
 
 A.~
+@017 =~Grajuk~
 
 @100 =~You'll not get this ranger easily, fools!~
 @101 =~You there, wait a minute.~
@@ -193,6 +194,19 @@ Somehow - there is this feeling that this story is not over yet...~
 @508= ~What is this place and who is that Bhaal you talk about?~
 @509= ~Bhaal, the dead god of murder...Cyric his replacement...~
 @510= ~But the smell of tainted blood on you? How come? I will not risk your escape. You die with your cult here today.~
+
+@520= ~You there! You helped Grajuk at lake in south. Why you here, you'll get in trouble with Chill.~
+@521= ~Get out of here while you can. Yes, there'll be trouble soon and many Chill will die.~
+@522= ~I helped you so I don't expect you to cause any problem this time.~
+@523= ~If you tell anyone about me, Grajuk, you'll be the first to die today.~
+@524= ~Grajuk no fool. Know when trouble come. Me, I pretend that not seen you today. Chill here are nothing but fools to follow ogre command. I'll just leave and not care.~
+@525= ~I cannot let you live and raise the alert, sorry, Grajuk.~
+@526= ~You there! You helped Grajuk twice now so today I'll help you.~
+@527= ~That ogre in command of the bandits, Tazok, he's here waiting for his revenge on you.~
+@528= ~But I killed him in Baldur's Gate some time ago already.~
+@529= ~How can he know I am coming?~
+@530= ~The master of this place has many powers. He brought Tazok back to life and he knows who is coming here long in advance.~
+@531= ~But for Grajuk is a good time to move on. Where you come is never a good place to stay.~ 
 
 @724= ~Arkanis Gath's Investigation
 

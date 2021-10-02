@@ -15,6 +15,10 @@ SPOILER
 - The barmaid and the vampire is the first larger quest. It starts in Ulgoth's Beard and covers the initial quest and a sequel in Amn that requires a return to the BG1 areas. Various solutions are offered for roleplaying.
 - Bhaal vs Cyric
 - A hooded man in Candlekeep
+- A hesitant Chill
+- The journey of the surgeon
+- Conster's offer
+- Mae'Var and the Night Knives
 
 Component Arkanis Gath's Investigation
 This is an optional quest, left to user's inclusion because it impacts the main story (without changing it though). Renal and his guild are alarmed by the time the player reaches Amn. Before you can meet Renal you have to proof yourself to Arkanis Gath. The quest involves a trip back to BG1/SoD areas. After you finished the task, the doors to the guild in the docks are open and all related content is available as normal (or expanded by other mods).

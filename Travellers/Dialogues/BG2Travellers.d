@@ -173,3 +173,18 @@ CHAIN
 IF~~THEN TR_Hanso Thanks3
 @1070
 =@1071 DO~ EscapeAreaDestroy(45)~EXIT
+
+//Chill warning
+CHAIN
+IF WEIGHT #-7~Global("TR_HobLetGo","Global",4)~THEN Hobgo5 Tazwarn
+@526
+DO~SetGlobal("TR_HobLetGo","Global",5)~
+=@527
+END
+++ @528 + Tazwarn2
+++ @529 + Tazwarn2
+
+CHAIN
+IF~~THEN Hobgo5 Tazwarn2
+@530
+=@531 DO~EscapeArea()~EXIT

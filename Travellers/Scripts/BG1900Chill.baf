@@ -14,8 +14,8 @@ CreateCreature("BHOBGOB",[4635.908],N)
 END
 
 IF
-PartyHasItem("TR_Pend2")
 Global("TRJournal","BG1900",0)
+PartyHasItem("TR_Pend2")
 THEN
 RESPONSE #100
 SetGlobal("TRJournal","BG1900",1)
@@ -29,6 +29,15 @@ Dead("TR_Chill1")
 THEN
 RESPONSE #100
 SetGlobal("TR_KnowGond","Global",4)
+END
+
+IF
+Global("TR_HobLetGo","Global",1)
+THEN
+RESPONSE #100
+SetGlobal("TR_HobLetGo","Global",2)
+CreateCreature("hobgo5",[1780.1207],W)
+Continue()
 END
 
 

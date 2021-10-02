@@ -1,7 +1,7 @@
 BACKUP ~Travellers/backup~
 AUTHOR ~Roxanne roxanne@baldursextendedworld.com~
 
-VERSION ~v0.64~
+VERSION ~v0.66~
 AUTO_TRA ~Travellers/Lang/%s~
 
 LANGUAGE ~English~ ~english~ ~Travellers/Lang/English/Travellers.tra~
@@ -60,6 +60,10 @@ WRITE_ASCII 0x34 ~surgeo~ #8
 
 COPY_EXISTING ~firmag01.cre~ ~override~
 WRITE_ASCII 0x34 ~firmag01~ #8
+
+COPY_EXISTING ~hobgo5.cre~ ~override~
+SAY NAME1 @017
+SAY NAME2 @017
 
 COPY_EXISTING ~firmag01.cre~ ~override/TR_cons.cre~
 WRITE_ASCII 0x248 ~initdlg~ #8
@@ -142,6 +146,7 @@ EXTEND_TOP ~ar2100.bcs~ ~Travellers/scripts/ar2100Surg.baf~
 EXTEND_TOP ~ar5000.bcs~ ~Travellers/scripts/ar5000Surg.baf~
 EXTEND_TOP ~bg0112.bcs~ ~Travellers/scripts/bg0112Cons.baf~
 EXTEND_TOP ~bd0105.bcs~ ~Travellers/scripts/bd0105mess.baf~
+EXTEND_TOP ~ar1202.bcs~ ~Travellers/scripts/ar1202Chill.baf~
 
 ADD_JOURNAL @435 @436 @437 @438 @461 @462 @463 @724 @726 @727 @729 @760 @762 @1032 @1033 @1038 @1048 @1050 @1051 @1052 USING ~Travellers/Lang/%LANGUAGE%/Travellers.tra~
 

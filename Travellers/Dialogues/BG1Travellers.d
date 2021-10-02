@@ -474,3 +474,22 @@ CHAIN
 IF~~THEN Amelm01 FirOff5
 @916
 =@917 DO~EscapeArea()~EXIT
+
+//A hesitant Chill
+ADD_TRANS_ACTION HOBGO5 BEGIN 0 END BEGIN 1 END ~SetGlobal("TR_HobLetGo","Global",1)~
+ADD_TRANS_ACTION HOBGO5 BEGIN 2 END BEGIN 0 END ~SetGlobal("TR_HobLetGo","Global",1)~
+ADD_TRANS_ACTION HOBGO5 BEGIN 5 END BEGIN 0 END ~SetGlobal("TR_HobLetGo","Global",1)~
+
+CHAIN
+IF WEIGHT #-7~Global("TR_HobLetGo","Global",2)~THEN Hobgo5 Bancam
+@520
+DO~SetGlobal("TR_HobLetGo","Global",3)~
+END
+++@521 + Bancam2
+++@522 + Bancam2
+++@525 DO~SetGlobal("JoinedBandits","GLOBAL",0)Enemy()~EXIT
+++@523 + Bancam2
+
+CHAIN
+IF~~THEN Hobgo5 Bancam2
+@524 DO~EscapeArea()~EXIT
