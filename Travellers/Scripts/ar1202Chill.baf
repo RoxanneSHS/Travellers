@@ -1,5 +1,6 @@
 IF
 Global("TR_HobLetGo","Global",3)
+!Dead("Hobgo5")
 THEN
 RESPONSE #100
 SetGlobal("TR_HobLetGo","Global",4)
