@@ -1,0 +1,9 @@
+IF
+Global("RT_SaemLob","bg0133",0)
+GlobalLT("Chapter","Global",10)
+THEN
+RESPONSE #100
+SetGlobal("RT_SaemLob","bg0133",1)
+CreateCreature("ppsaem",[277.269],SE)
+ActionOverride("ppsaem",ChangeAIScript("initdlg",OVERRIDE))
+END
