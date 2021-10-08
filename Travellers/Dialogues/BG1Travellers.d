@@ -499,3 +499,5 @@ CHAIN
 IF~Global("RT_SaemLob","bg0133",1)~THEN PPSaem Lobar
 @532
 DO~GiveItemCreate("sw2h15a",LastTalkedToBy,0,0,0) Wait(1) EscapeArea()~EXIT
+
+

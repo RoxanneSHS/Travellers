@@ -1,0 +1,11 @@
+IF
+Global("TR_KiriLetGo","Global",1)
+THEN
+RESPONSE #100
+SetGlobal("TR_KiriLetGo","Global",2)
+CreateCreature("Kirian",[417.1131],NE)
+CreateCreature("Lindin",[585.1223],NE)
+CreateCreature("Peter",[506.1290],W)
+CreateCreature("Baerin",[641.1319],NE)
+Continue()
+END

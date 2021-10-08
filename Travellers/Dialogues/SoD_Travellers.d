@@ -38,3 +38,20 @@ IF~~THEN Surgeo Sarad2
 @809
 END
 IF~~THEN GOTO 2
+
+//A nasty party
+ADD_TRANS_ACTION Kirian BEGIN 2 END BEGIN 0 END ~SetGlobal("TR_KiriLetGo","Global",1)~
+
+CHAIN
+IF WEIGHT #-7~Global("TR_KiriLetGo","Global",2)~THEN Kirian Thistime
+@540
+DO~SetGlobal("TR_KiriLetGo","Global",3)~
+END
+++ @541 + ThistimeE
+++ @542 + ThistimeE
+++ @543 + ThistimeE
+
+CHAIN
+IF~~ THEN Kirian ThistimeE
+@544
+DO~ActionOverride("LINDIN",Enemy()) ActionOverride("BAERIN",Enemy()) ActionOverride("PETER",Enemy()) Enemy()~EXIT
