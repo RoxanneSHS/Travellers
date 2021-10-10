@@ -188,3 +188,20 @@ CHAIN
 IF~~THEN Hobgo5 Tazwarn2
 @530
 =@531 DO~EscapeArea()~EXIT
+
+// Landrin opens Baldurs Gate
+CHAIN
+IF WEIGHT #-8~GlobalGT("HelpLandrin","GLOBAL",2)AreaCheck("ar0021")~THEN Landri AmnHelp1
+#214913 
+DO~ AddJournalEntry(@1200,QUEST)~
+=@1202
+END
+IF~Global("HelpLandrin","GLOBAL",4)~THEN DO~ SetGlobal("HelpLandrin","GLOBAL",5) EscapeArea()~ EXIT
+IF~!Global("HelpLandrin","GLOBAL",4)~THEN DO~ SetGlobal("HelpLandrin","GLOBAL",5) MoveBetweenAreas("BG3315",[334.283],S)~ EXIT
+
+CHAIN
+IF WEIGHT #-8~ Global("HelpLandrin","GLOBAL",5) AreaCheck("BG3315")~THEN Landri AmnHelp2
+@1203
+DO~SetGlobal("HelpLandrin","GLOBAL",6) EraseJournalEntry(@1200)~
+=@1204
+=@1205 DO~AddJournalEntry(@1201,QUEST_DONE) Wait(2) EscapeArea()~EXIT

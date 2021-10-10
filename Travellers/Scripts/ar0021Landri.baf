@@ -1,0 +1,9 @@
+IF
+GlobalGT("HelpLandrin","GLOBAL",2)
+Global("Tr_Landri","ar0021",0)
+THEN
+RESPONSE #100
+SetGlobal("Tr_Landri","ar0021",1)
+CreateCreature("Landri",[546.424],SE)
+Continue()
+END

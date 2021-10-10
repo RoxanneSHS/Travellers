@@ -1,7 +1,7 @@
 BACKUP ~Travellers/backup~
 AUTHOR ~Roxanne roxanne@baldursextendedworld.com~
 
-VERSION ~v0.68~
+VERSION ~v0.69~
 AUTO_TRA ~Travellers/Lang/%s~
 
 LANGUAGE ~English~ ~english~ ~Travellers/Lang/English/Travellers.tra~
@@ -42,6 +42,9 @@ WRITE_ASCII 0x34 ~galile~ #8
 
 COPY_EXISTING ~kirian.cre~ ~override~
 WRITE_ASCII 0x34 ~kirian~ #8
+
+COPY_EXISTING ~landri.cre~ ~override~
+WRITE_ASCII 0x34 ~landri~ #8
 
 COPY_EXISTING ~borda.cre~ ~override~
 WRITE_ASCII 0x34 ~borda~ #8
@@ -155,8 +158,10 @@ EXTEND_TOP ~bd0105.bcs~ ~Travellers/scripts/bd0105mess.baf~
 EXTEND_TOP ~bd7400.bcs~ ~Travellers/scripts/bd7400Kiri.baf~
 EXTEND_TOP ~ar1202.bcs~ ~Travellers/scripts/ar1202Chill.baf~
 EXTEND_TOP ~BG0133.bcs~ ~Travellers/scripts/BG0133Saem.baf~
+EXTEND_TOP ~ar0021.bcs~ ~Travellers/scripts/ar0021Landri.baf~
+EXTEND_TOP ~BG0900.bcs~ ~Travellers/scripts/bg0900Open.baf~
 
-ADD_JOURNAL @435 @436 @437 @438 @461 @462 @463 @724 @726 @727 @729 @760 @762 @1032 @1033 @1038 @1048 @1050 @1051 @1052 USING ~Travellers/Lang/%LANGUAGE%/Travellers.tra~
+ADD_JOURNAL @435 @436 @437 @438 @461 @462 @463 @724 @726 @727 @729 @760 @762 @1032 @1033 @1038 @1048 @1050 @1051 @1052 @1200 @1201 USING ~Travellers/Lang/%LANGUAGE%/Travellers.tra~
 
 BEGIN ~Arkanis Gath's Investigation~
 REQUIRE_COMPONENT ~Travellers.tp2~ 0 @003
