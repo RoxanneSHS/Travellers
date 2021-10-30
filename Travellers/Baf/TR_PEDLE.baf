@@ -4,7 +4,7 @@ Global("Peddlerstay","Locals",0)
 THEN
 RESPONSE #100
 SetGlobal("Peddlerstay","Locals",1)
-RealSetGlobalTimer("Peddlertime","Locals",FOUR_MINUTES)
+RealSetGlobalTimer("Peddlertime","Locals",TEN_MINUTES)
 SetGlobalTimer("Peddlerspawn","Global",TEN_DAYS)
 END
 
