@@ -1,0 +1,21 @@
+IF
+Global("HelpLaurel","GLOBAL",1)
+THEN
+RESPONSE #100
+SetGlobal("HelpLaurel","GLOBAL",2)
+CreateCreature("laurel",[3726.1307],SW)
+CreateCreature("golsanl",[4727.379],W)
+CreateCreature("golsanl",[4264.228],W)
+CreateCreature("Rakruhl",[3849.1707],E)
+ActionOverride("Rakruhl",MoveBetweenAreas("ar1905",[555.334],SW))
+Continue()
+END
+
+IF
+Global("HelpLaurel","GLOBAL",2)
+Dead("Rakruhl")
+Global("Sprite_is_DeadGolsanl","Global",2)
+THEN
+RESPONSE #100
+SetGlobal("HelpLaurel","GLOBAL",3)
+END

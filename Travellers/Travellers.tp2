@@ -1,7 +1,7 @@
 BACKUP ~Travellers/backup~
 AUTHOR ~Roxanne roxanne@baldursextendedworld.com~
 
-VERSION ~v0.69~
+VERSION ~v0.70~
 AUTO_TRA ~Travellers/Lang/%s~
 
 LANGUAGE ~English~ ~english~ ~Travellers/Lang/English/Travellers.tra~
@@ -67,6 +67,9 @@ WRITE_ASCII 0x34 ~shthass1~ #8
 COPY_EXISTING ~surgeo.cre~ ~override~
 WRITE_ASCII 0x34 ~surgeo~ #8
 
+COPY_EXISTING ~laurel.cre~ ~override~
+WRITE_ASCII 0x34 ~laurel~ #8
+
 COPY_EXISTING ~firmag01.cre~ ~override~
 WRITE_ASCII 0x34 ~firmag01~ #8
 
@@ -77,6 +80,11 @@ SAY NAME2 @017
 COPY_EXISTING ~firmag01.cre~ ~override/TR_cons.cre~
 WRITE_ASCII 0x248 ~initdlg~ #8
 WRITE_ASCII 0x280 ~TR_cons~ #8
+
+COPY_EXISTING ~rakruh01.cre~ ~override/Rakruhl.cre~
+WRITE_ASCII 0x280 ~Rakruhl~ #8
+COPY_EXISTING ~golsan01.cre~ ~override/golsanl.cre~
+WRITE_ASCII 0x280 ~golsanl~ #8
 
 COPY_EXISTING ~wench1.cre~ ~override/TR_Sonja.cre~
 SAY NAME1 @400
@@ -149,6 +157,7 @@ EXTEND_TOP ~ar0515.bcs~ ~Travellers/scripts/Ar0515Sonja.baf~
 EXTEND_TOP ~BG1000.bcs~ ~Travellers/scripts/BG1000InBG2.baf~
 EXTEND_TOP ~BG1400.bcs~ ~Travellers/scripts/BG1400Borda.baf~
 EXTEND_TOP ~ar1000.bcs~ ~Travellers/scripts/ar1000Hans.baf~
+EXTEND_TOP ~ar1900.bcs~ ~Travellers/scripts/ar1900laurel.baf~
 EXTEND_TOP ~bg2609.bcs~ ~Travellers/scripts/bg2609hood.baf~
 EXTEND_TOP ~bd2000.bcs~ ~Travellers/scripts/bd2000Surg.baf~
 EXTEND_TOP ~ar2100.bcs~ ~Travellers/scripts/ar2100Surg.baf~

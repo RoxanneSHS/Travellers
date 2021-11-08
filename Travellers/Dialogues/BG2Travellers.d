@@ -205,3 +205,41 @@ IF WEIGHT #-8~ Global("HelpLandrin","GLOBAL",5) AreaCheck("BG3315")~THEN Landri 
 DO~SetGlobal("HelpLandrin","GLOBAL",6) EraseJournalEntry(@1200)~
 =@1204
 =@1205 DO~AddJournalEntry(@1201,QUEST_DONE) Wait(2) EscapeArea()~EXIT
+
+// Laurel in Amn
+CHAIN
+IF WEIGHT #-8~Global("HelpLaurel","GLOBAL",3)~THEN Laurel AmnOff
+@1309 DO~AddexperienceParty(1250) SetGlobal("HelpLaurel","GLOBAL",4) EscapeArea()~EXIT
+
+CHAIN
+IF WEIGHT #-8~Global("HelpLaurel","GLOBAL",2)Global("TR_Laurel","ar1900",1)~THEN Laurel AmnTask1
+@1310
+END
+++@1313 + AmnTask3
++~Dead("Rakruhl")~+@1314 + AmnTask4
++~Global("Sprite_is_DeadGolsanl","Global",1)~+@1315 + AmnTask4
+
+CHAIN
+IF~~THEN Laurel AmnTask3
+@1311 EXIT
+
+CHAIN
+IF~~THEN Laurel AmnTask4
+@1312 EXIT
+
+CHAIN
+IF WEIGHT #-8~Global("HelpLaurel","GLOBAL",2)Global("TR_Laurel","ar1900",0)~THEN Laurel AmnTask1
+@1301
+DO~SetGlobal("TR_Laurel","ar1900",1)~
+END
+++@1302 + AmnTask2
+++@1303 + AmnTask2
+++@1304 + AmnTask2
+
+CHAIN
+IF~~THEN Laurel AmnTask2
+@1305
+END
+++@1306 EXIT
+++@1307 EXIT
+++@1308 EXIT
