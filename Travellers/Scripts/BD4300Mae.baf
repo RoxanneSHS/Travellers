@@ -1,0 +1,9 @@
+IF
+Global("TR_ambushplan","Global",0)
+PartyHasItem("BDKey02")
+Delay(6)
+THEN
+RESPONSE #100
+StartCutSceneMode()
+StartCutScene("Trcut601")
+END
