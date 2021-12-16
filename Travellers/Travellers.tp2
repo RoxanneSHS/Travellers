@@ -178,6 +178,7 @@ REQUIRE_COMPONENT ~Travellers.tp2~ 0 @003
 
 EXTEND_TOP ~ar0400.bcs~ ~Travellers/scripts/ar0400Arkanis.baf~
 EXTEND_TOP ~ar0300.bcs~ ~Travellers/scripts/ar0300Arkanis.baf~
+EXTEND_TOP ~jaheira.bcs~ ~Travellers/scripts/JaheiraSet.baf~
 EXTEND_TOP ~stdeath.bcs~ ~Travellers/scripts/Dockguard.baf~
 EXTEND_TOP ~BD7200.bcs~ ~Travellers/scripts/BD7200Mitsu.baf~
 EXTEND_TOP ~BD7210.bcs~ ~Travellers/scripts/BD7210repl.baf~

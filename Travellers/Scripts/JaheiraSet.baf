@@ -1,0 +1,10 @@
+IF
+Global("LoveTalk","LOCALS",0)
+Global("JaheiraMatch","GLOBAL",1)
+Global("ShadowWork","GLOBAL",62)
+THEN
+RESPONSE #100
+SetGlobal("LoveTalk","LOCALS",1)
+SetGlobal("JaheiraRomanceActive","GLOBAL",1)
+RealSetGlobalTimer("JaheiraRomance","GLOBAL",TWO_MINUTES)
+END
