@@ -1,401 +1,412 @@
 @002 =~This mod is for EET only~
 @003 =~Main component required.~
-@006 =~Pendant of Positive Plane Energy~
-@008 =~This powerful enchanted silver pendant in the shape of an ankh protects a specific person from undead monsters with Negative Energy Plane connections (such as vampires). The enchantment is tuned for one wearer only and does only protect that single person.~
-@009 =~Bardock~
-@010 =~Kurg~
-@011 =~Sword Pendant~
-@012 =~Note to Sonja~
-@013 =~Dear Sonja, my friend,
+@006 =~Кулон Энергии Положительного Плана~
+@008 =~Этот мощный зачарованный серебряный кулон в форме анкха защищает определенную персону от монстров-нежити связанных с Планом Негативной Энергии (например, вампиров). Зачарование настроено только на владельца и защищает только эту персону.~
+@009 =~Бардок~
+@010 =~Кург~
+@011 =~Кулон Меча~
+@012 =~Записка Соне~
+@013 =~Дорогая Соня, моя подруга,
 
-You may never see this note, at least I hope you won't. You may miss your amulet that was in its place or maybe you won't. Anyway, I took it because I am in deep trouble. The moneylender will have me beaten up or worse if I don't pay him tonight. Pawning your stuff is my last chance to get the coins I need so urgently. The bartender told me about a pawnbroker, so once I have some honest money I will get your amulet back and put it back and destroy this note and you will never know. Hopefully.
+Возможно, ты никогда не увидишь эту записку, по крайней мере, я надеюсь, что не увидишь. Возможно, ты будешь скучать по своему амулету, который занимал своё место, а может, и не будешь. В любом случае, мне пришлось взять его, потому что у меня большие неприятности. Если я не заплачу сегодня, ростовщик меня изобьёт или ещё хуже. Заложить твои вещи - мой последний шанс получить монеты, которые мне так срочно нужны. Трактирщик рассказал мне о ломбарде, так что, как только у меня появятся честные деньги, я верну твой амулет, положу его на место, а эту записку уничтожу, и ты никогда об этом не узнаешь. До встречи.
 
-Galken~
-@014 =~Donhard~
-@015 =~Hanson~
-@016 =~In Mask's name, Anishai,
-The meeting has been arranged in four days from your reception of this paper from my messenger. It will be held at Cyric's temple as discussed previously. My Night Knives will assure our security. Bring this invitation with you as authentication for my guards.
+Галкен~
+@014 =~Донхард~
+@015 =~Хэнсон~
+@016 =~Именем Маска, Анишай,
+Встреча назначена через четыре дня после получения этой бумаги от моего посланника. Она состоится в храме Цирика, как и было обговорено ранее. Ночные Ножи обеспечат нашу безопасность. Возьми с собой это приглашение в качестве удостоверения для моих охранников.
 
 A.~
-@017 =~Grajuk~
+@017 =~Граджук~
 
-@100 =~You'll not get this ranger easily, fools!~
-@101 =~You there, wait a minute.~
-@102 =~Yes, you must have seen him, where did he go?~
-@103 =~The ranger that was here in this spot just moments ago before you got in the way.~
-@104 =~Where did he go, be quick about it, <PRO_MANWOMAN>?~
-@105 =~We have seen nobody, he's not here.~
-@106 =~He went south, this way...(point into some random direction).~
-@107 =~Information is not for free in these areas, you know. Is there a bounty I can claim?~
-@108 =~Bah, this fool knows nothing, we're wasting time while Valygar escapes us again.~
-@109 =~Now that you spit out his name, we can't let them stay alive. We can't allow any witnesses.~
-@110 =~You're right, bad luck, folks. You understand...wrong place, wrong time and so on.~ 
-@111 =~My apologies, stranger. I'm sorry I got you into trouble - anyway, you seem to be capable to take care of yourself.~
-@112 =~So you must be that Valygar they were after?~
-@113 =~Those were cowled wizards of Amn, so what's going on here?~
-@114 =~Who are you and who were those, I request an explanation?~
-@115 =~Who I am is not your concern, friend, knowing too much might just get you deeper into trouble.~
-@116 =~However, I owe you my thanks and my honour requires that I compensate for your trouble.~
-@117 =~Maybe you could help us out with some of those excellent arrows, we're a bit short of ammunition.~
-@118 =~We've heard about a bounty on your head. We're always in need of gold, I think we'll take yours.~
-@119 =~I'm an innocent who is hunted myself, so no compensation required. I just wish you good luck.~
-@120 =~Godspeed to you, friend. Who knows, maybe our paths may cross again some time. Let's hope circumstances will be better then.~
-@121 =~The cowled wizards are at least obvious enemies. You mercenaries just take any chance you see for your advantage. I hope we never cross paths again, scoundrel.~
-@131 =~We met in the Wood of Sharp Teeth some time ago, remember? We had no time to introduce to each other then.~
+@100 =~Вам не удастся легко заполучить этого следопыта, дураки!~
+@101 =~Эй, ты, подожди минутку.~
+@102 =~Да, ты, должно быть, видел его, куда он делся?~ ~Да, ты, должно быть, видела его, куда он делся?~
+@103 =~Следопыт, который был здесь, на этом самом месте, минуту назад, пока ты не появился.~ ~Следопыт, который был здесь, на этом самом месте, минуту назад, пока ты не появилась.~
+@104 =~Куда он пошёл? Говори быстрее, мужчина!~ ~Куда он пошёл? Говори быстрее, женщина!~
+@105 =~Мы никого здесь не видели.~
+@106 =~Он пошёл на юг, туда... (показать в произвольном направлении)~
+@107 =~Информация в этих краях не бесплатна, знаешь ли. Что ты дашь мне в награду?~
+@108 =~Ха, это дурачьё ничего не знает, мы теряем время, а Валигар снова от нас ускользает.~
+@109 =~Теперь, когда ты произнёс его имя, мы не можем позволить им остаться в живых. Мы не должны оставлять свидетелей.~
+@110 =~Ты прав, не повезло вам, ребята. Вы же понимаете.. не в том месте, не в нужное время... и так далее.~
+@111 =~Мои извинения, незнакомец. Мне жаль, что я впутал тебя в неприятности - в любом случае, похоже, ты в состоянии за себя постоять.~ ~Мои извинения, незнакомка. Мне жаль, что я впутал тебя в неприятности - в любом случае, похоже, ты в состоянии за себя постоять.~
+@112 =~Так ты, должно быть, тот самый Валигар, за которым они охотились?~
+@113 =~Это были Волшебники в Рясах из Амна, что здесь происходит?~
+@114 =~Кто ты и кто это были? Я требую объяснений.~
+@115 =~Кто я - не твоя забота, дружище. Слишком много зная, ты можешь попасть в ещё большие неприятности.~ ~Кто я - не твоя забота, подруга. Слишком много зная, ты можешь попасть в ещё большие неприятности.~
+@116 =~Однако, я должен поблагодарить тебя, и моя честь требует, чтобы я компенсировал твои хлопоты.~
+@117 =~Возможно, ты дашь нам несколько этих превосходных стрел? У нас не хватает боеприпасов.~
+@118 =~Мы слышали о награде за твою голову. Нам всегда нужно золото, и, я думаю, мы заберём твоё.~
+@119 =~Я сам невиновный, за которым охотятся, так что компенсация не требуется. Я просто пожелаю тебе удачи.~ ~Я сама невиновная, за которой охотятся, так что компенсация не требуется. Я просто пожелаю тебе удачи.~
+@120 =~Счастливо тебе, друг. Кто знает, возможно, наши пути когда-нибудь снова пересекутся. Будем надеяться, что тогда обстоятельства будут складываться лучше.~ ~Счастливо тебе, подруга. Кто знает, возможно, наши пути когда-нибудь снова пересекутся. Будем надеяться, что тогда обстоятельства будут складываться лучше.~
+@121 =~Волшебники в Рясах - по крайней мере, открытые враги. Вы, наёмники, просто готовы на всё ради своей выгоды. Надеюсь, мы никогда больше не встретимся, мразь.~
+@131 =~Мы встречались в Лесу Острых Зубов некоторое время назад, помнишь? Тогда у нас не было времени друг другу представиться.~
 
-@200 =~Hold! I warn you, I have killed many of your brethren to get this far... Oh, forgive my manner. I feared you were another grouping of hobgoblins come to harass me.~
-@201 =~I have been beset by those foul creatures as well. We are in the same situation.~
-@202 =~I have cleared out the surrounding area already, lady, there's nothing to fear at this moment.~
-@203 =~It would seem so. I am Samia. Are you here searching for the tomb as well? I was not aware of another expedition.~
-@204 =~You missed the show, the tomb is already explored and its secret was found.~
-@205 =~I know of no tomb and no expedition.~
-@206 =~Too bad but the race for academic knowledge, yes, and fame, is getting harder daily.~
-@207 =~It seems to me that we may still be of value to each other, just listen...~
-@208 =~I know enough about old artefacts and their aura to know that you carry one with you.~
-@209 =~We found this idol of Kozah at the nearby tomb.~
-@210 =~I carry a lot of stuff I have found during my travels.~
-@211 =~If you have something to offer then speak.~
-@212 =~Good of you to be honest, it makes our deal easier.~
-@213 =~Don't take me for a fool even if I was late this time. We both know that you have the idol of Kozah.~
-@214 =~I make you an offer that you cannot refuse...should better not refuse.~
-@215 =~I offer you the hefty sum of 2000GP for the idol.~
-@216 =~We have a deal.~
-@217 =~I think it is worth 2500GP.~
-@218 =~I think it is worth 3000GP.~
-@219 =~I do not have that much. I offer you 2500GP.~
-@220 =~I know of a better use for it, one that money can't buy. Sorry, but it's not for sale.~
-@221 =~A bad day for the academic world. It seems for the next expedition I need to prepare better for such obstacles like interfering adventurers. In any case, I may stay around here for a few days longer just in case you change your mind.~
-@222 =~You're back. Did you change your mind about my offer?~
-@223 =~You wait in vain, I don't have the thing any more.~
-@224 =~A bad day for the academic world. It seems for the next expedition I need to prepare better for such obstacles like interfering adventurers. Wasn't there this Lord Firkraag who had an offer to make...~
+@200 =~Стоять! Предупреждаю, я убила много твоих собратьев, чтобы попасть сюда... О, простите мои манеры. Я испугалась, что вы очередная группа хобгоблинов, пришедших меня изводить.~
+@201 =~Меня тоже преследовали эти мерзкие твари. Мы в одинаковой ситуации.~
+@202 =~Я уже очистил окрестности, леди, сейчас тебе нечего бояться.~ ~Я уже очистила окрестности, леди, сейчас тебе нечего бояться.~
+@203 =~Похоже на то. Я Самия. Ты тоже здесь в поисках гробницы? Я не знала о другой экспедиции.~
+@204 =~Ты пропустила шоу, гробница уже исследована и её секрет раскрыт.~
+@205 =~Я ничего не знаю ни о гробнице, ни об экспедиции.~
+@206 =~Очень жаль, гонка за академическими знаниями, да, впрочем, и за славой, с каждым днём становится всё труднее.~
+@207 =~Мне кажется, что мы всё равно можем быть полезны друг другу, просто послушай...~
+@208 =~Я знаю достаточно о древних артефактах и их ауре, чтобы понять, что ты носишь один из них с собой.~
+@209 =~Мы нашли идол Козаха в ближайшей гробнице.~
+@210 =~Я ношу с собой много вещей, найденных во время своих путешествий.~
+@211 =~Если у тебя есть что предложить, говори.~
+@212 =~Хорошо, что ты сказал честно, это облегчит нашу сделку.~ ~Хорошо, что ты сказала честно, это облегчит нашу сделку.~
+@213 =~Не считай меня дурой, даже если на этот раз я опоздала. Мы оба знаем, что у тебя есть идол Козаха.~ ~Не считай меня дурой, даже если на этот раз я опоздала. Мы обе знаем, что у тебя есть идол Козаха.~
+@214 =~Я сделаю тебе предложение, от которого ты не сможешь отказаться... лучше не отказывайся.~
+@215 =~Я предлагаю тебе огромную сумму - 2000 золотых за идол.~
+@216 =~Договорились.~
+@217 =~Я думаю, он стоит 2500 золотых.~
+@218 =~Я думаю, что он стоит 3000 золотых.~
+@219 =~У меня столько нет. Могу предложить 2500.~
+@220 =~Я знаю лучшее применение для него, которое не купишь за деньги. Прости, но он не продаётся.~
+@221 =~Плохой день для учёного сообщества. Похоже, во время следующей экспедиции мне нужно лучше подготовиться к таким препятствиям, как мешающие искатели приключений. В любом случае, я могу подождать здесь ещё несколько дней, на случай, если ты передумаешь.~
+@222 =~Ты вернулся. Значит, ты передумал насчёт моего предложения?~ ~Ты вернулась. Значит, ты передумала насчёт моего предложения?~
+@223 =~Ты напрасно ждёшь, у меня больше нет этой вещи.~
+@224 =~Плохой день для учёного сообщества. Похоже, во время следующей экспедиции мне нужно лучше подготовиться к таким препятствиям, как мешающие искатели приключений. Не было ли здесь этого лорда Фиркраага, который сделал предложение...~
 
-@300 =~You, peasants, stop and make yourself serviceable to the greatness of art itself.~
-@301 =~Another artist? There must be something in the water here.~
-@302 =~So you are an artist as well? Hardly one to match Prism.~
-@303 =~I have enough of crazy artists for one day, DO YOU UNDERSTAND!~
-@304 =~Ah, your reaction implies that you know about Prism already. That may make conversation with your kin slightly easier, even if just slightly...so where is he?~
-@305 =~Sorry, but before I deliver any information I must know who you are and why you seek for Prism.~
-@306 =~You come too late. He's dead, killed by a bounty hunter named Greywolf.~
-@307 =~How unpleasant. I had come to supply him with some valuable ingredient to make his work perfect...~
-@308 =~I am sure the name Sir Sarles is even known to one like you. Before you ask further silly questions, yes, that is me, the famous Sir Sarles.~
-@309 =~Not famous enough, I'm afraid. I'm Prism's protector, so if you have anything to give to him, I will deliver it to him. What do you have?~
-@310 =~THAT Sir Sarles (never heard of the fool)? Great, but since I'm Prism's protector I will deliver it to him. What do you have?~
-@311 =~You would do that, milady. Well, it spares me the trouble to risk my precious life in these barbaric lands around here. I trust that you deliver these two gems to my colleague. Remind him that he should dedicate his work to Sir Sarles.~
-@312 =~Sure, darling Sir Charles.~
-@313 =~Sarles, Sir Sarles, the one and only Sir Sarles.~
-@314 =~Give anything valuable to you, peasant? Why not throw it at the nearest gibberling instead, fool. It appears to me that this conversation is utterly pointless.~
-@315 =~You would do that, good <PRO_MANWOMAN>. Well, it spares me the trouble to risk my precious life in these barbaric lands around here. I trust that you deliver these two gems to my colleague. Remind him that he should dedicate his work to Sir Sarles.~
-@316 =~Sure, Sir Charles.~
-@317 =~Sure, Sir Sarles.~
+@300 =~Эй, крестьяне, остановитесь и сделайте что-то полезное ради величия самого искусства.~
+@301 =~Ещё один художник? Должно быть, здесь что-то местной в воде.~
+@302 =~Значит, ты тоже художник? Вряд ли кто-то может сравниться с Призмом.~
+@303 =~С меня хватит сумасшедших художников на сегодня, ТЫ ПОНИМАЕШЬ!~
+@304 =~Ах, твоя реакция подразумевает, что ты уже знаешь о Призме. Это может немного облегчить разговор с тебе подобными, пусть даже совсем немного... так где же он?~
+@305 =~Прости, но прежде чем я сообщу какую-либо информацию, я должен знать, кто ты и почему ты ищешь Призма.~
+@306 =~Ты опоздал. Он мёртв, убит охотником за головами по имени Грейвульф.~
+@307 =~Как неприятно. Я здесь, чтобы снабдить его ценным ингредиентом, чтобы сделать его работу совершенной...~
+@308 =~Я уверен, что имя сэра Сарльза известно даже тебе. Прежде чем ты начнешь задавать глупые вопросы, скажу, что да, это я, знаменитый сэр Сарльз.~
+@309 =~Боюсь, недостаточно знаменитый. Я защищаю Призма, так что если у тебя есть что передать ему, я передам. Что у тебя есть?~
+@310 =~Тот самый сэр Сарльз? (никогда не доводилось слышать об этом дураке) Отлично, но поскольку я защищаю Призма, я передам этот ингридиент ему. Что у тебя есть?~
+@311 =~Ты сделаешь это, миледи? Ну, это избавит меня от необходимости рисковать своей драгоценной жизнью в здешних варварских землях. Я надеюсь, что ты доставишь эти два драгоценных камня моему коллеге. Напомни ему, что он должен посвятить свою работу сэру Сарльзу.~
+@312 =~Конечно, дорогой сэр Чарльз.~
+@313 =~Сарльз, сэр Сарльз, единственный и неповторимый сэр Сарльз.~
+@314 =~Отдать тебе драгоценности, крестьянин? Почему бы вместо этого не бросить их в ближайшего гибберлинга, дурак. Мне кажется, этот разговор совершенно бессмысленный.~ ~Отдать тебе драгоценности, крестьянка? Почему бы вместо этого не бросить их в ближайшего гибберлинга, дура. Мне кажется, этот разговор совершенно бессмысленный.~
+@315 =~Ты сделаешь это, добрый мужчина? Ну, это избавит меня от необходимости рисковать своей драгоценной жизнью в здешних варварских землях. Я надеюсь, что ты доставишь эти два драгоценных камня моему коллеге. Напомни ему, что он должен посвятить свою работу сэру Сарльзу.~ ~Ты сделаешь это, добрая женщина? Ну, это избавит меня от необходимости рисковать своей драгоценной жизнью в здешних варварских землях. Я надеюсь, что ты доставишь эти два драгоценных камня моему коллеге. Напомни ему, что он должен посвятить свою работу сэру Сарльзу.~
+@316 =~Конечно, сэр Чарльз.~
+@317 =~Конечно, сэр Сарльз.~
 
-@400 =~Sonja~
-@401 =~Are you afraid of vampires? Ha, you look to me like someone who might not fear them.~
-@402 =~I never met one yet.~
-@403 =~You don't look like one?~
-@404 =~This is by far the weirdest introduction I've ever heard.~
-@405 =~My excuse, I'm not myself really these days...when you came in I just thought - that's the right person to ask, a <PRO_MANWOMAN> looking fearless and well equipped.~
-@406 =~I'm Sonja, by the way, and I promise to serve your drinks even if you reject my plea, but, please, first hear me out.~
-@407 =~I'm already listening.~
-@408 =~I might listen more closely if I were not that thirsty still.~
-@409 =~Here, <PRO_LADYLORD>, this fresh ale might make my story easier to swallow.~
-@410 =~It's about my boyfriend Ken, or former boyfriend, I don't know how to say...~
-@411 =~And he's a vampire?~
-@412 =~NO! YES! No, I mean...he wasn't. Then he went for that errand to that castle - when he returned he was.~
-@413 =~Beware, do not let him near you.~
-@414 =~Where is he, we'll put an end to him and a stake through his heart.~
-@415 =~If it just were that easy...you see - he is still somehow...himself.~
-@416 =~What I mean, he is no danger to me, he comes every night - night only to avoid daylight - and he is polite and gentle and...still loves me. And he wants me to become like him and stay with him for eternity.~
-@417 =~The chance for eternal life or half-life is something many may find desireable.~
-@418 =~Use garlic to keep him away, that's something I read in the library of Candlekeep.~
-@419 =~Some do and become liches and vampires. I...I just want a normal life, that's all. I don't love the vampire Ken.~
-@420 =~I tried with garlic, my whole chamber is full of it. I tried holy water, all my small income could afford.~
-@421 =~It may help if I would face that vampire myself to convince him to leave you alone. Where is your chamber?~
-@422 =~Down the corridor, the last room to the left.~
-@423 =~Oh, please I'd be so grateful for anything you can do to help me.~
-@424 =~I may keep my eyes open in my travels, maybe some mage or temple has something more powerful than garlic.~
-@425 =~Mortal, I have no business with you. Leave!~
-@426 =~Anything new about my problem, <PRO_LADYLORD>?~
-@427 =~We have seen your former Ken but cannot deal with him directly.~
-@428 =~This time I just came to order some drink.~
-@429 =~I have not yet found anything that helps against vampires.~
-@430 =~We were able to purchase this pendant of positive plane energy, if worn by you, is supposed to keep any vampire away as far as your sight goes.~
-@431 =~Oh, my friend, how can I ever thank you...I must try this on Ken immediately...~
-@432 =~Oh, please keep your eyes open on your travels, maybe some mage or temple has something more powerful than garlic.~
-@433 =~We are looking for an enchanted item that may keep a vampire away from a young woman. Neither garlic nor holy water have an effect.~
-@434 =~They never do, as far as my knowledge goes. Anyway, here you need divine powers rather than arcane magic. I propose you consult with the temple on the other side of Beregost instead.~
-@435 =~The Barmaid and the Vampire
+@400 =~Соня~
+@401 =~Ты боишься вампиров? Ха, ты похож на того, кто их не боится.~ ~Ты боишься вампиров? Ха, ты похожа на ту, кто их не боится.~
+@402 =~Мне ещё ни один не встречался.~
+@403 =~Разве ты похожа на вампира?~
+@404 =~Это, наверное, самое странное вступление, которое мне доводилось слышать.~
+@405 =~Прошу прощения, я сама не своя в эти дни... когда ты вошёл, я просто подумала - это именно тот, кого нужно спросить, мужчина бесстрашный и хорошо экипированный.~ ~Прошу прощения, я сама не своя в эти дни... когда ты вошла, я просто подумала - это именно та, кого нужно спросить, женщина бесстрашная и хорошо экипированная.~
+@406 =~Я Соня, кстати, и я обещаю подавать вам напитки, даже если ты отвергнешь мою просьбу, но, пожалуйста, сначала выслушай меня.~
+@407 =~Я уже слушаю.~
+@408 =~Возможно, я буду слушать внимательнее, если меня не будет мучить жажда.~
+@409 =~Вот, милорд, этот свежий эль может облегчить восприятие моей истории.~ ~Вот, миледи, этот свежий эль может облегчить восприятие моей истории.~
+@410 =~Речь идёт о моём парне Кене, или бывшем парне, даже не знаю, как сказать...~
+@411 =~И он вампир?~
+@412 =~НЕТ! ДА! Нет, я имею в виду... не был. Потом он отправился по поручению в тот замок - а когда вернулся, то стал.~
+@413 =~Остерегайся, не подпускай его близко к себе.~
+@414 =~Где он? Мы покончим с ним и вобьём кол в его сердце.~
+@415 =~Если бы всё было так просто... понимаешь, он всё ещё в некотором смысле... он.~
+@416 =~В смысле, он не опасен для меня, он приходит каждую ночь - только ночью, чтобы избежать дневного света - и он вежлив и нежен и... всё ещё любит меня. И он хочет, чтобы я стала такой же, как он, и осталась с ним навечно.~
+@417 =~Шанс на вечную жизнь или полужизнь - это то, что многие могут счесть желанным.~
+@418 =~Для того, чтобы держать его подальше, используй чеснок, об этом я читал в библиотеке Кендлкипа.~ ~Для того, чтобы держать его подальше, используй чеснок, об этом я читала в библиотеке Кендлкипа.~
+@419 =~Некоторые так и поступают и становятся личами или вампирами. Я... я просто хочу нормальной жизни, вот и всё. Я не люблю вампира Кена.~
+@420 =~Я пробовала использовать чеснок, вся моя комната им пропахла. Я пробовала святую воду, всё, что может позволить мой небольшой доход.~
+@421 =~Возможно, я смогу помочь, если встречусь с этим вампиром лично, чтобы убедить его оставить тебя в покое. Где твоя комната?~
+@422 =~Дальше по коридору, последняя дверь налево.~
+@423 =~О, пожалуйста, я буду очень благодарна тебе за любую помощь.~
+@424 =~В своих путешествиях я буду это иметь в виду, возможно, у какого-нибудь мага или служителя храма есть что-то более мощное, чем чеснок.~
+@425 =~Смертный, у меня нет к тебе никаких дел. Уходи!~ ~Смертная, у меня нет к тебе никаких дел. Уходи!~
+@426 =~Есть что-нибудь новое о моей проблеме, милорд?~ ~Есть что-нибудь новое о моей проблеме, миледи?~
+@427 =~Мы видели твоего бывшего Кена, но не можем разобраться с ним напрямую.~
+@428 =~В этот раз я тут, чтобы заказать что-нибудь выпить.~
+@429 =~Пока мне не удалось найти ничего, что помогает против вампиров.~
+@430 =~Мы смогли купить этот Кулон Энергии Положительного Плана, если носить его на себе, он должен отпугнуть любого вампира на расстоянии видимости.~
+@431 =~О, мой друг, как я могу отблагодарить тебя... Я должна немедленно опробовать это на Кене...~ ~О, моя подруга, как я могу отблагодарить тебя... Я должна немедленно опробовать это на Кене...~
+@432 =~О, пожалуйста, будь внимателен во время своих путешествий, возможно, у какого-нибудь мага или служителя храма есть что-то более мощное, чем чеснок.~ ~О, пожалуйста, будь внимательна во время своих путешествий, возможно, у какого-нибудь мага или служителя храма есть что-то более мощное, чем чеснок.~
+@433 =~Мы ищем зачарованный предмет, который может удержать вампира от молодой женщины. Ни чеснок, ни святая вода не дают эффекта.~
+@434 =~Насколько мне известно, они никогда не действуют. В любом случае, здесь нужны божественные силы, а не магические. Я предлагаю тебе обратиться в храм на другой стороне Берегоста.~
+@435 =~Буфетчица и вампир
 
-The barmaid Sonja at Ulgoth's Beard is haunted by her former boyfriend who had been turned into a vampire. Neither the usual household methods nor simple force seem to help. Our hope is to find some powerful magical item for her protection on our travels. We promised to investigate with the mages and temples we encounter as we move on.~
-@436 =~The Barmaid and the Vampire
+Буфетчицу Соню в "Бороде Улгота" преследует её бывший парень, превратившийся в вампира. Ни обычные домашние методы, ни простая сила, похоже, не помогают. Мы надеемся найти какой-нибудь мощный магический предмет для её защиты во время наших путешествий. Мы обещали поспрашивать у магов и служителей храмов, которых мы встретим по мере нашего путешествия.~
+@436 =~Буфетчица и вампир
 
-The mage Thalantyr advised us that divine magic is needed to help Sonja. We need to focus our search on temples rather than arcane sources.~
+Маг Талантир посоветовал нам, что для помощи Соне необходима божественная магия. Мы должны сосредоточить наш поиск на храмах, а не на магах.~
 
-@437 =~The Barmaid and the Vampire
+@437 =~Буфетчица и вампир
 
-Keldath Ormlyr at the Lathander temple in Beregost had been helpful in our search for a protective item for Sonja. We now know that we need a Pendant of Positive Plane Energy that she needs to wear at night. A temple of Gond or a diviner in the centre of the city of Baldur's Gate could maybe provide us with such an item.~ 
-@438 =~The Barmaid and the Vampire
+Келддат Ормлир из храма Латандера в Берегосте помог нам в поисках защитного предмета для Сони. Теперь мы знаем, что нам нужен Кулон Энергии Положительного Плана, который она должна носить ночью. Храм Гонда или прорицатель в центрральном районе города Врата Балдура, возможно, могли бы предоставить нам такой предмет.~ 
+@438 =~Буфетчица и вампир
 
-The priest of Gond at Baldur's Gate has instructed us with all details we need to gain the Pendant of Positive Plane Energy for Sonja. Aside from a 1000GP fee, we need a diamond and the sword pendant of some Hobgoblin leader. He informed us about a band of Chill at the former Tazok camp in the Wood of Sharp Teeth.
+Жрец Гонда во Вратах Балдура проинструктировал нас обо всех деталях, необходимых для получения Кулон Энергии Положительного Плана для Сони. Помимо платы в 1000 золотых, нам нужен алмаз и Кулон Меча вождя хобгоблинов. Он сообщил нам о группе Вызывающих Дрожь в бывшем лагере Тазока в Лесу Острых Зубов.
 
-Once we have all the items, the temple will be able to upgrade the pendant to keep the vampire away from our barmaid friend.~
-@439= ~We could however enchant a sword pendant with the help of a diamond if you are able to provide those items and are willing to pay the necessary fee to the temple.~
-@440= ~I see. What you search is a Pendant of Positive Plane Energy. It is not something I have or can produce with my means.~
-@441= ~That is just too bad. At least we know it exists and what it is that we have to look for.~
-@442= ~Do you know by chance who may have such a thing?~
-@443= ~Thanks for nothing then, I'll be on my way.~
-@444= ~If I were you, I'd try my luck in Baldur's Gate. The temple of Gond, the god of inventions, may be a good place. There's also some renown diviner in the town centre who may be able to locate such an item.~
-@445 =~What exactly would be needed for the procedure?~
-@446 =~I can probably get a diamond but where do I get a sword pendant?~
-@447 =~How much is that fee you mentioned?~
-@448 =~Oh no, I am out of this never ending fetch quest.~
-@449 =~First, there is a fee of 1000GP, if you are unwilling to pay this, we need not continue our discourse.~
-@450 =~Second, we need a diamond for the binding of the enchantment to the pendant.~
-@451 =~Third, a sword pendant, an emblem often carried by Hobgoblin leaders.~
-@452 =~We may assist you to divine the location of such a pendant in the vicinity - for a small extra fee of 500GP.~
-@453 =~Sigh, Gond's services are not cheap. Here are 500GP to locate the pendant.~
-@454 =~I may find that diviner at the city fair has better prizes. I'll return once I have the items.~
-@455 =~You'll find us here whenever you need Gond's service. Terms and conditions will not change anytime soon.~
-@456 =~Gond's services are not cheap because they are reliable and not the hocus pocus that other temples sell to you.~
-@457 =~You'll find a band of Chill hobgoblins in the Wood of Sharp Teeth at a former bandit camp you may know already. Come back when you have all the items and the remaining gold.~
-@458 =~Do you know the location of a hobgoblin leader in these regions?~
-@459 =~You'll find a band of Chill hobgoblins in the Wood of Sharp Teeth at a former bandit camp you may know already.~
-@460 =~I see. What you search is a Pendant of Positive Plane Energy. This is something the priests of Gond at the Hall of Wonders may be able to provide.~
-@461 =~The Barmaid and the Vampire
+Как только мы получим все предметы, храм сможет усовершенствовать кулон, чтобы держать вампира подальше от нашей подруги-буфетчицы.~
+@439= ~Но мы могли бы зачаровать Кулон Меча, добавив в него алмаз, если только ты в состоянии предоставить нам эти предметы и заплатишь храму необходимую сумму.~
+@440= ~Понятно. То, что ты ищешь - это Кулон Энергии Положительного Плана. Я не располагаю таким предметом и не могу его изготовить своими средствами.~
+@441= ~Это очень плохо. Но, по крайней мере, мы знаем, что он существует и что его нужно искать.~
+@442= ~Ты случайно не знаешь, у кого может быть такая вещь?~
+@443= ~Большое спасибо, тогда я пойду.~
+@444= ~На вашем месте я бы попытал счастья во Вратах Балдура. Храм Гонда, бога изобретений, может быть подходящим местом. В центре города также есть известный прорицатель, который может найти такой предмет.~
+@445 =~Что именно потребуется для процедуры? ~
+@446 =~Я могу достать алмаз, но где взять Кулон Меча?~
+@447 =~Какова сумма оплаты, о которой ты говорил?~
+@448 =~Ох, нет, хватит с меня этих бесконечных поисков.~
+@449 =~Во-первых, плата составит 1000 золотых, если ты не хочешь её платить, нам не нужно продолжать этот разговор.~
+@450 =~Во-вторых, нам нужен алмаз для скрепления с кулоном.~
+@451 =~В-третьих, Кулон Меча - это эмблема, которую часто носят вожди хобгоблинов.~
+@452 =~Мы можем помочь тебе определить местонахождение такого кулона в ближайших окрестностях - за небольшую дополнительную плату в 500 золотых.~
+@453 =~Да, услуги Гонда недёшевы. Вот 500 золотых за определение местонахождения кулона.~
+@454 =~Возможно, у прорицателя на городской ярмарке будут цены пониже. Я вернусь, как только достану предметы.~
+@455 =~Ты найдешь нас здесь, когда тебе вновь понадобятся услуги Гонда. Условия не изменятся в ближайшее время.~
+@456 =~Услуги Гонда недёшевы, потому что они надёжны, это не фокусы-покусы, которые другие храмы вам впаривают.~
+@457 =~Ты найдешь группу хобгоблинов под названием Вызывающие Дрожь в Лесу Острых Зубов в бывшем лагере разбойников, который ты, возможно, уже знаешь. Возвращайся, когда у тебя будут все предметы и необходимое золото.~
+@458 =~Тебе известно местонахождение вождя хобгоблинов в этих краях?~
+@459 =~Ты найдёшь группу хобгоблинов под названием Вызывающие Дрожь в Лесу Острых Зубов в бывшем лагере разбойников, который ты, возможно, уже знаешь.~
+@460 =~Ясно. То, что ты ищешь - это Кулон Энергии Положительного Плана. Такую вещь могут изготовить жрецы Гонда в Зале Чудес.~
+@461 =~Буфетчица и вампир
 
-We now possess a sword pendant which is needed by Gond's priest to bind a divine spell to it that provides Sonja with protection against the vampire that was her former boyfriend. We need a diamond and 1000GP and then return to the temple at the Hall of Wonders in Baldur's Gate.~
-@462 =~The Barmaid and the Vampire
+Теперь у нас есть Кулон Меча, который нужен жрецу Гонда, чтобы наложить на него божественное заклинание, обеспечащее Соне защиту от вампира, который был её бывшим парнем. Для этого нам нужен алмаз и 1000 золотых, после чего нужно вернуться в храм в Зале Чудес во Вратах Балдура.~
+@462 =~Буфетчица и вампир
 
-We now possess a Pendant of Positive Plane Energy. The barmaid Sonja at Ulgoth's Beard will be more than happy to receive it and be save from the vampire which plagues her.~
-@463 =~The Barmaid and the Vampire
+Теперь у нас есть Кулон Энергии Положительного Плана. Буфетчица Соня в Бороде Улгота будет рада получить его и спастись от вампира, который её мучает.~
+@463 =~ Буфетчица и вампир
 
-We have finally been able to help the barmaid Sonja to get rid of the vampire that had haunted her for so long. The young woman was so happy and excited to try out her new Pendant of Positive Plane Energy that she forgot to even thank us. Still, it feels good to have helped a desperate person and the experience gained was worth it.
+Мы наконец-то смогли помочь буфетчице Соне избавиться от вампира, который преследовал её так долго. Девушка была так счастлива и рада опробовать свой новый Кулон Энергии Положительного Плана, что даже забыла поблагодарить нас. Тем не менее, мне приятно, что мы помогли отчаявшейся девушке, и полученный опыт того стоил.
 
-Somehow - there is this feeling that this story is not over yet...~
-@464 =~We have a sword pendant and all other ingredients for the Pendant of Positive Plane Energy.~
-@465 =~Ah, Gond loves such challenges, my friends, and that gold, yes, gold.~
-@466 =~Stand back, there is powerful divine magic going to happen!~
-@470= ~I am Bardock, member of Chill. Come to join Tazok and attack all <PRO_RACE> carrying iron. We do that, we like cause it's fun. Even if Tazok not here.~
-@471= ~I have killed Tazok and his men like I will kill you now.~
-@472= ~I know something better than killing, Bardock. That pendant you have, I give you 200GP for it. Let us trade.~
-@473= ~Boss, we Chill bandits, right?~
-@474= ~Of course!~
-@475= ~We not let <PRO_RACE> go with pendant and other gold and nice things?~
-@476= ~Of course not!~
-@477= ~Ha, 200GP for this trinket? You fool but now fool who owns pendant.~
+Почему-то у меня есть ощущение, что эта история еще не закончена...~
+@464 =~У нас есть Кулон Меча и все остальные ингредиенты для Кулона Энергии Положительного Плана.~
+@465 =~Ах, Гонд любит такие сложные задачи, друзья мои, и золото, да, золото.~
+@466 =~Посторонитесь, сейчас свершится мощная божественная магия!~
+@470= ~Я Бардок, из Вызывающих Дрожь. Пришёл, чтобы присоединиться к Тазоку и атаковать всех <PRO_RACE>ов, носящих железо. Мы делаем это, нам нравится, потому что это весело. Даже если Тазока здесь нет.~
+@471= ~Тазок и его банда были убиты мной, а теперь я убью тебя.~
+@472= ~Я знаю кое-что получше убийства, Бардок. Кулон, который у тебя, я дам тебе 200 золотых за него. Давай меняться.~
+@473= ~Босс, мы же вызывающие дрожь бандиты, верно?~
+@474= ~Конечно!~
+@475= ~Мы же не отпустим <PRO_RACE>а с кулоном, золотом и прочими вещичками?~
+@476= ~Конечно нет!~
+@477= ~Ха, 200 золотых за эту безделушку? Ты дурак, но зато теперь дурак с кулоном.~ ~Ха, 200 золотых за эту безделушку? Ты дура, но зато теперь дура с кулоном.~
 
-@500= ~I paid a steep sum to study Alaundo, whelps. Move along and don't disturb me.~
-@501= ~...not sure your potential is sufficient. Leave me be now.~
-@502= ~This place saw many a sacrifice for my Lord.~
-@503= ~His days are over, Bhaal is dead. Today you will be the sacrifice for the new God of Murder.~
-@504= ~Fools. Cyric's rule knows no resistance.~
-@505= ~What? More Bhaalists here that wait to be killed?~
-@506= ~I have nothing to do with your quarrels.~
-@507= ~I know not what you talk about, priest.~
-@508= ~What is this place and who is that Bhaal you talk about?~
-@509= ~Bhaal, the dead god of murder...Cyric his replacement...~
-@510= ~But the smell of tainted blood on you? How come? I will not risk your escape. You die with your cult here today.~
+@500= ~Я заплатил кругленькую сумму за возможность изучить пророчества Алаундо, щенки. Идите и не мешайте мне.~
+@501= ~...не уверен, что твой потенциал достаточен. Теперь отстань от меня.~
+@502= ~Это место видело много жертв для моего Бога.~
+@503= ~Его дни прошли, Баал мёртв. Сегодня ты станешь жертвой нового Бога Убийств.~
+@504= ~Дураки. Правила Цирика не знают сопротивления.~
+@505= ~Что? Ещё приверженцы Баала, ждущее своей смерти?~
+@506= ~Я не имею никакого отношения к вашим ссорам.~
+@507= ~Я не знаю, о чём ты говоришь, жрец.~
+@508= ~Что это за место и кто такой Баал, о котором ты говоришь?~
+@509= ~Баал - мёртвый Бог Убийств... Цирик заменил его...~
+@510= ~От тебя пахнет его кровью. Как так? Я не стану рисковать твоим спасением. Ты умрёшь вместе со своим культом здесь и сейчас.~
 
-@520= ~You there! You helped Grajuk at lake in south. Why you here, you'll get in trouble with Chill.~
-@521= ~Get out of here while you can. Yes, there'll be trouble soon and many Chill will die.~
-@522= ~I helped you so I don't expect you to cause any problem this time.~
-@523= ~If you tell anyone about me, Grajuk, you'll be the first to die today.~
-@524= ~Grajuk no fool. Know when trouble come. Me, I pretend that not seen you today. Chill here are nothing but fools to follow ogre command. I'll just leave and not care.~
-@525= ~I cannot let you live and raise the alert, sorry, Grajuk.~
-@526= ~You there! You helped Grajuk twice now so today I'll help you.~
-@527= ~That ogre in command of the bandits, Tazok, he's here waiting for his revenge on you.~
-@528= ~But I killed him in Baldur's Gate some time ago already.~
-@529= ~How can he know I am coming?~
-@530= ~The master of this place has many powers. He brought Tazok back to life and he knows who is coming here long in advance.~
-@531= ~But for Grajuk is a good time to move on. Where you come is never a good place to stay.~
-@532= ~Excuse me, friends, I'm a bit in a hurry...~ 
+@520= ~Эй, ты! Ты помог Граюку у озера на юге. Зачем ты здесь? У тебя будут неприятности с Вызывающими Дрожь.~ ~Эй, ты! Ты помогла Граюку у озера на юге. Зачем ты здесь? У тебя будут неприятности с Вызывающими Дрожь.~
+@521= ~Убирайся отсюда, пока можешь. Да, скоро будут неприятности, и многие Вызывающие Дрожь погибнут.~
+@522= ~Я помог тебе, так что я не ожидаю, что на этот раз ты создашь проблемы.~ ~Я помогла тебе, так что я не ожидаю, что на этот раз ты создашь проблемы.~
+@523= ~Если ты кому-нибудь расскажешь обо мне, Граюк, ты будешь первым, кто умрет сегодня.~
+@524= ~Граюк не дурак. Знает, когда приходит беда. Я притворяюсь, что не видел тебя сегодня. Вызывающие Дрожь не более чем дураки, следуют приказам огра. Я просто уйду и не буду переживать.~
+@525= ~Я не могу оставить тебя в живых, чтобы ты поднял тревогу, прости, Граюк.~
+@526= ~Эй, ты! Ты уже дважды помог Граюку, так что сегодня я помогу тебе.~ ~Эй, ты! Ты уже дважды помогла Граюку, так что сегодня я помогу тебе.~
+@527= ~Этот огр, командующий бандитами, Тазок, он здесь и хочет отомстить тебе.~
+@528= ~Но с ним уже давно покончено во Вратах Балдура.~
+@529= ~Как он мог знать, что я приду?~
+@530= ~Хозяин этого места обладает многими способностями. Он вернул Тазока к жизни и знает заранее, кто придёт сюда.~
+@531= ~Но для Граюка сейчас самое время идти. То место, где ты, никогда не будет хорошим местом, чтобы остаться.~
+@532= ~Простите, друзья, я спешу...~ 
 
-@724= ~Arkanis Gath's Investigation
+@724= ~Расследование Арканиса Гата
 
-There is an unexpected obstacle in my search for Imoen. The guild that has offered me assistance is very nervous due to the current tension in town between rivalling groups. They need proof that I am not involved in any treason against a local leader Renal Bloodscalp.
-I have little information yet but my task is to meet one of their spies, a halfling named Mitsu. The meeting place is not unknown to me, the Cyric temple in the area of Dragonspear Castle that I know from my previous adventures.~
-@725= ~They all do, Mae'Var. For the moment.~
-@726= ~Arkanis Gath's Investigation
+В моих поисках Имоен возникло неожиданное препятствие. Гильдия, предложившая мне помощь, очень нервничает из-за напряжённой обстановки в городе между враждующими группировками. Им нужны доказательства, что я не замешан в предательстве местного лидера Ренала Кровавого Скальпа.
+У меня пока мало информации, но моя задача - встретиться с одной из их шпионок, полуросликом по имени Митсу. Место встречи мне небезызвестно - храм Цирика в районе замка Драконьего Копья, знакомого мне по предыдущим приключениям.~ ~Расследование Арканиса Гата
 
-I met Mitsu in the Forest of Wyrms near the entrance to the Cyric temple. She warned me of Night Knives, a thief guild from Esmeltaran, who operate in the area and mentioned a representative from the Athkatla guild who may be here as well. I need to explore further to find any evidence that Arkanis Gath may find useful.~
-@727= ~Arkanis Gath's Investigation
+В моих поисках Имоен возникло неожиданное препятствие. Гильдия, предложившая мне помощь, очень нервничает из-за напряжённой обстановки в городе между враждующими группировками. Им нужны доказательства, что я не замешана в предательстве местного лидера Ренала Кровавого Скальпа.
+У меня пока мало информации, но моя задача - встретиться с одной из их шпионок, полуросликом по имени Митсу. Место встречи мне небезызвестно - храм Цирика в районе замка Драконьего Копья, знакомого мне по предыдущим приключениям.~
+@725= ~Они все так делают, Маэ'Вар. На данный момент.~
+@726= ~Расследование Арканиса Гата
 
-I have observed a meeting between a member of Mae'Var's guild and a woman who might have belonged to the Night Knives. I also got a short glimpse of an old acqauintance, the thayan red wizard Edwin, although it did not become clear why he had been there. They all escaped when my presence was discovered.
+Я встретил Митсу в Лесу Вирмов, недалеко от входа в храм Цирика. Она предупредила меня о Ночных Ножах, гильдии воров из Эсмельтрана, которые действуют в этом районе, и упомянула представителя гильдии Аткатлы, который тоже может быть здесь. Мне нужно расследовать дальше, чтобы найти любые доказательства, которые Арканис Гат может счесть полезными.~ ~Расследование Арканиса Гата
 
-Other than that, there is no evidence yet to present to Mitsu or Arkanis Gath. Maybe moving further into the old temple will provide me with more tangible evidence.~
-@728= ~Those are quite obstinate, time to leave. I'll have my revenge...~
-@729= ~Arkanis Gath's Investigation
+Я встретила Митсу в Лесу Вирмов, недалеко от входа в храм Цирика. Она предупредила меня о Ночных Ножах, гильдии воров из Эсмельтрана, которые действуют в этом районе, и упомянула представителя гильдии Аткатлы, который тоже может быть здесь. Мне нужно расследовать дальше, чтобы найти любые доказательства, которые Арканис Гат может счесть полезными.~
+@727= ~Расследование Арканиса Гата
 
-I have found an invitation letter to Mae Var's accomplice for a meeting with a member of the Night Knives, the very meeting I had interrupted earlier. This may be the best evidence I can find to present to Arkanis Gath. I should return to Mitsu and then we should return to Amn.~
-@759 =~To be short, Gaelan recommended you, and then your little trip to the north on behalf of my good Arkanis Gath has qualified you. I am in need of mercenaries to perform a particular task, and you are just the one to do it.~
-@760= ~Arkanis Gath's Investigation
+Мне довелось наблюдать встречу между членом гильдии Маэ'Вара и женщиной, которая могла принадлежать к Ночным Ножам. Мне также удалось мельком увидеть старого знакомого, таинственного красного мага Эдвина, хотя так и не стало ясно, зачем он там был. Все они сбежали, когда моё присутствие было обнаружено.
 
-Our mission at the Cyric temple is completed and we need to bring back the evidence and report back to Arkanis Gath at the Athkatla docks. The future will tell which benefit we may get from supporting Renal and his guild.~
+Кроме этого, пока нет никаких доказательств, которые можно было бы предъявить Митсу или Арканису Гату. Возможно, пойдя дальше в старый храм, я получу более весомые доказательства.~
+@728= ~Они довольно упрямы, пора уходить. Я отомщу...~
+@729= ~Расследование Арканиса Гата
 
-@762 =~Arkanis Gath's Investigation
+Мною было найдено письмо - приглашение сообщнице Маэ'Вара на встречу с Ночными Ножами, ту самую встречу, которая ранее была прервана мною. Возможно, это лучшее доказательство, которое я могу представить Арканису Гату. Я должен вернуться к Митсу, а затем мы должны вернуться в Амн.~ ~Расследование Арканиса Гата
 
-I have delivered the results of our research in the north to Arkanis Gath. The doors to the guild in the docks are now open. I will see which benefits I can get from this in my search for Imoen and Irenicus.~
+Мною было найдено письмо - приглашение сообщнице Маэ'Вара на встречу с Ночными Ножами, ту самую встречу, которая ранее была прервана мною. Возможно, это лучшее доказательство, которое я могу представить Арканису Гату. Я должна вернуться к Митсу, а затем мы должны вернуться в Амн.~
+@759 =~Кроче говоря, Гаэлан рекомендовал тебя, а затем твоё небольшое путешествие на север по поручению моего доброго Арканиса Гата показало тебя достаточно достойным. Мне нужны наёмники для выполнения одного задания, и ты как раз подходишь для этого.~ ~Кроче говоря, Гаэлан рекомендовал тебя, а затем твоё небольшое путешествие на север по поручению моего доброго Арканиса Гата показало тебя достаточно достойной. Мне нужны наёмники для выполнения одного задания, и ты как раз подходишь для этого.~
+@760= ~Расследование Арканиса Гата
 
-@900 =~Ah, I think I found the right <PRO_MANWOMAN>, Gorion's Ward, am I right, my friend?~
-@901 =~Maybe you'd introduce yourself before I can say you're a friend?~
-@902 =~What would you know about Gorion, mage?~
-@903 =~Leave me be, mage, I have reason to trust nobody here today.~
-@904 =~Well, I was well acquainted with Gorion when both of us were younger. We...share a common adventure - and that is the reason I am here today. My name is Conster, maybe your foster father mentioned me on occasions?~
-@905 =~I can't recall Gorion having mentioned that name ever.~
-@906 =~Gorion did never talk about his younger days or adventures.~
-@907 =~Maybe he had his reasons. We were young and some deeds may not have been as heroic as we had thought at the time. But let me not digress, I came to talk about the present rather than the past.~
-@908 =~Your current situation here in Baldur's Gate is really unfortunate - if not outright endangered. My Lord Firkraag may be of help for you. If you help him, that is.~
-@909 =~What kind of help will that be?~
-@910 =~I am quite busy to resolve the situation and can't have another diversion.~
-@911 =~His offer will take you out of this whole current mess and give you a new chance in Amn...ex...excuse me...~
-@912 =~Ah, <CHARNAME>, good to see you making such progress.~
-@913 =~Now he left before he could tell me more about Gorion. You evade that topic every time we meet.~
-@914 =~That mage was in a hurry to leave the moment he saw you. Do you know him?~
-@915 =~By the Nine Hells, you scared away an old friend of Gorion who might have helped me!~
-@916 =~That mage? I may have arrived just in time to prevent whatever he had in mind. Anyway...~
-@917 =~You have little time to waste on him and his business now. Your name needs to be restored and Sarevok must be stopped. No time for more idle talk, <CHARNAME>.~
-@920 =~...impossible to snatch the Hero of Baldur's Gate from under the nose of the Flaming Fist. It is impossible to get near to <PRO_HIMHER> unnoticed. Regardless of the substantial sum you're offering. I can't risk my men without weakening my position in Athkatla.~
-@921 =~This will change very soon, Mae'Var, <PRO_HESHE> will be happy to get out of Baldur's Gate alive when my plan has succeeded. All you will need to do is to pick <PRO_HIMHER> up and arrange the transport to Amn.~
-@922 =~How will I know when and where to strike?~
-@923 =~Place your spies at the prison of the Flaming Fist. Nobody fades better into the background than a thief in a jail, I'd say.~
-@924 =~Mae'Var must know <PRO_HESHE>'s coming!~
+Наша миссия в храме Цирика завершена, и нам нужно отдать улики и доложить Арканису Гату в доках Аткатлы. Будущее покажет, какую выгоду мы можем получить от поддержки Ренала и его гильдии.~
 
-@1000 =~The Gods have sent you! I remember you, my saviours from Ulgoth's Beard.~
-@1001 =~It looks like you walk in here right at the time when I need help like yours again.~
-@1002 =~I remember you. And I recall that you never said thank you back then.~
-@1003 =~You departed pretty fast. We never learned how the pendant worked.~
-@1004 =~This was long ago, I hardly recall that adventure at all.~
-@1005 =~Oh, not you again. I am cured and will not listen to any further word from you.~
-@1006 =~Are you willing to hear me out this time? Yes...~
-@1007 =~Yes, I have to apologize for my unthankful conduct back then. See, I was so excited when you brought me the pendant and I had to try it immediately and it worked and I fell asleep after so many restless nights and then you had left and I never saw you again to reward you...~
-@1008 =~But then, adventurers are rewarded by the adventures they experience, aren't they?~
-@1009 =~That is one way to see it.~
-@1010 =~Adventurers have to eat and drink and have other expenses.~
-@1011 =~Whatever, you had your thrills, didn't you? And...you - didn't finally solve my problem. Ken's back.~
-@1012 =~The vampire? Doesn't that amulet work any more?~
-@1013 =~But you left Ulgoth's Beard and are now here.~
-@1014 =~So, Ken's back.~
-@1015 =~Soon after the events you were involved in, that foolish Dragonspear crusade ruined business. I was about to lose my job at the inn and the area as a whole was too unsafe. But luck had it that I met a merchant from Athkatla, Hanson. (Giggles) Hanson the handsome...~
-@1016 =~Long story short, we fell in love and here I am now and our marriage is just weeks away.~
-@1017 =~So all would be well except for your former vampire lover?~
-@1018 =~Ken's not so pleased about it all, I think. But how can he still haunt you?~
-@1019 =~Hanson's pretty successful in his trade. He knows what a girl likes, and he always brought me gifts, one of them a very beautiful necklace. He was very annoyed when he saw me with that ugly pendant instead of his gift on various occasions.~
-@1020 =~I felt save after all the time that Ken never showed up again and when Hanson finally offered me the voyage to Athkathla, I thought that I no longer needed that pendant because Ken would never find me again.~
-@1021 =~This was an error as it seems. So where is the pendant now?~
-@1022 =~Now we have the same situation as before - either eliminate Ken or get back the pendant.~
-@1023 =~And you think I'm the one to solve this problem for you once more?~
-@1024 =~In Ulgoth's Beard.~
-@1025 =~I still don't want Ken hurt, just to be gone, that's all.~
-@1026 =~It's impossible for me but just a bit of travelling for you.~
-@1027 =~When I left the Ulgoth's Beard inn, I locked the pendant in the bedside cabinet of my old room knowing it would be vacant for quite some time. All that needs to be done is for someone to pick it up - maybe break the lock as well because I threw the key away on the trip.~
-@1028 =~You will understand why I can't do this myself but it's just an easy job for someone like you. I mentioned that Hanson is rich, didn't I? You will not regret your help, please, <CHARNAME>.~
-@1029 =~I promise nothing. Maybe my travels lead me to the north and I'll find the time...~
-@1030 =~This town is full of fools that can do it just as well. You don't need me.~
-@1031 =~How can I say no to a future lady of Athkatla.~ 
-@1032 =~The Barmaid and the Vampire - now in Amn
+@762 =~Расследование Арканиса Гата
 
-Today we met the barmaid Sonja from Ulgoth's Beard again. She now lives in Amn and is about to marry a rich merchant there. But the vampire Ken - her former lover - has returned. The careless girl left her pendant back at the Ulgoth inn when she left for Athkatla. Now she needs an experienced adventurer to get it for her. I am not sure if I will do the job, after all she had not been very grateful last time.~
-@1033 =~The Barmaid and the Vampire - now in Amn
+Результаты нашего исследования на севере были переданы мной Арканису Гату. Двери в гильдию в доках теперь открыты. Я посмотрю, какие преимущества я смогу извлечь из этого в своём поиске Имоен и Айреникуса.~
 
-After more difficulties than I had expected I am back in Ulgoth's Beard. Sonja's amulet however is not here, obviously Galken, a frequent tavern visitor has taken it in need of money. A note he left for Sonja mentions a pawnbroker that the innkeeper has recommended to him. Hopefully the innkeeper still remembers the man.
+@900 =~Ах, кажется, я нашёл нужного мужчину. Приёмное дитя Горайона, я прав, мой друг?~ ~Ах, кажется, я нашёл нужную женщину. Приёмное дитя Горайона, я прав, моя подруга?~
+@901 =~Может быть, ты представишься, прежде чем я смогу сказать, друг ли ты мне?~
+@902 =~Что ты знаешь о Горайоне, маг?~
+@903 =~Оставь меня, маг, сегодня у меня есть основания никому не доверять.~
+@904 =~Ну, я был хорошо знаком с Горайоном, когда мы оба были моложе. У нас... были общие приключения - и это причина, по которой я здесь сегодня. Меня зовут Констер, может быть, твой приемный отец упоминал обо мне?~
+@905 =~Я не могу припомнить, чтобы Горайон когда-либо упоминал это имя.~
+@906 =~Горайон никогда не рассказывал мне о днях своей юности или о приключениях.~
+@907 =~Возможно, у него были на то причины. Мы были молоды, и некоторые поступки могли быть не столь героическими, как нам казалось в то время. Но не буду отвлекаться, я пришёл поговорить о настоящем, а не о прошлом.~
+@908 =~Твоё нынешнее положение здесь, во Вратах Балдура, действительно плачевно - если не сказать угрожающее. Мой лорд Фиркрааг может быть тебе полезен. Если ты поможешь ему, конечно.~
+@909 =~Какого рода будет помощь?~
+@910 =~Сейчас я очень занят другим делом и не могу отвлекаться.~ ~Сейчас я очень занята другим делом и не могу отвлекаться.~
+@911 =~Его предложение избавит тебя от всей этой неразберихи и даст тебе новый шанс в Амне... п... прости...~
+@912 =~<CHARNAME>, приятно видеть, что ты делаешь такие успехи.~
+@913 =~Но теперь он ушёл, не успев рассказать мне ещё о Горайоне. Ты уклоняешься от этой темы каждый раз, когда мы встречаемся.~
+@914 =~Этот маг поспешил уйти, как только увидел тебя. Ты его знаешь?~
+@915 =~Клянусь Девятью Адами, ты спугнул старого друга Горайона, он мог бы помочь мне!~
+@916 =~Этот маг? Возможно, моё прибытие случилось как раз вовремя, чтобы предотвратить то, что он задумал. В любом случае...~
+@917 =~Сейчас у тебя мало времени, чтобы тратить его на него и его дела. Твое имя должно быть восстановлено, а Саревок должен быть остановлен. Нет времени на пустые разговоры, <CHARNAME>.~
+@920 =~...невозможно схватить Героя Врат Балдура под носом Пламенного Кулака. Подойти незамеченным к нему невозможно. Независимо от значительной суммы, которую ты предлагаешь. Я не могу рисковать своими людьми, не ослабив свои позиции в Аткатле.~ ~...невозможно схватить Героиню Врат Балдура под носом Пламенного Кулака. Подойти незамеченным к ней невозможно. Независимо от значительной суммы, которую ты предлагаешь. Я не могу рисковать своими людьми, не ослабив свои позиции в Аткатле.~
+@921 =~Это изменится очень скоро, Маэ'Вар, он будет радоваться тому, что сможет выбраться из Врат Балдура живым, когда мой план осуществится. Всё, что тебе нужно будет сделать, это схватить его и организовать транспортировку в Амн.~ ~Это изменится очень скоро, Маэ'Вар, она будет радоваться тому, что сможет выбраться из Врат Балдура живой, когда мой план осуществится. Всё, что тебе нужно будет сделать, это схватить её и организовать транспортировку в Амн.~
+@922 =~Как я узнаю, когда и где нужно нанести удар?~
+@923 =~Помести своих шпионов в тюрьму Пламенного Кулака. Никто лучше нигде не спрячется, чем вор в тюрьме, я бы сказал.~
+@924 =~Маэ'Вар должен знать, что он идёт!~ ~Маэ'Вар должен знать, что она идёт!~
 
-On the other hand, I could just tell Sonja about Ken's end and break her heart instead of chasing her - now useless - Pendant of Positive Plane Energy.~
+@1000 =~Боги послали вас! Я помню вас, мои спасители из Бороды Улгота.~
+@1001 =~Похоже, вы зашли сюда как раз в тот момент, когда мне снова нужна помощь, подобная той, что вы уже мне оказали.~
+@1002 =~Я помню тебя. И я помню, что ты тогда не сказала спасибо.~
+@1003 =~Ты ушла очень быстро. Мы так и не узнали, как работает кулон.~
+@1004 =~Это было давно, я почти не помню то приключение.~
+@1005 =~Ох, только не снова. Я больше не стану слушать ни единого твоего слова.~
+@1006 =~Хочешь ли ты выслушать меня на этот раз? Да...~
+@1007 =~Да, я должна извиниться за моё неблагодарное поведение в тот раз. Видишь ли, я была так взволнована, когда вы принесли мне кулон, я должна была немедленно его попробовать, и он сработал, и я заснула после стольких бессонных ночей, а потом вы ушли, и больше я вас не видела, чтобы вознаградить...~
+@1008 =~Но ведь искатели приключений вознаграждаются приключениями, которые они ищут, не так ли?~
+@1009 =~Можно смотреть на это и так.~
+@1010 =~Искатели приключений должны есть, пить и нести другие расходы.~
+@1011 =~Как бы то ни было, у тебя ведь были острые ощущения, не так ли? И... в конце концов - моя проблема не была решена. Кен вернулся.~
+@1012 =~Вампир? Этот амулет больше не работает?~
+@1013 =~Но ты покинула Бороду Улгота и теперь здесь.~
+@1014 =~Итак, Кен вернулся.~
+@1015 =~Вскоре после событий, в которых тебе пришлось участвовать, этот глупый освободительный поход Драконьего Копья разрушил бизнес. Я вот-вот могла потерять работу в трактире, да и район в целом стал слишком небезопасным. Но по счастливой случайности я встретила купца из Аткатлы, Хансона. Хансон - красавец...~
+@1016 =~Короче говоря, мы полюбили друг друга, и вот я здесь, и наша свадьба уже через несколько недель.~
+@1017 =~И всё было бы хорошо, если бы не твой бывший возлюбленный-вампир?~
+@1018 =~Кен не очень доволен этим, я думаю. Но как он может преследовать тебя?~
+@1019 =~Хансон довольно успешен в своем деле. Он знает, что нравится девушкам, и всегда приносил мне подарки, один из них - очень красивое ожерелье. Его очень раздражало, когда он видел на мне этот уродливый кулон вместо его подарка.~
+@1020 =~Я чувствовала себя спасённой после всего того времени, когда Кен больше не появлялся, и когда Хансон наконец предложил мне путешествие в Аткатлу, я подумала, что мне больше не нужен этот кулон, потому что Кен больше никогда меня не найдёт.~
+@1021 =~Это была ошибка, как я понимаю. Так где же теперь кулон?~
+@1022 =~Сейчас у нас та же ситуация, что и раньше - либо устранить Кена, либо вернуть кулон.~
+@1023 =~И ты считаешь, что я должен решить эту проблему для тебя ещё раз?~ ~И ты считаешь, что я должна решить эту проблему для тебя ещё раз?~
+@1024 =~В Бороде Улгота.~
+@1025 =~Я всё ещё не хочу, чтобы Кен пострадал, просто чтобы его не было, вот и всё.~
+@1026 =~Для меня это невозможно, но для тебя это всего лишь небольшое путешествие.~
+@1027 =~Когда я покинула гостиницу Бороды Улгота, я заперла кулон в прикроватной тумбочке своей старой комнаты, зная, что она будет пустовать довольно долго. Всё, что нужно сделать, это чтобы кто-то забрал его - возможно, сломав замок, потому что ключ я выбросила во время путешествия.~
+@1028 =~Ты же понимаешь, почему я не могу сделать это сама, но для тебя это лёгкая работа. Я упоминала, что Хансон богат, не так ли? Ты не пожалеешь о своей помощи, <CHARNAME>.~
+@1029 =~Я ничего не обещаю. Возможно, мои путешествия приведут меня на север, и я найду время...~
+@1030 =~В этом городе полно болванов, которые могут сделать это не хуже меня. Я тебе не нужен.~ ~В этом городе полно болванов, которые могут сделать это не хуже меня. Я тебе не нужна.~
+@1031 =~Как я могу отказать будущей леди Аткатлы?~ 
+@1032 =~Буфетчица и вампир - теперь в Амне
 
-@1034 =~You know Galken, the young man who was here often if not always, right?~
-@1035 =~I have not seen him for a time...now that I think of it, I haven't seen him since he asked me about pawning some jewellery. I don't do such things, not me. It's only trouble.~
-@1036 =~You told him about someone who would do it. Who is that man?~
-@1037 =~He calls himself Donhard and runs his business in the fishermen's village on Chionthar south of Wyrm's Crossing. This way customers from the city and villages around can easily visit him while the Flaming Fist are not often looking after the fishermen.~
-@1038 =~The Barmaid and the Vampire - now in Amn
+Сегодня мы снова встретили буфетчицу Соню из Бороды Улгота. Теперь она живёт в Амне и собирается выйти замуж за богатого купца. Но вампир Кен - ее бывший возлюбленный - вернулся. Беспечная девушка оставила свой кулон в гостинице Улгота, когда отправилась в Аткатлу. Теперь ей нужен опытный искатель приключений, чтобы вернуть его ей. Я сомневаюсь, справлюсь ли я с этой задачей, ведь в прошлый раз она была не очень-то благодарна.~ ~Буфетчица и вампир - теперь в Амне
 
-After more difficulties than I had expected I am back in Ulgoth's Beard. Sonja's amulet however is not here, obviously Galken, a frequent tavern visitor has taken it in need of money. A note he left for Sonja mentions a pawnbroker that the innkeeper has recommended to him. I found out that the man could be found in the fishermen's village south of Wyrm's Crossing.
+Сегодня мы снова встретили буфетчицу Соню из Бороды Улгота. Теперь она живёт в Амне и собирается выйти замуж за богатого купца. Но вампир Кен - ее бывший возлюбленный - вернулся. Беспечная девушка оставила свой кулон в гостинице Улгота, когда отправилась в Аткатлу. Теперь ей нужна опытная искательница приключений, чтобы вернуть его ей. Я сомневаюсь, справлюсь ли я с этой задачей, ведь в прошлый раз она была не очень-то благодарна.~
+@1033 =~Буфетчица и вампир - теперь в Амне
 
-On the other hand, I could just tell Sonja about Ken's end and break her heart instead of chasing her - now useless - Pendant of Positive Plane Energy.~
-@1039 =~We know that you lend on pawn. You are the man we seek.~
-@1040 =~That will depend on how much you need and what the corresponding pawn will be.~
-@1041 =~It's the other way round, I want the pawned item back.~
-@1042 =~I need no money. I want the pendant you wear around your neck back.~
-@1043 =~Why didn't you say that right away, just give me the pawn ticket and the sum noted on it.~
-@1044 =~I'm afraid I lost it somehow. But it's the pendant you wear and I'll just give you double the sum.~
-@1045 =~I'm here on behalf of the friend who gave you the blue pendant. He forgot to give me the ticket. I won't make the trip a second time, so I'm sure we come to some solution here, right?~
-@1046 =~You understand that I can't run my business like that. You need the ticket or you can't get your item back. No exceptions. If I allowed exceptions then I'd be ruined in a week.~
-@1047 =~(Pst, <CHARNAME>, don't worry. I'm sure I can just steal it from him in a minute.)~
-@1048 =~The Barmaid and the Vampire - now in Amn
+После больших трудностей, чем ожидалось, мне удалось вернуться в Бороду Улгота. Амулета Сони тут нет, очевидно, Галкен, частый посетитель таверны, взял его, нуждаясь в деньгах. В записке, которую он оставил для Сони, упоминается ломбард, который ему порекомендовал трактирщик. Надеюсь, трактирщик ещё помнит этого человека.
 
-I have traced the man who carries Sonja's pendant but he is only willing to hand over the item if I can present the pawn ticket for it. I have no clue where that paper could be, so my options are to either steal the trinket or to kill the man.
+С другой стороны, можно просто рассказать Соне о смерти Кена и разбить ей сердце, вместо того чтобы гоняться за её - теперь уже бесполезным - Кулоном Энергии Положительного Плана.~
 
-On the other hand, I could just tell Sonja about Ken's end and break her heart instead of chasing her - now useless - Pendant of Positive Plane Energy.~
-@1049 =~The owner will not come back. The only way for you to ever get any money for it is to sell it to me. I give you 150GP, a fair price.~
-@1050 =~The Barmaid and the Vampire - now in Amn
+@1034 =~Ты знаешь Галкена, молодого человека, который часто бывал здесь, верно?~
+@1035 =~Я не видел его какое-то время... если подумать, я не видел его с тех пор, как он спросил меня о залоге некоторых драгоценностей. Я не занимаюсь такими вещами. От этого одни неприятности.~
+@1036 =~Ты сказал ему о ком-то, кто мог бы это сделать. Кто это?~
+@1037 =~Он называет себя Донхардом и ведёт своё дело в рыбацкой деревне на реке Чионтар к югу от Перекрёстка Змия. Там клиенты из города и окрестных деревень могут легко его навещать, а Пламенный Кулак не часто присматривает за рыбаками.~
+@1038 =~Буфетчица и вампир - теперь в Амне
 
-Now that I have regained the meanwhile useless Pendant of Positive Plane Energy I can return it to Sonja so that she can happily marry Hanson and feel free of Ken, the vampire while wearing the pendant instead of nice jewellery. On the other hand, I could just tell Sonja about Ken's end and break her heart but maybe she'll forget him soon and the couple can live on without the shadow of the past.
+После больших трудностей, чем ожидалось, мне удалось вернуться в Бороду Улгота. Амулета Сони тут нет, очевидно, Галкен, частый посетитель таверны, взял его, нуждаясь в деньгах. В записке, которую он оставил для Сони, упоминается ломбард, который ему порекомендовал трактирщик. Выяснилось, что этого ростовщика можно найти в рыбацкой деревне к югу от Перекрёстка Змия.
 
-The trip back to Amn will provide enough time to come to a decision.~
-@1051 =~The Barmaid and the Vampire - now in Amn
+С другой стороны, можно просто рассказать Соне о смерти Кена и разбить ей сердце, вместо того чтобы гоняться за её - теперь уже бесполезным - Кулоном Энергии Положительного Плана.~
+@1039 =~Мы знаем, что ты даёшь займы под залог. Ты тот, кто нам нужен.~
+@1040 =~Это зависит от того, сколько вам нужно и каков будет соответствующий залог.~
+@1041 =~Наоборот, я хочу вернуть заложенную вещь.~
+@1042 =~Мне не нужны деньги. Я хочу вернуть кулон, который ты носишь на шее.~
+@1043 =~Нужно было сразу сказать, просто отдай мне залоговый билет и сумму, указанную в нём.~
+@1044 =~Боюсь, у меня его нет. Но этот кулон, который ты носишь, продай мне его, я заплачу тебе двойную цену.~
+@1045 =~Я здесь по поручению друга, который заложил тебе синий кулон. Он забыл дать мне билет. Второй раз я возвращаться не буду, но, думаю, что мы придём к какому-то решению, верно?~
+@1046 =~Понимаешь, я не могу так вести свой бизнес. Тебе нужен билет, или ты не сможешь вернуть свой товар. Никаких исключений. Если бы я допускал исключения, я бы разорился через неделю.~
+@1047 =~(Тсс-с, <CHARNAME>, не волнуйся. Уверяю тебя, что я смогу просто украсть у него этот кулон через минуту.)~
+@1048 =~Буфетчица и вампир - теперь в Амне
 
-I have told Sonja about the death of the vampire Ken who has haunted her. She did not thank me for solving her problem this way. This was another quest where my only gain was experience.
+Мне удалось найти того, у кого находится кулон Сони, но он готов отдать вещь только в том случае, если я предъявлю залоговый билет. Я понятия не имею, где может находиться эта бумага, поэтому мне остаётся либо украсть безделушку, либо его убить.
 
-Anyway, I hope she can get happy with her new husband.~
-@1052 =~The Barmaid and the Vampire - now in Amn
+С другой стороны, можно просто рассказать Соне о смерти Кена и разбить ей сердце, вместо того чтобы гоняться за её - теперь уже бесполезным - Кулоном Энергии Положительного Плана.~
+@1049 =~Владелец не вернётся. Единственный способ получить тебе за него хоть какие-то деньги - продать его мне. Я дам тебе 150 золотых, и это справедливая цена.~
+@1050 =~Буфетчица и вампир - теперь в Амне
 
-I brought the amulet back to Sonja but kept silent about the death of the vampire Ken who has haunted her. She was so happy and ran off to tell her future husband - again without finding time to reward me. This was another quest where my only gain was experience.
+Теперь, когда я вернул себе ставший уже бесполезным Кулон Энергии Положительного Плана, я могу вернуть его Соне, чтобы она могла счастливо выйти замуж за Хансона и чувствовать себя свободной от вампира Кена, нося кулон вместо красивых украшений. С другой стороны, я могу просто рассказать Соне о смерти Кена и разбить ей сердце, но, возможно, она скоро забудет его, и пара сможет жить дальше без тени из прошлого.
 
-Anyway, I hope she can get happy with her new husband.~
-@1053 =~Did you make any progress with my quest?~
-@1054 =~I have not yet found time for it, I am sorry.~
-@1055 =~I made it to the inn but Ken was there. He attacked me and I had no chance but to kill him. It's not the solution we were after but it's some solution at least.~
-@1056 =~I made it to the inn but Ken was there. He attacked me and I had no chance but to kill him. I'm sorry for it but he left me no choice, it was his life or mine.~
-@1057 =~I have found your pendant. It was not as easy as we thought but I managed to overcome all obstacles and...~ 
-@1058 =~Please keep trying. You're my sole hope as it stands.~
-@1059 =~Oh, no,...Ken...<CHARNAME>, you brute, you monster, it was not Ken's fault to be in that condition. I'm free now but guilty of having employed you...~
-@1060 =~Oh, <CHARNAME>, that is so wonderful, now I can truly enjoy my marriage with Hanson, I need to tell him immediately...~
-@1061 =~You, there, you must be <CHARNAME>. Please, wait a minute.~
-@1062 =~And who might you be?~
-@1063 =~Another...noble...seeking help?~
-@1064 =~<CHARNAME>? Never heard that name.~
-@1065 =~Ah, exactly like she described you - Sonja, my betrothed. I am Hanson and I am glad I finally found you.~
-@1066 =~Sonja told me all about your deeds and how you helped her. We are so grateful and you please excuse her, she was so excited that she again forgot to reward you. So, now here you go and thanks once more.~
-@1067 =~Ah, after all, who would have thought. I wish the young couple all the best.~
-@1068 =~It was quite some task. It feels good that it is finally recognised.~
-@1069 =~There is something I think you should know and I did not tell Sonja as not to grieve her. The vampire is dead, I had no choice but to kill him. I know you don't like the pendant and truth is that she does not need it.~
-@1070 =~You are a thoughtful <PRO_MANWOMAN>. I am glad you respected her feelings.~
-@1071 =~Now the decision is on me to tell her the truth or not. I can't decide today but hopefully time will tell. Perhaps one day sooner or later I may tell her - or maybe she will forget the whole nightmare over time anyway. Farewell.~
+Путешествие обратно в Амн даст мне достаточно времени, чтобы прийти к решению.~
+@1051 =~Буфетчица и вампир - теперь в Амне
 
-@1100 =~The Peddler~
-@1101 =~Rags 'n' bones, weapons 'n' jul'ry!
-The Peddler buys 'n' sells 'em all.~
-@1102 =~Stan, the peddler at your service <PRO_SIRMAM>. I buy and sell everything. And even more...for a small fee I keep your inventory safe. Give me your extra weight and next time we meet get it back if you need it. No hauling of heavy backpacks over the roads.~
-@1103 =~I travel all over Faerun and you will meet me wherever you go.~
-@1104=~What can I do for you today?~
+Мы рассказали Соне о смерти вампира Кена, который преследовал её. Она не поблагодарила меня за то, что я решил её проблему таким способом. Это было очередное задание, в котором моим единственным достижением стал опыт.
 
-@2564 = ~And what have your observations revealed to you?~
-@2565 = ~Study on, I shall not distract your gaze.~
-@2566 = ~Two bright new stars were born on the firmament just recently. One of them in Mystra's belt, the other is even more strange as it now adds a new meaning to an insignificant unnamed constellation - it is the old elvish symbol for *hope*. ~
-@2567 = ~What meaning has the appearance of a new star for us? ~
-@2568 = ~They were both born in the region of the night sky where the gods are represented. Strange indeed.~
-@2569 = ~There are probably no new gods born these days. Anything else of more interest?~
+В любом случае, я надеюсь, что она будет счастлива со своим новым мужем.~
+@1052 =~Буфетчица и вампир - теперь в Амне
 
-@1200 =~Landrin Again
+Мы вернули амулет Соне, но умолчали о смерти вампира Кена, который преследовал её. Она была так счастлива и побежала рассказывать своему будущему мужу - опять же не найдя времени вознаградить меня. Это было очередное задание, в котором моим единственным достижением стал опыт.
 
-Landrin, the gnome lady whom I helped out long ago in my early adventuring days needs my help once more and promised me some immense reward for it. The downside is that I need to travel all the way back to Beregost for this. I am yet undecided, but it may in the end be worth it.~
-@1201 =~Landrin Again
+В любом случае, я надеюсь, что она будет счастлива со своим новым мужем.~
+@1053 =~Тебе удалось продвинуться в выполнении моего задания?~
+@1054 =~Мне ещё не удалось выкроить для этого времени, извини.~
+@1055 =~Мне удалось добраться до гостиницы, но там был Кен. Он напал на меня, и у меня не было другого выхода, кроме как убить его. Это не то решение, которого мы хотели, но всё же это решение.~
+@1056 =~Мне удалось добраться до гостиницы, но там был Кен. Он напал на меня, и у меня не было другого выхода, кроме как убить его. Я сожалею об этом, но он не оставил мне выбора: либо его жизнь, либо моя.~
+@1057 =~Мне удалось разыскать твой кулон. Это было не так просто, как мы думали, но я преодолел все препятствия и...~ ~Мне удалось разыскать твой кулон. Это было не так просто, как мы думали, но я преодолела все препятствия и...~
+@1058 =~Пожалуйста, попытайся. Ты - моя единственная надежда.~
+@1059 =~О, нет... Кен... <CHARNAME>, ты грубиян, ты монстр, Кен не виноват в том, что оказался в таком состоянии. Теперь я свободна, но виновна в том, что наняла тебя...~ ~О, нет... Кен... <CHARNAME>, ты грубиянка, ты монстр, Кен не виноват в том, что оказался в таком состоянии. Теперь я свободна, но виновна в том, что наняла тебя...~
+@1060 =~О, <CHARNAME>, это так замечательно, теперь я могу по-настоящему наслаждаться супружеством с Хансоном, я должна немедленно сказать ему...~
+@1061 =~Ты, должно быть, <CHARNAME>. Пожалуйста, подожди минутку.~
+@1062 =~А ты кто?~
+@1063 =~Ещё один... благородный... ищущий помощи?~
+@1064 =~<CHARNAME>? Никогда не приходилось слышать этого имени.~
+@1065 =~Ах, именно так она тебя и описала - Соня, моя суженая. Я - Хансон, и я рад, что наконец-то нашёл тебя.~
+@1066 =~Соня рассказала мне о том, как ты ей помог. Мы тебе очень благодарны, и, пожалуйста, извини её, она была так взволнована, что опять забыла тебя вознаградить. Так что вот, держи, и ещё раз спасибо.~ ~Соня рассказала мне о том, как ты ей помогла. Мы тебе очень благодарны, и, пожалуйста, извини её, она была так взволнована, что опять забыла тебя вознаградить. Так что вот, держи, и ещё раз спасибо.~
+@1067 =~Ах, наконец, кто бы мог подумать. Желаю молодой паре всего наилучшего.~
+@1068 =~Это было довольно сложное задание. Приятно, что это наконец-то признано.~
+@1069 =~Есть ещё кое-что, что, я думаю, ты должен знать, но я не сказал Соне, чтобы не огорчать её. Вампир мёртв, у меня не было выбора, кроме как убить его. Я знаю, что тебе не нравится этот кулон, и правда в том, что он ей теперь не очень-то нужен.~ ~Есть ещё кое-что, что, я думаю, ты должен знать, но я не сказала Соне, чтобы не огорчать её. Вампир мёртв, у меня не было выбора, кроме как убить его. Я знаю, что тебе не нравится этот кулон, и правда в том, что он ей теперь не очень-то нужен.~
+@1070 =~Ты благородный мужчина. Я рад, что ты проявил уважение к её чувствам.~ ~Ты благородная женщина. Я рад, что ты проявила уважение к её чувствам.~
+@1071 =~Теперь решение за мной - сказать ей правду или нет. Я не могу сделать это сегодня, но надеюсь, что время придёт. Возможно, когда-нибудь рано или поздно я расскажу ей - и может быть, она со временем забудет весь этот кошмар. Прощай.~
 
-My journey to Beregost to help the gnome Landrin has taken an unexpected turn. While I came too late to solve her problem, I still received important information. It seems that some evidence has cleared my name with the Dukes of Baldur's Gate and I am no longer hunted for a murder I did not commit in the first place.~
-@1202 =~You are just the ones that I need this time. My house in Beregost has been once more infested and this time the problem is much bigger. It requires heroes like you to resolve it. Be assured that your reward will more than compensate for the trouble to venture there. I'll wait for you there.~
-@1203 =~Ah, there you are. A bit late since the Maulers of Undermountain have meanwhile solved my problem. But it shall not be said that this here gnome is ungrateful. I promised a reward and you get it.~
-@1204 =~My distant and more than distant cousin Glint Gardnersonson - a pain in the neck - has once been useful. He works for the Dukes these days and has all the first hand news - if only he kept it for himself.~
-@1205 =~Anyhow, this bit may be useful for you, my friend. There seems to be some evidence that the former hero of Baldur's Gate was not Skie Silvershield's murderer. I forgot Glint's wall of words why and why-nots but I think this is some pretty good news for you. It may allow you to visit the town again if you want to.~
+@1100 =~Торговец~
+@1101 =~Тряпки и кости, оружие и драгоценности!
+Торговец покупает и продаёт всё.~
+@1102 =~Стэн, торговец, к твоим услугам, сэр. Я покупаю и продаю всё. И даже больше... за небольшую плату я сохраню твои запасы. Отдай мне твой лишний груз и в следующий раз, когда мы встретимся, получи его обратно, если он тебе понадобится. Не нужно таскать тяжёлые рюкзаки с собой по дорогам.~ ~Стэн, торговец к твоим услугам, мэм. Я покупаю и продаю всё. И даже больше... за небольшую плату я сохраню твои запасы. Отдай мне твой лишний груз и в следующий раз, когда мы встретимся, получи его обратно, если он тебе понадобится. Не нужно таскать тяжёлые рюкзаки с собой по дорогам.~
+@1103 =~Я путешествую по всему Фаэруну, и ты встретишь меня везде, куда бы ты ни отправился.~ ~Я путешествую по всему Фаэруну, и ты встретишь меня везде, куда бы ты ни отправилась.~
+@1104 =~Что я могу сделать для тебя сегодня?~
 
-@1301 =~By Helm's glory, you arrive just in time to help with a danger I can't face all on my own.~ 
-@1302 =~Gibberlings again?~
-@1303 =~Ankhegs this time?~
-@1304 =~What besets the area today?~
-@1305 =~There's a powerful catlike spellcaster moved into the barn tower nearby. He has his golem servants roaming the area. I fear for Trademeet should these creatures decide to move further.~
-@1306 =~Sit back and watch. See the experts at work with trouble like that.~
-@1307 =~We will look into that. We came to investigate trouble in the area anyway.~
-@1308 =~We put your request on the task list, paladin.~
-@1309 =~Ruhks don't belong here and are a plague that must be wiped from the Realms. Perhaps we will meet again.~
-@1310 =~Did you make any progress?~
-@1311 =~Please keep looking for them. I fear the worst for Trademeet.~
-@1312 =~There must be more of them. Please keep looking for them. I fear the worst for Trademeet.~
-@1313 =~We haven't found anything yet.~
-@1314 =~We killed the cat creature. It was a ruhk.~
-@1315 =~We destroyed a sand golem.~
+@2564 =~И что тебе говорят твои наблюдения?~
+@2565 =~Продолжай, я не буду отвлекать твой взор.~
+@2566 =~Две яркие новые звезды появились на небосводе совсем недавно. Одна из них - в поясе Мистры, другая - еще более странная, поскольку теперь она придаёт новый смысл незначительному безымянному созвездию - это древний эльфийский символ *надежды*.~
+@2567 =~Какое значение имеет для нас рождение новых звёзд?~
+@2568 =~Они обе появились в той области ночного неба, где представлены боги. Действительно, странно.~
+@2569 =~Вероятно, в наши дни не рождаются новые боги. Что-нибудь ещё более интересное?~
+
+@1200 = ~Ландрин снова
+
+Ландрин, леди гном, которой мне довелось помочь давным-давно, в дни моих самых первых приключений, снова нуждается в моей помощи и обещает мне за это огромную награду. Недостатком является то, что для этого мне нужно проделать весь путь обратно в Берегост. Пока ещё не знаю, но, возможно, в конце концов, оно того стоит.~
+@1201 =~Ландрин снова
+
+Моё путешествие в Берегост, чтобы помочь Ландрин, приняло неожиданный оборот. Хотя моё прибытие было слишком поздним, чтобы решить её проблему, я всё же получил важную информацию. Похоже, что какие-то доказательства очистили моё имя перед герцогами Врат Балдура, и меня больше не преследуют за убийство, которого я не совершал.~ ~Ландрин снова
+
+Моё путешествие в Берегост, чтобы помочь Ландрин, приняло неожиданный оборот. Хотя моё прибытие было слишком поздним, чтобы решить её проблему, я всё же получила важную информацию. Похоже, что какие-то доказательства очистили моё имя перед герцогами Врат Балдура, и меня больше не преследуют за убийство, которого я не совершала.~
+@1202 =~Вы именно те, кто мне нужен на этот раз. Мой дом в Берегосте снова подвергся заражению, и на этот раз проблема гораздо серьёзнее. Для её решения нужны такие герои, как вы. Будьте уверены, ваша награда с лихвой окупит все хлопоты, связанные с походом туда. Я буду ждать вас там.~
+@1203 =~А, вот и вы. Немного поздновато, так как Истязатели Подгорья уже решили мою проблему. Но не стоит говорить, что я неблагодарна. Я обещала награду, и вы её получите.~
+@1204 =~Мой дальний и более чем дальний кузен Глинт Гарднерсонсон - заноза в шее - когда-то оказался полезен. Сейчас он работает на герцогов и знает все новости из первых рук - если бы только он хранил их при себе.~
+@1205 =~Как бы то ни было, это может оказаться полезным для тебя, мой друг. Кажется, есть какие-то доказательства того, что бывший "Герой Врат Балдура" не был убийцей Скай Сильвершильд. Я не помню всех слов Глинта "почему" и "зачем", но я думаю, что это для тебя довольно хорошая новость. Это может позволить тебе снова посетить город, если ты захочешь.~ ~Как бы то ни было, это может оказаться полезным для тебя, моя подруга. Кажется, есть какие-то доказательства того, что бывшая "Героиня Врат Балдура" не была убийцей Скай Сильвершильд. Я не помню всех слов Глинта "почему" и "зачем", но я думаю, что это для тебя довольно хорошая новость. Это может позволить тебе снова посетить город, если ты захочешь.~
+
+@1301 =~Во славу Хелма, вы - вовремя, чтобы помочь справиться с опасностью, с которой я не могу справиться в одиночку.~ 
+@1302 =~Опять гибберлинги? ~
+@1303 =~На этот раз анкеги?~
+@1304 =~Что беспокоит округу сегодня?~
+@1305 =~В башне амбара неподалёку поселился могущественный кошкоподобный заклинатель. Его слуги-големы бродят по окрестностям. Я опасаюсь за Трейдмит, если эти существа решат двинуться дальше.~
+@1306 =~Отойди и наблюдай. Смотри, как эксперты разбираются с такими проблемами.~
+@1307 =~Посмотрим. Мы всё равно пришли расследовать неприятности в этом районе.~
+@1308 =~Мы внесём твою просьбу в список заданий, паладин.~
+@1309 =~Рухам здесь не место, они - чума, которая должна быть стерта с лица Королевств. Возможно, мы ещё встретимся.~
+@1310 =~Прогресс есть?~
+@1311 =~Пожалуйста, не прекращай их искать. Я опасаюсь худшего для Трейдмита.~
+@1312 =~Их должно быть больше. Пожалуйста, не прекращай поиски. Я опасаюсь худшего для Трейдмита.~
+@1313 =~Мы пока ничего не нашли.~
+@1314 =~Мы убили кошачье существо. Это был рух.~
+@1315 =~Мы уничтожили песчаного голема.~

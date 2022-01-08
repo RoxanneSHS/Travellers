@@ -1,11 +1,11 @@
 BACKUP ~Travellers/backup~
 AUTHOR ~Roxanne roxanne@baldursextendedworld.com~
 
-VERSION ~v0.71~
+VERSION ~v0.8~
 AUTO_TRA ~Travellers/Lang/%s~
 
 LANGUAGE ~English~ ~english~ ~Travellers/Lang/English/Travellers.tra~
-LANGUAGE ~Russian~ ~russian~ ~Travellers/Lang/Russian/Travellers.tra~
+LANGUAGE ~Russian (by yota13 and p_zombie)~ ~russian~ ~Travellers/Lang/Russian/Travellers.tra~
 
 BEGIN ~Travellers in Faerun~
 REQUIRE_PREDICATE GAME_IS ~eet~ @002

@@ -32,3 +32,5 @@ Component The Peddler
 Rags 'n' bones, weapons 'n' jul'ry!
 The Peddler buys 'n' sells 'em all
 This adds a wandering merchant who appears randomly in outdoor areas (no cities) and sells and buys everything, including stolen goods. He appears in all game parts, which means that you may sell him your valuable items and get them back in later parts. While some may see this as a cheat there is also a risk as you can never know when or where he appears, so you cannot rely really on it. Also, mind that he may sell stuff to everybody and may not keep your things forever. But, yes, it is an exploit and as such an optional component.
+
+Russian translation by yota13 and p_zombie
