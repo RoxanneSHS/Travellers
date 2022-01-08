@@ -138,3 +138,11 @@ DO~SetGlobal("TR_ArkanJob","Global",4)~
 CHAIN
 IF~Global("TR_ArkanJob","Global",4)~THEN Tredwin Bugbear
 @755 DO~SetGlobal("TR_ArkanJob","Global",5) AddJournalEntry(@727,QUEST) Wait(2)ReallyForceSpell(Myself,DRYAD_TELEPORT) ~EXIT
+
+CHAIN
+IF WEIGHT #-9 ~Global("ShadowWork","GLOBAL",62)~THEN Arled Delay
+#21060 EXIT
+
+CHAIN
+IF WEIGHT #-9 ~Global("ShadowWork","GLOBAL",62)~THEN Gaelan Delay2
+#36462 EXIT
