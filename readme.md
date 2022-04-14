@@ -26,11 +26,11 @@ The mod consists of many smaller encounters, shorter or larger quests, and event
 
 The content of the main component is designed to provide increased continuity while staying out of the main game story.
 
-Component Arkanis Gath's Investigation
+- Component Arkanis Gath's Investigation
 This is an optional quest, left to user's inclusion because it impacts the main story (without changing it though). Renal and his guild are alarmed by the time the player reaches Amn. Before you can meet Renal you have to proof yourself to Arkanis Gath. The quest involves a trip back to BG1/SoD areas. After you finished the task, the doors to the guild in the docks are open and all related content is available as normal (or expanded by other mods).
 Note - travelling back to BG1/SoD may be used as an exploit to pick up items you may have put into some container in any of the already visited area...
 
-Component The Peddler
+- Component The Peddler
 Rags 'n' bones, weapons 'n' jul'ry!
 The Peddler buys 'n' sells 'em all
 This adds a wandering merchant who appears randomly in outdoor areas (no cities) and sells and buys everything, including stolen goods.
