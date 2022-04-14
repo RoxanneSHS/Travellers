@@ -15,6 +15,7 @@ style='font-size:12.0pt;font-family:"Times New Roman",serif'>Quest mod exclusive
 
 <p class=MsoNormal style='line-height:normal'><span lang=EN-US
 style='font-size:12.0pt;font-family:"Times New Roman",serif'>The mod tries to make EET even more of ONE story.
+
 - it brings some non-joinable NPCs and a foreshadow of their story from BG2/ToB to earlier parts of the game.
 - you can influence some later chapter events by decisions you make early (continuity in EET)
 - you can go back with items you find later in the game to finish quests in BG1 or SoD
