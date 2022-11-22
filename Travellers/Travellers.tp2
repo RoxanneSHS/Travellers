@@ -1,7 +1,7 @@
 BACKUP ~Travellers/backup~
 AUTHOR ~Roxanne roxanne@baldursextendedworld.com~
 
-VERSION ~v0.8~
+VERSION ~v0.82~
 AUTO_TRA ~Travellers/Lang/%s~
 
 LANGUAGE ~English~ ~english~ ~Travellers/Lang/English/Travellers.tra~
@@ -184,6 +184,7 @@ EXTEND_TOP ~BD7200.bcs~ ~Travellers/scripts/BD7200Mitsu.baf~
 EXTEND_TOP ~BD7210.bcs~ ~Travellers/scripts/BD7210repl.baf~
 EXTEND_TOP ~BD7220.bcs~ ~Travellers/scripts/BD7220Ani.baf~
 EXTEND_TOP ~BD7230.bcs~ ~Travellers/scripts/BD7230Ama.baf~
+EXTEND_BOTTOM ~bg0800.bcs~ ~Travellers/scripts/bg0800.baf~
 
 COPY_EXISTING ~Edwin9.CRE~ ~override/Tredwin.cre~
 WRITE_ASCII 0x2cc ~TRedwin~ #8

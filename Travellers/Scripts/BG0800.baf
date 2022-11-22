@@ -1,0 +1,28 @@
+IF
+Global("SarevokBehavior","GLOBAL",3)
+Dead("Sarevok")
+THEN
+RESPONSE #100
+SetGlobal("SarevokBehavior","GLOBAL",5)
+END
+
+IF
+Global("SarevokBehavior","GLOBAL",5)
+Global("TR_Clean","bg0800",0)
+THEN
+RESPONSE #100
+SetGlobal("TR_Clean","bg0800",1)
+EraseJournalEntry(#214701)
+EraseJournalEntry(#227387)
+EraseJournalEntry(#227388)
+EraseJournalEntry(#227390)
+EraseJournalEntry(#227391)
+EraseJournalEntry(#227392) 
+EraseJournalEntry(#227394)
+EraseJournalEntry(#227399) 
+EraseJournalEntry(#227408) 
+EraseJournalEntry(#227409) 
+EraseJournalEntry(#227092) 
+EraseJournalEntry(#226925)
+EraseJournalEntry(#231475)
+END
