@@ -35,6 +35,10 @@ Rags 'n' bones, weapons 'n' jul'ry!<br>
 The Peddler buys 'n' sells 'em all<br>
 This adds a wandering merchant who appears randomly in outdoor areas (no cities) and sells and buys everything, including stolen goods.
 <br>
+
+- Installation <br>
+To capture all crossmod content, the mod should be installed after all NPC mods.
+<br>
 &nbsp;</span></p>
 
 <p class=MsoNormal><span lang=EN-NZ>&nbsp;</span></p>
