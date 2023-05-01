@@ -1,7 +1,7 @@
 BACKUP ~Travellers/backup~
 AUTHOR ~Roxanne roxanne@baldursextendedworld.com~
 
-VERSION ~v0.82~
+VERSION ~v0.83~
 AUTO_TRA ~Travellers/Lang/%s~
 
 LANGUAGE ~English~ ~english~ ~Travellers/Lang/English/Travellers.tra~
@@ -107,6 +107,11 @@ COMPILE ~Travellers/dialogues~
 
 STRING_SET
 239808 @725
+
+ACTION_IF FILE_EXISTS_IN_GAME ~doghma.sto~ THEN BEGIN
+COPY_EXISTING ~doghma.sto~ ~override/doghma.sto~
+  ADD_STORE_ITEM ~book68~ #1 #0 #0 ~IDENTIFIED~ #7
+END
 
 COPY_EXISTING ~TR_Pend.itm~ ~override~
 SAY NAME1 @006
