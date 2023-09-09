@@ -1,7 +1,7 @@
 BACKUP ~Travellers/backup~
-AUTHOR ~Roxanne roxanne@baldursextendedworld.com~
+AUTHOR ~Roxanne https://github.com/RoxanneSHS/Travellers~
 
-VERSION ~v0.83~
+VERSION ~v0.84~
 AUTO_TRA ~Travellers/Lang/%s~
 
 LANGUAGE ~English~ ~english~ ~Travellers/Lang/English/Travellers.tra~
